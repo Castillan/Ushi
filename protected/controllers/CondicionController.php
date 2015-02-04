@@ -64,8 +64,11 @@ class CondicionController extends Controller
 	{
 		$model=new Condicion;
 
+
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
+		
+	 	
 
 		if(isset($_POST['Condicion']))
 		{

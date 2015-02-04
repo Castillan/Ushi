@@ -59,6 +59,7 @@ class FichaMedica extends CActiveRecord
 			'condicions' => array(self::HAS_MANY, 'Condicion', 'Ficha_Medica_idFicha_Medica'),
 			'condicionmedicamentos' => array(self::HAS_MANY, 'Condicionmedicamento', 'Ficha_Medica_idFicha_Medica'),
 			'personaIdPersona' => array(self::BELONGS_TO, 'Persona', 'Persona_idPersona'),
+			'idPariente0' => array(self::BELONGS_TO, 'Persona', 'idPariente'),
 			
 		);
 	}
@@ -124,4 +125,17 @@ class FichaMedica extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	
+	const Negativo = 0;
+    const Positivo = 1;
+
+    public static $rhLabels= array(
+        self::Negativo => 'Negativo',
+        self::Positivo => 'Positivo',
+    );
+
+    public function getRH()
+    {
+        return isset(self::$rhLabels[$this->RH]) ? self::$rhLabels[$this->RH] : '(undefined)';
+    }
 }

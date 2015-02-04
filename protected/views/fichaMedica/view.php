@@ -14,19 +14,27 @@ $this->menu=array(
 );
 ?>
 
-<h1>View FichaMedica #<?php echo $model->idFicha_Medica; ?></h1>
+<h1>Ficha Medica #<?php echo $model->idFicha_Medica; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'idFicha_Medica',
+		'personaIdPersona.Nombre',
+		'personaIdPersona.Apellido',
+		'personaIdPersona.Cedula',
 		'GrupoSanguineo',
-		'RH',
+		array(
+		'label'=>'RH',
+		'value'=>$model->getRH()
+		),
 		'EstadoSalud',
 		'FechaAntitetanica',
 		'Persona_idPersona',
 		'Fecha',
-		'idPariente',
+		'idPariente0.Nombre',
+		'idPariente0.Apellido',
+		'idPariente0.Cedula',
+		'idPariente0.Telefono',
 		'Parentesco',
 	),
 )); ?>
@@ -37,7 +45,8 @@ $this->menu=array(
 			    'buttonType'=>'link',
 			    'name'=>'update-worker',
 			    'caption'=>'Condiciones Medicas',
-			    'url'=>array('/condicion/create'),
+			    'url'=>array('/condicion/create', 'id'=>'idFicha_Medica'),
+			   
 			)); ?> 		
 </div>	
 

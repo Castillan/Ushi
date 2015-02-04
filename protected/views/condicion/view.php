@@ -25,5 +25,6 @@ $this->menu=array(
 		'Ficha_Medica_idFicha_Medica',
 		'Detalle',
 		'TipoCondicion_idTipoCondicion',
+		'fichaMedicaIdFichaMedica.personaIdPersona',
 	),
 )); ?>

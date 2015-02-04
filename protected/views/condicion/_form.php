@@ -19,9 +19,10 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
+
 	<div class="row">
 		<?php echo $form->labelEx($model,'Ficha_Medica_idFicha_Medica'); ?>
-		<?php echo $form->textField($model,'Ficha_Medica_idFicha_Medica'); ?>
+		<?php echo $form->dropDownList($model,'Ficha_Medica_idFicha_Medica',CHtml::listData(FichaMedica::model()->findAll(),'idFicha_Medica','idFicha_Medica')); ?>
 		<?php echo $form->error($model,'Ficha_Medica_idFicha_Medica'); ?>
 	</div>
 
@@ -33,7 +34,10 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'TipoCondicion_idTipoCondicion'); ?>
+		<?php echo $form->dropDownList($model,'TipoCondicion_idTipoCondicion',CHtml::listData(Tipocondicion::model()->findAll(),'idTipoCondicion','idTipoCondicion')); ?>
 		<?php echo $form->textField($model,'TipoCondicion_idTipoCondicion'); ?>
+		<?php echo Tipocondicion::model()->find(' idTipoCondicion = ',$model->TipoCondicion_idTipoCondicion)->Nombre; ?>
+		<?php 'TipoCondicion_idTipoCondicion' ?>
 		<?php echo $form->error($model,'TipoCondicion_idTipoCondicion'); ?>
 	</div>
 
