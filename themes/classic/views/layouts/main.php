@@ -95,6 +95,3 @@
 		</footer>
 	</body>
 </html>
-
-
-
