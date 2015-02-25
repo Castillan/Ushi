@@ -42,6 +42,8 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'usuarios-grid',
+     'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
+     'summaryText' => 'Mostrando resultados {start} al {end} de {count} en total',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(

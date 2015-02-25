@@ -31,7 +31,10 @@ return array(
 		),
 		/**/
 	),
-
+	'behaviors' => array(
+		'ext.qtzpanel.QtzPanelBehavior',
+		// ...
+	),
 	// application components
 	'components'=>array(
 		'user'=>array(
@@ -75,9 +78,9 @@ return array(
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
-				array(
+				array(				
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning',					
 				),
 				// uncomment the following to show log messages on web pages
 				/*

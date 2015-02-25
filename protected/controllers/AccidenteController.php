@@ -1,5 +1,13 @@
 <?php
 
+
+/*Yii::app()->getPanel('adminPanel')
+		->pushOnBar(QtzPanel::BAR_DB) // add DB stats
+		->pushOnBar(QtzPanel::BAR_LOGS) // add logs
+		->pushOnBar(QtzPanel::BAR_MEMORY) // add memory stats
+		->pushOnBar(QtzPanel::BAR_EXECUTION_TIME) // add time info
+		->pushOnBar('custom info'); // add custom info
+*/
 class AccidenteController extends Controller
 {
 	/**

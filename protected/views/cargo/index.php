@@ -17,7 +17,6 @@ $this->menu=array(
 <!--
 <div class="caja77">-->
 <h1>Cargos</h1>
-
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
