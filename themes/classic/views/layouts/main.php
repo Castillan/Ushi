@@ -16,7 +16,8 @@
 		->separator()
           ->single(
 			'Trabajador', // label
-			array('/../Ushi/site/trabajador_main/'), // url
+			//array('/../Ushi/site/trabajador_main/'), // url
+            array('/../Ushi/trabajador/principal/'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/workers.png' // icon
 		) // add single element
 		->stack(array(
@@ -133,7 +134,7 @@
                 //array('label'=>'TipoCondicion', 'url'=>array('/tipocondicion'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Tiporuta', 'url'=>array('/tiporuta'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Tipoubicacion', 'url'=>array('/tipoubicacion'), 'visible'=>Yii::app()->user->getState('idRol')==1),
-                array('label'=>'Trabajador', 'url'=>array('site/trabajador_main'), 'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Trabajador', 'url'=>array('trabajador/principal'), 'visible'=>!Yii::app()->user->isGuest),
                 //array('label'=>'Trabajadoraccidente', 'url'=>array('/trabajadoraccidente'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Trabajadorruta', 'url'=>array('/trabajadorruta'), 'visible'=>Yii::app()->user->getState('idRol')==1),                
                 //array('label'=>'Ubicación', 'url'=>array('/ubicacion'), 'visible'=>!Yii::app()->user->isGuest),                
@@ -152,7 +153,7 @@
 	<?php endif?>
 		<!--<a href="#x" class="overlay" id="login_form"></a>-->
   	
-		<cuerpecito style="width: 100%;height:auto;">
+	<!--	<cuerpecito style="width: 100%;height:auto;">-->
             <div class="main"><div class="contenido">          
 		<div class="conten">
             <?php 
@@ -177,7 +178,7 @@
 	       <?php echo $content;?>    
         </div>
 </div></div>
-		</cuerpecito>
+	<!--	</cuerpecito>-->
 		<!--<div style="width: 100%;height: 10px;"></div>-->
 		<footer >
 		<p>Derechos reservados</p>

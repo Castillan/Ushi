@@ -4,8 +4,9 @@
 <div class="span-19 caja70">
 	<div id="content">
 		<?php echo $content; ?>
-	</div><!-- content -->
+	</div> <!--content -->
 </div>
+    <?php if($this->action->Id != 'principal'){ ?>
 <div class="span-5 last caja15">
 	<div id="sidebar">
 	<?php
@@ -20,5 +21,6 @@
 	?>
 	</div><!-- sidebar -->
 </div>
+    <?php } ?>
     </div>
 <?php $this->endContent(); ?>

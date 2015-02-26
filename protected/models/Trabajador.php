@@ -33,6 +33,8 @@
  */
 class Trabajador extends CActiveRecord
 {
+    public $persona_nombre, $persona_apellido, $persona_cedula;
+    
 	/**
 	 * @return string the associated database table name
 	 */
@@ -55,7 +57,7 @@ class Trabajador extends CActiveRecord
 			array('Email, Sueldo', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idTrabajador, Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo', 'safe', 'on'=>'search'),
+			array('idTrabajador, Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo, persona_nombre, persona_apellido, persona_cedula', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -98,7 +100,7 @@ class Trabajador extends CActiveRecord
 			'IngresoIVSS' => 'Ingreso Ivss',
 			'Ubicacion_idUbicacion' => 'Ubicacion Id Ubicacion',
 			'Cargo_idCargo' => 'Cargo Id Cargo',
-			'Dependencia_idDependencia' => 'Dependencia Id Dependencia',
+			'Dependencia_idDependencia' => 'Dependencia',
 			'Sueldo' => 'Sueldo',
             'nivelEducativoIdNivelEducativo.eduacionIdEduacion.Nombre' => 'Nivel de educación',
             'cargoIdCargo.Nombre'=>'Nombre del cargo',
@@ -128,6 +130,8 @@ class Trabajador extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
+        $criteria->with = array('personaIdPersona');
+                        
 		$criteria->compare('idTrabajador',$this->idTrabajador);
 		$criteria->compare('Persona_idPersona',$this->Persona_idPersona);
 		$criteria->compare('Nacionalidad',$this->Nacionalidad,true);
@@ -144,9 +148,29 @@ class Trabajador extends CActiveRecord
 		$criteria->compare('Cargo_idCargo',$this->Cargo_idCargo);
 		$criteria->compare('Dependencia_idDependencia',$this->Dependencia_idDependencia);
 		$criteria->compare('Sueldo',$this->Sueldo,true);
-
+        $criteria->compare('personaIdPersona.Nombre', $this->persona_nombre, true );
+        $criteria->compare('personaIdPersona.Apellido', $this->persona_apellido, true );
+        $criteria->compare('personaIdPersona.Cedula', $this->persona_cedula, true );
+        
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'sort'=>array(
+                'attributes'=>array(
+                    'persona_nombre'=>array(
+                        'asc'=>'personaIdPersona.Nombre',
+                        'desc'=>'personaIdPersona.Nombre DESC',
+                    ),
+                    'persona_apellido'=>array(
+                        'asc'=>'personaIdPersona.Apellido',
+                        'desc'=>'personaIdPersona.Apellido DESC',
+                    ),
+                    'persona_cedula'=>array(
+                        'asc'=>'personaIdPersona.Cedula',
+                        'desc'=>'personaIdPersona.Cedula DESC',
+                    ),
+                    '*',
+                ),
+            ),
 		));
 	}
 

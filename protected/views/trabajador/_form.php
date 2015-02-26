@@ -58,6 +58,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'NivelEducativo_idNivelEducativo'); ?>
 		<?php echo $form->dropDownList($model,'NivelEducativo_idNivelEducativo',CHtml::listData(Grado::model()->findAll(),'idGrado','Grado'),array('empty'=>'Seleccione un nivel educativo')); ?>
+        
         <?php echo $form->dropDownList($model,'NivelEducativo_idNivelEducativo',CHtml::listData(Educacion::model()->findAll(),'idEduacion','Nombre'),array('empty'=>'Seleccione un nivel educativo')); ?>
 		<?php echo $form->error($model,'NivelEducativo_idNivelEducativo'); ?>        
 	</div>
