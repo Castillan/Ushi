@@ -21,6 +21,7 @@
  */
 class Accidente extends CActiveRecord
 {
+   // public $persona_nombre, $persona_apellido, $persona_cedula, $fecha_desde, $fecha_hasta;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -42,7 +43,7 @@ class Accidente extends CActiveRecord
 			array('Lugar', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idAccidente, Fecha, DiaSemana_idDiaSemana, Hora, Dentro, Ubicacion_idUbicacion, Lugar, Descripcion', 'safe', 'on'=>'search'),
+			array('idAccidente, Fecha, DiaSemana_idDiaSemana, Hora, Dentro, Ubicacion_idUbicacion, Lugar, Descripcion','safe',       'on'=>'search'),//, persona_nombre, persona_apellido, persona_cedula,fecha_desde, fecha_hasta', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -104,11 +105,45 @@ class Accidente extends CActiveRecord
 		$criteria->compare('Ubicacion_idUbicacion',$this->Ubicacion_idUbicacion);
 		$criteria->compare('Lugar',$this->Lugar,true);
 		$criteria->compare('Descripcion',$this->Descripcion,true);
+//        $criteria->addBetweenCondition('Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+    public function dentroUNET(){/*
+        $retorno = $valor;
+        if($valor !== ''){
+            if($valor == 1 ){
+                $retorno = 'Si';
+            }
+            else{
+                $retorno = 'No';
+            }
+        }
+        
+        
+        return '\''.$retorno.'\'';*/
+        /*$ret = '';
+        $first = true;
+        foreach($this as $record){
+            
+            if ($first === true) {
+                $first = false;
+            } else {
+                $ret .= ', ';
+            }
+            
+            if($this[$record]->Dentro == 1){
+                $ret .= 'Si';
+            }else{
+                $ret .= 'No';
+            }
+        
+        }
+*/
+        //return '\''.$this->Dentro.'\'';
+    }
 
 	/**
 	 * Returns the static model of the specified AR class.

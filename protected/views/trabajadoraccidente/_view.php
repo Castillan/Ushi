@@ -28,6 +28,4 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Trabajador_idTrabajador')); ?>:</b>
 	<?php echo CHtml::encode($data->Trabajador_idTrabajador); ?>
 	<br />
-
-
 </div>

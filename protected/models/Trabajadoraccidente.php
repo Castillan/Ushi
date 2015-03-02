@@ -18,6 +18,7 @@
  */
 class Trabajadoraccidente extends CActiveRecord
 {
+    public $persona_nombre, $persona_apellido, $persona_cedula, $fecha_acc, $fecha_desde, $fecha_hasta,$trab_dentro,$trab_lugar,$trab_ubicacion;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -38,7 +39,7 @@ class Trabajadoraccidente extends CActiveRecord
 			array('Accidente_idAccidente, Horas, Minutos, CentroSalud_idCentroSalud, Trabajador_idTrabajador', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('Accidente_idAccidente, idTrabajadorAccidente, Horas, Minutos, CentroSalud_idCentroSalud, Trabajador_idTrabajador', 'safe', 'on'=>'search'),
+			array('Accidente_idAccidente, idTrabajadorAccidente, Horas, Minutos, CentroSalud_idCentroSalud, Trabajador_idTrabajador, persona_nombre, persona_apellido, persona_cedula,fecha_acc,fecha_desde, fecha_hasta,trab_dentro,trab_lugar,trab_ubicacion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -89,13 +90,20 @@ class Trabajadoraccidente extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
+        $criteria->with=array('accidenteIdAccidente','trabajadorIdTrabajador','trabajadorIdTrabajador.personaIdPersona');
 		$criteria->compare('Accidente_idAccidente',$this->Accidente_idAccidente);
 		$criteria->compare('idTrabajadorAccidente',$this->idTrabajadorAccidente);
 		$criteria->compare('Horas',$this->Horas);
 		$criteria->compare('Minutos',$this->Minutos);
 		$criteria->compare('CentroSalud_idCentroSalud',$this->CentroSalud_idCentroSalud);
 		$criteria->compare('Trabajador_idTrabajador',$this->Trabajador_idTrabajador);
-
+        $criteria->compare('accidenteIdAccidente.Fecha',$this->fecha_acc);
+        $criteria->compare('trabajadorIdTrabajador.personaIdPersona.Nombre',$this->persona_nombre);
+        $criteria->compare('trabajadorIdTrabajador.personaIdPersona.Apellido',$this->persona_apellido);
+        $criteria->compare('trabajadorIdTrabajador.personaIdPersona.Cedula',$this->persona_cedula);
+        $criteria->compare('accidenteIdAccidente.Dentro',$this->trab_dentro,false);
+        $criteria->addBetweenCondition('accidenteIdAccidente.Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
+        
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

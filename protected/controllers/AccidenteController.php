@@ -173,10 +173,10 @@ class AccidenteController extends Controller
 	
 	public function actionPrincipal()
 	{
-		$model=new Trabajador('search');
+		$model=new Trabajadoraccidente('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Accidente']))
-			$model->attributes=$_GET['Accidente'];
+		if(isset($_GET['Trabajadoraccidente']))
+			$model->attributes=$_GET['Trabajadoraccidente'];
 
 		$this->render('principal',array(
 			'model'=>$model,
