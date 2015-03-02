@@ -64,7 +64,7 @@ class Condicionmedicamento extends CActiveRecord
 			'idCondicionMedicamento' => 'Id Condicion Medicamento',
 			'Dosis' => 'Dosis',
 			'EfectoSecundario' => 'Efecto Secundario',
-			'Medicamento_idMedicamento' => 'Medicamento Id Medicamento',
+			'Medicamento_idMedicamento' => 'Medicamento',
 			'Ficha_Medica_idFicha_Medica' => 'Ficha Medica Id Ficha Medica',
 		);
 	}

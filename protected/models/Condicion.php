@@ -60,9 +60,9 @@ class Condicion extends CActiveRecord
 	{
 		return array(
 			'idCondicion' => 'Id Condicion',
-			'Ficha_Medica_idFicha_Medica' => 'Ficha Medica Id Ficha Medica',
+			'Ficha_Medica_idFicha_Medica' => 'Ficha Medica #',
 			'Detalle' => 'Detalle',
-			'TipoCondicion_idTipoCondicion' => 'Tipo Condicion Id Tipo Condicion',
+			'TipoCondicion_idTipoCondicion' => 'Tipo de Condicion',
 		);
 	}
 

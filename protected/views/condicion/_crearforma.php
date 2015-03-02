@@ -21,24 +21,24 @@
 
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Ficha_Medica_idFicha_Medica'); ?>
+		<?php /*echo $form->labelEx($model,'Ficha_Medica_idFicha_Medica'); ?>
 		<?php echo $form->dropDownList($model,'Ficha_Medica_idFicha_Medica',CHtml::listData(FichaMedica::model()->findAll(),'idFicha_Medica','idFicha_Medica')); ?>
-		<?php echo $form->error($model,'Ficha_Medica_idFicha_Medica'); ?>
+		<?php echo $form->error($model,'Ficha_Medica_idFicha_Medica');*/ ?>
 	</div>
-
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'TipoCondicion_idTipoCondicion'); ?>
+		<?php echo $form->dropDownList($model,'TipoCondicion_idTipoCondicion',CHtml::listData(Tipocondicion::model()->findAll(),'idTipoCondicion','Nombre')); ?>
+		<?php echo $form->error($model,'TipoCondicion_idTipoCondicion'); ?>
+	</div>
+	
 	<div class="row">
 		<?php echo $form->labelEx($model,'Detalle'); ?>
 		<?php echo $form->textField($model,'Detalle',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'Detalle'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'TipoCondicion_idTipoCondicion'); ?>
-		<?php echo $form->dropDownList($model,'TipoCondicion_idTipoCondicion',CHtml::listData(Tipocondicion::model()->findAll(),'idTipoCondicion','Nombre')); ?>
-		<?php //echo Tipocondicion::model()->find(' idTipoCondicion = ',$model->TipoCondicion_idTipoCondicion)->Nombre; ?>
-		<?php 'TipoCondicion_idTipoCondicion' ?>
-		<?php echo $form->error($model,'TipoCondicion_idTipoCondicion'); ?>
-	</div>
+
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

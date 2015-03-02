@@ -21,10 +21,9 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'idCondicionMedicamento',
+		'medicamentoIdMedicamento.Nombre',
 		'Dosis',
 		'EfectoSecundario',
-		'Medicamento_idMedicamento',
-		'Ficha_Medica_idFicha_Medica',
+
 	),
 )); ?>

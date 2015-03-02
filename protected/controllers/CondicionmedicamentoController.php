@@ -32,7 +32,7 @@ class CondicionmedicamentoController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','medicamento'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -79,6 +79,29 @@ class CondicionmedicamentoController extends Controller
 			'model'=>$model,
 		));
 	}
+
+
+	public function actionMedicamento($id)
+	{
+		$model=new Condicionmedicamento;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		
+		$model->Ficha_Medica_idFicha_Medica=$id;
+
+		if(isset($_POST['Condicionmedicamento']))
+		{
+			$model->attributes=$_POST['Condicionmedicamento'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->idCondicionMedicamento));
+		}
+
+		$this->render('medicamento',array(
+			'model'=>$model,
+		));
+	}
+
 
 	/**
 	 * Updates a particular model.

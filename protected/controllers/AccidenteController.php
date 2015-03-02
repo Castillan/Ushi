@@ -40,7 +40,7 @@ class AccidenteController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','principal','nuevoaccidente'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -84,6 +84,25 @@ class AccidenteController extends Controller
 		}
 
 		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+
+	public function actionNuevoAccidente()
+	{
+		$model=new Accidente;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['Accidente']))
+		{
+			$model->attributes=$_POST['Accidente'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->idAccidente));
+		}
+
+		$this->render('nuevoaccidente',array(
 			'model'=>$model,
 		));
 	}
@@ -148,6 +167,18 @@ class AccidenteController extends Controller
 			$model->attributes=$_GET['Accidente'];
 
 		$this->render('admin',array(
+			'model'=>$model,
+		));
+	}
+	
+	public function actionPrincipal()
+	{
+		$model=new Trabajador('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Accidente']))
+			$model->attributes=$_GET['Accidente'];
+
+		$this->render('principal',array(
 			'model'=>$model,
 		));
 	}

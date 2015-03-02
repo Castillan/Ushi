@@ -28,11 +28,11 @@ class CondicionController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view',),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','condicion'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -79,6 +79,28 @@ class CondicionController extends Controller
 		}
 
 		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+	
+	public function actionCondicion($id)
+	{
+		$model=new Condicion;
+
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		
+	 	$model->Ficha_Medica_idFicha_Medica=$id;
+
+		if(isset($_POST['Condicion']))
+		{
+			$model->attributes=$_POST['Condicion'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->idCondicion));
+		}
+
+		$this->render('condicion',array(
 			'model'=>$model,
 		));
 	}
@@ -157,6 +179,14 @@ class CondicionController extends Controller
 	public function loadModel($id)
 	{
 		$model=Condicion::model()->findByPk($id);
+		if($model===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+		return $model;
+	}
+	
+	public function loadCondicion($id)
+	{
+		$model=Condicion::model()->findByAttributes(array('Ficha_Medica_idFicha_Medica'=>$id));
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;

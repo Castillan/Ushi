@@ -55,7 +55,7 @@ class Tipocondicion extends CActiveRecord
 	{
 		return array(
 			'idTipoCondicion' => 'Id Tipo Condicion',
-			'Nombre' => 'Nombre',
+			'Nombre' => 'Tipo de Condicion',
 		);
 	}
 

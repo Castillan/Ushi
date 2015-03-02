@@ -113,7 +113,7 @@
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				//array('label'=>'B. TRABAJADORES', 'url'=>array('/site/trabajadores'), 'visible'=>Yii::app()->user->getState('idRol')==1),
 				//array('label'=>'B. ACCIDENTES', 'url'=>array('/site/accidentes'), 'visible'=>Yii::app()->user->getState('idRol')==1),
-                array('label'=>'Accidente', 'url'=>array('/accidente'), 'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Accidente', 'url'=>array('/accidente/principal'), 'visible'=>!Yii::app()->user->isGuest),
                 //array('label'=>'Cargo', 'url'=>array('/cargo'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Centrosalud', 'url'=>array('/centrosalud'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Condicion', 'url'=>array('/condicion'), 'visible'=>Yii::app()->user->getState('idRol')==1),

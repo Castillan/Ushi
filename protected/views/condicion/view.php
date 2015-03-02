@@ -21,10 +21,12 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'idCondicion',
+		'fichaMedicaIdFichaMedica.personaIdPersona.Nombre',
+		'fichaMedicaIdFichaMedica.personaIdPersona.Apellido',
+		'fichaMedicaIdFichaMedica.personaIdPersona.Cedula',
 		'Ficha_Medica_idFicha_Medica',
 		'Detalle',
-		'TipoCondicion_idTipoCondicion',
-		'fichaMedicaIdFichaMedica.personaIdPersona',
+		'tipoCondicionIdTipoCondicion.Nombre',
+		
 	),
 )); ?>
