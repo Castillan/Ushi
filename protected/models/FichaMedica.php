@@ -22,7 +22,6 @@
  */
 class FichaMedica extends CActiveRecord
 {
-    public $persona_nombre, $persona_apellido, $persona_cedula, $fecha_desde, $fecha_hasta;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -45,7 +44,7 @@ class FichaMedica extends CActiveRecord
 			array('EstadoSalud, Parentesco', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idFicha_Medica, GrupoSanguineo, RH, EstadoSalud, FechaAntitetanica, Persona_idPersona, Fecha, idPariente, Parentesco, persona_nombre, persona_apellido, persona_cedula, fecha_desde, fecha_hasta', 'safe', 'on'=>'search'),
+			array('idFicha_Medica, GrupoSanguineo, RH, EstadoSalud, FechaAntitetanica, Persona_idPersona, Fecha, idPariente, Parentesco', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -101,7 +100,6 @@ class FichaMedica extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-        $criteria->with = array('personaIdPersona');
 		$criteria->compare('idFicha_Medica',$this->idFicha_Medica);
 		$criteria->compare('GrupoSanguineo',$this->GrupoSanguineo,true);
 		$criteria->compare('RH',$this->RH);
@@ -111,30 +109,9 @@ class FichaMedica extends CActiveRecord
 		$criteria->compare('Fecha',$this->Fecha,true);
 		$criteria->compare('idPariente',$this->idPariente);
 		$criteria->compare('Parentesco',$this->Parentesco,true);
-        $criteria->compare('personaIdPersona.Nombre', $this->persona_nombre, true );
-        $criteria->compare('personaIdPersona.Apellido', $this->persona_apellido, true );
-        $criteria->compare('personaIdPersona.Cedula', $this->persona_cedula, true );
-        $criteria->addBetweenCondition('Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
-        
+
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
-            'sort'=>array(
-                'attributes'=>array(
-                    'persona_nombre'=>array(
-                        'asc'=>'personaIdPersona.Nombre',
-                        'desc'=>'personaIdPersona.Nombre DESC',
-                    ),
-                    'persona_apellido'=>array(
-                        'asc'=>'personaIdPersona.Apellido',
-                        'desc'=>'personaIdPersona.Apellido DESC',
-                    ),
-                    'persona_cedula'=>array(
-                        'asc'=>'personaIdPersona.Cedula',
-                        'desc'=>'personaIdPersona.Cedula DESC',
-                    ),
-                    '*',
-                ),
-            ),
 		));
 	}
 

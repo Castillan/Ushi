@@ -73,7 +73,7 @@
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
      'summaryText' => 'Mostrando resultados {start} al {end} de {count} en total',
 	'dataProvider'=>$model->search(),
-    'emptyText' => 'No se encontraron resultados',
+    
 	'filter'=>$model,
 	'columns'=>array(
 		'idTrabajador',

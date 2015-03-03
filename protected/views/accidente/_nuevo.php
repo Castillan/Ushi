@@ -15,19 +15,42 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Fields <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary(array($model)); ?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha'); ?>
-		<?php echo $form->textField($model,'Fecha'); ?>
+		<?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+		    'model' => $model,
+		    'attribute' => 'Fecha',
+		    'themeUrl' => Yii::app()->baseUrl . '/css/jui',
+		    'theme' => 'softark',
+		    'cssFile' => 'jquery-ui-1.9.2.custom.css',
+		    'options' => array(
+		        'showOn' => 'both',             // also opens with a button
+		        'dateFormat' => 'yy-mm-dd',     // format of "2012-12-25"
+		        'showOtherMonths' => true,      // show dates in other months
+		        'selectOtherMonths' => true,    // can seelect dates in other months
+		        'changeYear' => true,           // can change year
+		        'changeMonth' => true,          // can change month
+		        'yearRange' => '1950:2099',     // range of year
+		        'minDate' => '1950-01-01',      // minimum date
+		        'maxDate' => '2099-12-31',      // maximum date
+		        'showButtonPanel' => true,      // show button panel
+		    ),
+		    'htmlOptions' => array(
+		        'size' => '10',
+		        'maxlength' => '10',
+		    ),
+		));
+		?>
 		<?php echo $form->error($model,'Fecha'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'DiaSemana_idDiaSemana'); ?>
-		<?php echo $form->textField($model,'DiaSemana_idDiaSemana'); ?>
+		<?php echo $form->dropDownList($model,'DiaSemana_idDiaSemana',CHtml::listData(DiaSemana::model()->findAll(),'idDiaSemana','Nombre'),array('empty'=>'Dia Ocurrido')); ?>
 		<?php echo $form->error($model,'DiaSemana_idDiaSemana'); ?>
 	</div>
 
@@ -39,13 +62,13 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Dentro'); ?>
-		<?php echo $form->textField($model,'Dentro'); ?>
+		<?php echo $form->dropDownList($model,'Dentro',array(''=>'','1'=>'Dentro','0'=>'fuera')); ?>
 		<?php echo $form->error($model,'Dentro'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Ubicacion_idUbicacion'); ?>
-		<?php echo $form->textField($model,'Ubicacion_idUbicacion'); ?>
+		<?php echo $form->dropDownList($model,'Ubicacion_idUbicacion',CHtml::listData(Ubicacion::model()->findAll(),'idUbicacion','Nombre'),array('empty'=>'Seleccione la ciudad')); ?>
 		<?php echo $form->error($model,'Ubicacion_idUbicacion'); ?>
 	</div>
 
@@ -60,9 +83,9 @@
 		<?php echo $form->textArea($model,'Descripcion',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'Descripcion'); ?>
 	</div>
-
+	
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'NuevoAccidente' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

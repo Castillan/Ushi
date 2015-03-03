@@ -19,13 +19,7 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'Accidente_idAccidente'); ?>
-		<?php echo $form->textField($model,'Accidente_idAccidente'); ?>
-		<?php echo $form->error($model,'Accidente_idAccidente'); ?>
-	</div>
-
-	<div class="row">
+		<div class="row">
 		<?php echo $form->labelEx($model,'Horas'); ?>
 		<?php echo $form->textField($model,'Horas'); ?>
 		<?php echo $form->error($model,'Horas'); ?>
@@ -39,13 +33,13 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'CentroSalud_idCentroSalud'); ?>
-		<?php echo $form->textField($model,'CentroSalud_idCentroSalud'); ?>
+		<?php echo $form->dropDownList($model,'CentroSalud_idCentroSalud',CHtml::listData(CentroSalud::model()->findAll(),'idCentroSalud','Nombre'),array('empty'=>'Seleccione Centro Medico')); ?>
 		<?php echo $form->error($model,'CentroSalud_idCentroSalud'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Trabajador_idTrabajador'); ?>
-		<?php echo $form->textField($model,'Trabajador_idTrabajador'); ?>
+		<?php echo $form->dropDownList($model,'Trabajador_idTrabajador',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Cedula de persona involucadra')); ?>
 		<?php echo $form->error($model,'Trabajador_idTrabajador'); ?>
 	</div>
 

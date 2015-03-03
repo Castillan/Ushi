@@ -32,7 +32,7 @@ class FichaMedicaController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','principal'),
+				'actions'=>array('create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -179,17 +179,7 @@ class FichaMedicaController extends Controller
 			'model'=>$model,
 		));
 	}
-    public function actionPrincipal()
-	{
-		$model=new FichaMedica('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['FichaMedica']))
-			$model->attributes=$_GET['FichaMedica'];
 
-		$this->render('principal',array(
-			'model'=>$model,
-		));
-	}
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.

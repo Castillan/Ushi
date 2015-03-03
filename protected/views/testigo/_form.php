@@ -21,14 +21,8 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Persona_idPersona'); ?>
-		<?php echo $form->textField($model,'Persona_idPersona'); ?>
+		<?php echo $form->dropDownList($model,'Persona_idPersona',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Cedula de persona involucadra')); ?>
 		<?php echo $form->error($model,'Persona_idPersona'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Accidente_idAccidente'); ?>
-		<?php echo $form->textField($model,'Accidente_idAccidente'); ?>
-		<?php echo $form->error($model,'Accidente_idAccidente'); ?>
 	</div>
 
 	<div class="row buttons">

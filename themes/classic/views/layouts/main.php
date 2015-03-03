@@ -6,7 +6,7 @@
 		->separator() // add separator
 		->single(
 			'Accidente', // label
-			array('/../Ushi/accidente/principal'), // url
+			array('/../Ushi/accidente/'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/accidents.png' // icon
 		) // add single element
 		->stack(array(
@@ -41,7 +41,7 @@
     Yii::app()->getPanel('adminPanel2')        
           ->single(
 			'Ficha Médica', // label
-			array('/../Ushi/fichaMedica/principal'), // url
+			array('/../Ushi/site/ficha_medica/'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/doctor.png' // icon
 		) // add single element
 		->stack(array(
@@ -122,7 +122,7 @@
                 //array('label'=>'Dependencia', 'url'=>array('/dependencia'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Estado Civil', 'url'=>array('/edocivil'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Educación', 'url'=>array('/educacion'), 'visible'=>Yii::app()->user->getState('idRol')==1),
-                array('label'=>'Ficha Medica', 'url'=>array('/fichaMedica/principal'), 'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Ficha Medica', 'url'=>array('/site/ficha_medica'), 'visible'=>!Yii::app()->user->isGuest),
                 //array('label'=>'Grado', 'url'=>array('/grado'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Medicamento', 'url'=>array('/medicamento'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Nivel educativo', 'url'=>array('/niveleducativo'), 'visible'=>Yii::app()->user->getState('idRol')==1),

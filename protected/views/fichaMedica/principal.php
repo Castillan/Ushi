@@ -22,7 +22,7 @@
 			)); ?> </div>	
 			</div>
 			<br/>
-	<!--		<div class="cedula">					
+			<div class="cedula">					
 				<div class="busqueda-header">
 				<h3>Búsqueda por cédula</h3>
 				</div>
@@ -65,39 +65,8 @@
 				</form>
 		
 			</div>
-			</div>-->
+			</div>
 			</div>
 			<br/>
-                <?php $this->widget('zii.widgets.grid.CGridView', array(
-    
-	'id'=>'ficha-medica-grid',
-	'dataProvider'=>$model->search(),
-    'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
-     'summaryText' => 'Mostrando resultados {start} al {end} de {count} en total',
-    'emptyText' => 'No se encontraron resultados',
-	'filter'=>$model,
-	'columns'=>array(
-		'idFicha_Medica',            
-        array( 'name'=>'persona_nombre', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Nombre' ),
-        array( 'name'=>'persona_apellido', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Apellido; ' ),
-        array( 'name'=>'persona_cedula', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Cedula; ' ),
-        'Fecha',
-        array('name'=>'fecha_desde','type'=>'Date'),
-        array('name'=>'fecha_hasta','type'=>'Date'),
-		/*'GrupoSanguineo',
-		'RH',
-		'EstadoSalud',
-		'FechaAntitetanica',
-		'Persona_idPersona',
-		
-		'Fecha',
-		'idPariente',
-		'Parentesco',
-		*/
-		array(
-			'class'=>'CButtonColumn',
-		),
-	),
-)); ?>
 
 			</div>			

@@ -32,7 +32,7 @@ class TrabajadoraccidenteController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','accidente'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -76,6 +76,27 @@ class TrabajadoraccidenteController extends Controller
 		}
 
 		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+
+	public function actionAccidente($id)
+	{
+		$model=new Trabajadoraccidente;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		$model->Trabajador_idTrabajador=Trabajador::model()->findByAttributes(array('Persona_idPersona'=>$model->Trabajador_idTrabajador));
+		$model->Accidente_idAccidente=$id;
+
+		if(isset($_POST['Trabajadoraccidente']))
+		{
+			$model->attributes=$_POST['Trabajadoraccidente'];
+			if($model->save())
+				$this->redirect(array('/accidente/view','id'=>$model->Accidente_idAccidente));
+		}
+
+		$this->render('accidente',array(
 			'model'=>$model,
 		));
 	}
