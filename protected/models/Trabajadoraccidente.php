@@ -98,14 +98,39 @@ class Trabajadoraccidente extends CActiveRecord
 		$criteria->compare('CentroSalud_idCentroSalud',$this->CentroSalud_idCentroSalud);
 		$criteria->compare('Trabajador_idTrabajador',$this->Trabajador_idTrabajador);
         $criteria->compare('accidenteIdAccidente.Fecha',$this->fecha_acc);
-        $criteria->compare('trabajadorIdTrabajador.personaIdPersona.Nombre',$this->persona_nombre);
-        $criteria->compare('trabajadorIdTrabajador.personaIdPersona.Apellido',$this->persona_apellido);
-        $criteria->compare('trabajadorIdTrabajador.personaIdPersona.Cedula',$this->persona_cedula);
-        $criteria->compare('accidenteIdAccidente.Dentro',$this->trab_dentro,false);
+        $criteria->addSearchCondition('Nombre',$this->persona_nombre);
+        $criteria->addSearchCondition('Apellido',$this->persona_apellido);
+        $criteria->addSearchCondition('Cedula',$this->persona_cedula);
+        $criteria->compare('Dentro',$this->trab_dentro,true);
         $criteria->addBetweenCondition('accidenteIdAccidente.Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
         
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'sort'=>array(
+                'attributes'=>array(
+                    'persona_nombre'=>array(
+                        'asc'=>'personaIdPersona.Nombre',
+                        'desc'=>'personaIdPersona.Nombre DESC',
+                    ),
+                    'persona_apellido'=>array(
+                        'asc'=>'personaIdPersona.Apellido',
+                        'desc'=>'personaIdPersona.Apellido DESC',
+                    ),
+                    'persona_cedula'=>array(
+                        'asc'=>'personaIdPersona.Cedula',
+                        'desc'=>'personaIdPersona.Cedula DESC',
+                    ),
+                    'fecha_acc'=>array(
+                        'asc'=>'accidenteIdAccidente.Fecha',
+                        'desc'=>'accidenteIdAccidente.Fecha DESC',
+                    ),
+                    'trab_dentro'=>array(
+                        'asc'=>'Dentro',
+                        'desc'=>'Dentro DESC',
+                    ),
+                    '*',
+                ),
+            ),
 		));
 	}
 

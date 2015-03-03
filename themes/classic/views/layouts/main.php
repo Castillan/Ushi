@@ -6,7 +6,7 @@
 		->separator() // add separator
 		->single(
 			'Accidente', // label
-			array('/../Ushi/accidente/'), // url
+			array('/../Ushi/accidente/principal'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/accidents.png' // icon
 		) // add single element
 		->stack(array(
