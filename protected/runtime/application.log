@@ -9749,3 +9749,49 @@ Stack trace:
 REQUEST_URI=/Servicio_Comunitario/testigo/create/9
 HTTP_REFERER=http://localhost/Servicio_Comunitario/accidente/9
 ---
+2015/03/04 15:05:49 [error] [php] Undefined variable: model1 (D:\xampp\htdocs\Ushi\protected\views\fichaMedica\_form.php:21)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): FichaMedicaController->renderFile()
+#1 D:\xampp\htdocs\Ushi\protected\views\fichaMedica\update.php(21): FichaMedicaController->renderPartial()
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): FichaMedicaController->renderInternal()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): FichaMedicaController->renderFile()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(782): FichaMedicaController->renderPartial()
+#6 D:\xampp\htdocs\Ushi\protected\controllers\FichaMedicaController.php(140): FichaMedicaController->render()
+#7 unknown(0): FichaMedicaController->actionUpdate()
+#8 D:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FichaMedicaController->runAction()
+#12 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FichaMedicaController->filterAccessControl()
+#15 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\xampp\htdocs\yii\framework\web\CController.php(265): FichaMedicaController->runActionWithFilters()
+#18 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FichaMedicaController->run()
+#19 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\Ushi\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ushi/fichaMedica/update/2
+in D:\xampp\htdocs\Ushi\protected\views\fichaMedica\_form.php (21)
+in D:\xampp\htdocs\Ushi\protected\views\fichaMedica\update.php (21)
+in D:\xampp\htdocs\Ushi\protected\controllers\FichaMedicaController.php (140)
+2015/03/04 15:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Ushi/persona/create
+---
+2015/03/04 15:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Ushi/fichaMedica/create
+---

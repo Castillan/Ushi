@@ -86,12 +86,11 @@ class AccidenteController extends Controller
 		$this->render('create',array(
 			'model'=>$model,
 		));
-		
 	}
 
 	public function actionNuevoAccidente()
 	{
-				$model=new Accidente;
+		$model=new Accidente;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -103,7 +102,7 @@ class AccidenteController extends Controller
 				$this->redirect(array('view','id'=>$model->idAccidente));
 		}
 
-		$this->render('nuevoa',array(
+		$this->render('nuevoaccidente',array(
 			'model'=>$model,
 		));
 	}
@@ -174,10 +173,10 @@ class AccidenteController extends Controller
 	
 	public function actionPrincipal()
 	{
-		$model=new Trabajador('search');
+		$model=new Trabajadoraccidente('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Accidente']))
-			$model->attributes=$_GET['Accidente'];
+		if(isset($_GET['Trabajadoraccidente']))
+			$model->attributes=$_GET['Trabajadoraccidente'];
 
 		$this->render('principal',array(
 			'model'=>$model,
