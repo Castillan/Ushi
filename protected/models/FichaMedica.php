@@ -114,8 +114,9 @@ class FichaMedica extends CActiveRecord
         $criteria->compare('personaIdPersona.Nombre', $this->persona_nombre, true );
         $criteria->compare('personaIdPersona.Apellido', $this->persona_apellido, true );
         $criteria->compare('personaIdPersona.Cedula', $this->persona_cedula, true );
-        $criteria->addBetweenCondition('Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
-        
+        if(!empty($this->fecha_desde) && !empty($this->fecha_hasta)){
+            $criteria->addBetweenCondition('Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
+        }
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
             'sort'=>array(

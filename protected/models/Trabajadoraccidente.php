@@ -102,8 +102,9 @@ class Trabajadoraccidente extends CActiveRecord
         $criteria->addSearchCondition('Apellido',$this->persona_apellido);
         $criteria->addSearchCondition('Cedula',$this->persona_cedula);
         $criteria->compare('Dentro',$this->trab_dentro,true);
-        $criteria->addBetweenCondition('accidenteIdAccidente.Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
-        
+        if(!empty($this->fecha_desde) && !empty($this->fecha_hasta)){
+            $criteria->addBetweenCondition('accidenteIdAccidente.Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');
+        }
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
             'sort'=>array(
