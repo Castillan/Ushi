@@ -15192,3 +15192,228 @@ Stack trace:
 REQUEST_URI=/Ushi2/site/themes/classic/images/nota/6.png
 HTTP_REFERER=http://localhost/Ushi2/site/index
 ---
+2015/03/11 23:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:51:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:57:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/11 23:59:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/12 00:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\Ushi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
+---

@@ -13,34 +13,33 @@
 		->separator() // add separator
 		->single(
 			'Accidente', // label
-			array('/../Ushi/accidente/principal'), // url
+			array('/..'. Yii::app()->baseUrl.'/accidente/principal'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/accidents.png' // icon
 		) // add single element
 		->stack(array(
-			array('label' => 'Testigo', 'url' => '/../Ushi/testigo/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'Trab-Accidente', 'url' => '/../Ushi/trabajadoraccidente/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Testigo', 'url' => '/..'. Yii::app()->baseUrl.'/testigo/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Trab-Accidente', 'url' => '/..'. Yii::app()->baseUrl.'/trabajadoraccidente/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		)) // add stack elements         
 		->separator()
           ->single(
-			'Trabajador', // label
-			//array('/../Ushi/site/trabajador_main/'), // url
-            array('/../Ushi/trabajador/principal/'), // url
+			'Trabajador', // label			
+            array('/..'. Yii::app()->baseUrl.'/trabajador/principal/'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/workers.png' // icon
 		) // add single element
 		->stack(array(
-			array('label' => 'Persona', 'url' => '/../Ushi/persona/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'Dependencia', 'url' => '/../Ushi/dependencia/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Cargo', 'url' => '/../Ushi/cargo/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Persona', 'url' => '/..'. Yii::app()->baseUrl.'/persona/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Dependencia', 'url' => '/..'. Yii::app()->baseUrl.'/dependencia/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Cargo', 'url' => '/..'. Yii::app()->baseUrl.'/cargo/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		)) // add stack elements         
           ->stack(array(
-			array('label' => 'TipoRuta', 'url' => '/../Ushi/tiporuta/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'Trab-ruta', 'url' => '/../Ushi/trabajadorruta/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Edo_Civi', 'url' => '/../Ushi/edocivil/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'TipoRuta', 'url' => '/..'. Yii::app()->baseUrl.'/tiporuta/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Trab-ruta', 'url' => '/..'. Yii::app()->baseUrl.'/trabajadorruta/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Edo_Civi', 'url' => '/..'. Yii::app()->baseUrl.'/edocivil/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		)) // add stack elements        
             ->stack(array(
-			array('label' => 'Grado', 'url' => '/../Ushi/grado/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'Educación', 'url' => '/../Ushi/educacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'NivelEduc', 'url' => '/../Ushi/niveleducativo/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Grado', 'url' => '/..'. Yii::app()->baseUrl.'/grado/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Educación', 'url' => '/..'. Yii::app()->baseUrl.'/educacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'NivelEduc', 'url' => '/..'. Yii::app()->baseUrl.'/niveleducativo/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		)) // add stack elements 
           ->separator();
 
@@ -48,19 +47,19 @@
     Yii::app()->getPanel('adminPanel2')        
           ->single(
 			'Ficha Médica', // label
-			array('/../Ushi/fichaMedica/principal'), // url
+			array('/..'. Yii::app()->baseUrl.'/fichaMedica/principal'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/doctor.png' // icon
 		) // add single element
 		->stack(array(
-			array('label' => 'Condición', 'url' => '/../Ushi/condicion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'TipoCondicion', 'url' => '/../Ushi/tipocondicion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Medicamento', 'url' => '/../Ushi/medicamento/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Cond-Medicam', 'url' => '/../Ushi/condicionmedicamento/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),            
+			array('label' => 'Condición', 'url' => '/..'. Yii::app()->baseUrl.'/condicion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'TipoCondicion', 'url' => '/..'. Yii::app()->baseUrl.'/tipocondicion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Medicamento', 'url' => '/..'. Yii::app()->baseUrl.'/medicamento/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Cond-Medicam', 'url' => '/..'. Yii::app()->baseUrl.'/condicionmedicamento/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),            
 		)) // add stack elements         
           ->stack(array(
-			array('label' => 'CentroSalud', 'url' => '/../Ushi/centrosalud/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'TipoCentro', 'url' => '/../Ushi/tipocentro/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'TipoAtencion', 'url' => '/../Ushi/tipoatencion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'CentroSalud', 'url' => '/..'. Yii::app()->baseUrl.'/centrosalud/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'TipoCentro', 'url' => '/..'. Yii::app()->baseUrl.'/tipocentro/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'TipoAtencion', 'url' => '/..'. Yii::app()->baseUrl.'/tipoatencion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		)) // add stack elements  
         ->separator()
         ->single(
@@ -69,10 +68,10 @@
 			Yii::app()->baseUrl.'/themes/classic/images/user.png' // icon
 		) // add single element
             ->stack(array(
-			array('label' => 'Roles', 'url' => '/../Ushi/roles/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'DiaSemana', 'url' => '/../Ushi/diasemana/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Ubicacion', 'url' => '/../Ushi/ubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'TipoUbicacion', 'url' => '/../Ushi/tipoubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'Roles', 'url' => '/..'. Yii::app()->baseUrl.'/roles/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'DiaSemana', 'url' => '/..'. Yii::app()->baseUrl.'/diasemana/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Ubicacion', 'url' => '/..'. Yii::app()->baseUrl.'/ubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'TipoUbicacion', 'url' => '/..'. Yii::app()->baseUrl.'/tipoubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		))
 		->separator(); // add separator
 
@@ -108,7 +107,7 @@
 		</header>
 		
 		<nav >				
-		<div class="mmenu" style="margin:0 auto; margin-left:205px;width:80%">
+		<div class="menu" >
         
             
 		<?php $this->widget('zii.widgets.CMenu',array(
