@@ -1,3 +1,10 @@
+	  
+
+<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jsn_social_icons_footer.css" />	 
+<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/blue_footer.css" />
+<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/business_footer.css" />
+
+
 <?php /* @var $this Controller */ 
 /*PANEL 1*/
       Yii::app()->getPanel('adminPanel')
@@ -101,13 +108,13 @@
 		</header>
 		
 		<nav >				
-		<div class="mmenu">
+		<div class="mmenu" style="margin:0 auto; margin-left:205px;width:80%">
         
             
 		<?php $this->widget('zii.widgets.CMenu',array(
     
 			'items'=>array(
-				array('label'=>'INICIO', 'url'=>array('/site/index')),
+				array('label'=>'INICIO', 'url'=>array('/')),
 				array('label'=>'¿QUIÉNES SOMOS?', 'url'=>array('/site/page', 'view'=>'about'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'CONTÁCTENOS', 'url'=>array('/site/contact'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
@@ -154,7 +161,8 @@
 		<!--<a href="#x" class="overlay" id="login_form"></a>-->
   	
 	<!--	<cuerpecito style="width: 100%;height:auto;">-->
-            <div class="main"><div class="contenido">          
+            <div class="main">
+            	<div class="contenido">          
 		<div class="conten">
             <?php 
             if(!Yii::app()->user->isGuest && Yii::app()->user->getState('idRol')==1){
@@ -180,8 +188,81 @@
 </div></div>
 	<!--	</cuerpecito>-->
 		<!--<div style="width: 100%;height: 10px;"></div>-->
-		<footer >
-		<p>Derechos reservados</p>
+		<footer style="margin-top:-20px; height:auto;">
+		
+
+						<div id="jsn-footer" style=":padding-top:-200px; height:150px;">
+							<div id="jsn-footer-inner">
+										<div id="jsn-social-icons">
+							<ul>
+													<li class="facebook">
+									<a href="https://es-la.facebook.com/unetoficial" title="Facebook" target="_blank">
+										Facebook</a>
+								</li>
+													<li class="twitter">
+									<a href="https://twitter.com/UNEToficial" title="Twitter" target="_blank">
+										Twitter</a>
+								</li>
+													<li class="youtube">
+									<a href="http://www.youtube.com/user/UNETHoy" title="YouTube" target="_blank">
+										YouTube</a>
+								</li>
+													<li class="rss">
+									<a href="http://unet.edu.ve/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw" title="RSS" target="_blank">
+										RSS</a>
+								</li>
+												</ul>
+						</div>
+									<div id="jsn-footermodules" class="jsn-modulescontainer jsn-modulescontainer2">
+													<div id="jsn-pos-footer" class="row-fluid">
+									<div class=" jsn-modulecontainer span12"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
+	<ul class="menu-divmenu">
+	<li class="first">	<a href="http://www.unet.edu.ve/noticias-archivadas/90-latest-news.html">
+			<span>
+			Noticias UNET		</span>
+		</a>
+		</li><li><a href="http://www.unet.edu.ve/busqueda-inteligente.html">
+		<span>
+			Búsqueda Inteligente	</span>
+	</a></li><li><a href="http://www.unet.edu.ve/telefonos-internos.html">
+		<span>
+			Telefonos Internos	</span>
+	</a></li><li>		<a class="" href="http://curly.unet.edu.ve/encuesta/Proveedores/" target="_blank">
+				<span>
+				Proveedores			</span>
+			</a>
+	</li><li>		<a class="" href="https://intranet.unet.edu.ve/postgrado/ingreso.php" target="_blank">
+				<span>
+				Estudiantes de Postgrado			</span>
+			</a>
+	</li><li class="last"><a href="http://www.unet.edu.ve/mapa-del-sitio.html">
+		<span>
+			Mapa del Sitio	</span>
+	</a></li></ul><div class="clearbreak"></div></div></div></div>
+		</div>
+			<div id="jsn-pos-bottom" class="row-fluid">
+									<div class=" jsn-modulecontainer span12"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
+	<div>
+		<p>Avenida Universidad, Sector Paramillo. San Cristóbal, Venezuela. +58 (276) 353-0422. RIF: G-20004886-7.<a href="http://www.unet.edu.ve/component/content/article/88-unet/principal/232-contactenos.html">Contáctenos</a></p>
+
+		<p><span style="line-height: 1.3em;">Republica Bolivariana de Venezuela. <a href="http://www.mppeu.gob.ve/" target="_blank">Ministerio del Poder Popular Para la Educación Universitaria</a>.</span></p>
+
+		<p><span style="line-height: 1.3em;"><span style="line-height: 15.600000381469727px;">Copyright © 2014.&nbsp;</span>Universidad Nacional Experimental del Táchira (UNET). Adaptado por: <a href="http://www.unet.edu.ve/sobre-la-unet/autoridades/rectorado/ceti.html">CETI</a></span></p>
+	</div>
+
+	</div></div></div>
+								</div>
+										</div>
+				</div>
+			</div>
+				</div>
+		
+
+
+
+
+
+
 		</footer>
 	</body>
 </html>
