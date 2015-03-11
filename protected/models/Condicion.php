@@ -15,6 +15,9 @@
  */
 class Condicion extends CActiveRecord
 {
+	
+	public $tipo_nombre;
+	
 	/**
 	 * @return string the associated database table name
 	 */
@@ -36,7 +39,7 @@ class Condicion extends CActiveRecord
 			array('Detalle', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idCondicion, Ficha_Medica_idFicha_Medica, Detalle, TipoCondicion_idTipoCondicion', 'safe', 'on'=>'search'),
+			array('idCondicion, Ficha_Medica_idFicha_Medica, Detalle, TipoCondicion_idTipoCondicion, tipo_nombre', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -83,14 +86,26 @@ class Condicion extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
+		
+		 $criteria->with = array('tipoCondicionIdTipoCondicion');
 
 		$criteria->compare('idCondicion',$this->idCondicion);
 		$criteria->compare('Ficha_Medica_idFicha_Medica',$this->Ficha_Medica_idFicha_Medica);
 		$criteria->compare('Detalle',$this->Detalle,true);
 		$criteria->compare('TipoCondicion_idTipoCondicion',$this->TipoCondicion_idTipoCondicion);
+		$criteria->compare('tipoCondicionIdTipoCondicion.Nombre', $this->tipo_nombre, true );
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			 'sort'=>array(
+                'attributes'=>array(
+                    'tipo_nombre'=>array(
+                        'asc'=>'tipoCondicionIdTipoCondicion.Nombre',
+                        'desc'=>'tipoCondicionIdTipoCondicion.Nombre DESC',
+                     ),
+                    '*',
+                ),
+            ),
 		));
 	}
 

@@ -60,8 +60,10 @@ class AccidenteController extends Controller
 	 */
 	public function actionView($id)
 	{
+		$model3= new TrabajadorAccidente;
+		$model4= new Testigo;
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$this->loadModel($id),'model3'=>$model3,'model4'=>$model4,
 		));
 	}
 

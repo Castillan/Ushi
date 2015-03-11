@@ -22,7 +22,7 @@
  */
 class FichaMedica extends CActiveRecord
 {
-    public $persona_nombre, $persona_apellido, $persona_cedula, $fecha_desde, $fecha_hasta;
+    public $persona_nombre, $persona_apellido, $persona_cedula, $fecha_desde, $fecha_hasta, $tipo_nombre;
 	/**
 	 * @return string the associated database table name
 	 */

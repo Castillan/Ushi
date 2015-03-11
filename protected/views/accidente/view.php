@@ -33,39 +33,18 @@ $this->menu=array(
 )); ?>
 
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'condicion-grid',
+<?php
+$model3->Accidente_idAccidente=$model->idAccidente;
+$this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'afectados-grid',
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
      'summaryText' => 'Personas involucradas en el accidente',
-	'dataProvider'=>$model->search(),
+	'dataProvider'=>$model3->search(),
     
-	'filter'=>$model,
+	'filter'=>$model3,
 	'columns'=>array(
-		//'Persona_idPersona',
-		//'Nacionalidad',
-		//'Mano',
-      /*  array('name'=>'Mano', 'filter'=>
-                array(
-                    //''=>'All',
-                    'I'=>'Izquierda',
-                    'D'=>'Derecha',
-                )
-            
-        ),*/
-		/*'Edo_Civil_idEdo_Civil',
-		
-		'Hijos',
-		'NivelEducativo_idNivelEducativo',
-		'Email',
-		'CodigoPostal',
-		'IngresoUNET',
-		'IngresoIVSS',
-		'Ubicacion_idUbicacion',
-		'Cargo_idCargo',
-		'Dependencia_idDependencia',
-		'Sueldo',
-		*/        
-        array( 'name'=>'trabajadoraccidentes.Centrosalud', 'value'=>'TrabajadorAccidente::model()->find(" Accidente_idAccidente = ".$data->idAccidente)->CentroSalud_idCentroSalud' ),
+
+      //  array( 'name'=>'trabajadoraccidentes.Centrosalud', 'value'=>'TrabajadorAccidente::model()->find(" Accidente_idAccidente = ".$data->idAccidente)->CentroSalud_idCentroSalud' ),
      //   array( 'name'=>'condiciones.tipoCondicionIdTipoCondicion.Nombre', 'value'=>'TipoCondicion::model()->find(" idPersona = ".$data->idFicha_Medica)->TipoCondicion_idTipoCondicion)->Nombre; ' ),
        // array( 'name'=>'persona_cedula', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Cedula; ' ),
       /*  array(
@@ -73,13 +52,18 @@ $this->menu=array(
          //   'filter'=>CHtml::listData(Dependencia::model()->findAll(),'idDependencia','Nombre'),
             'value'=>'Condicion::model()->find(" Ficha_Medica_idFicha_Medica = ".$data->idFicha_Medica)->idCondicion',
         ),*/
-        
+        'trabajadorIdTrabajador.personaIdPersona.Nombre',
+		'trabajadorIdTrabajador.personaIdPersona.Apellido',
+		'trabajadorIdTrabajador.personaIdPersona.Cedula',
+		'centroSaludIdCentroSalud.Nombre',
+		'accidenteIdAccidente.Hora',
+
+		
 		array(
 			'class'=>'CButtonColumn',
 		),
 	),
 )); ?>  
-
 <div class="new-button">
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
@@ -90,40 +74,18 @@ $this->menu=array(
 			)); ?> 		
 </div>	
 
-
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'condicion-grid',
+<br>
+<?php 
+$model4->Accidente_idAccidente=$model->idAccidente;
+$this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'tstigos-grid',
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
-     'summaryText' => 'Personas involucradas en el accidente',
-	'dataProvider'=>$model->search(),
+     'summaryText' => 'Testigos del accidente',
+	'dataProvider'=>$model4->search(),
     
-	'filter'=>$model,
+	'filter'=>$model4,
 	'columns'=>array(
-		//'Persona_idPersona',
-		//'Nacionalidad',
-		//'Mano',
-      /*  array('name'=>'Mano', 'filter'=>
-                array(
-                    //''=>'All',
-                    'I'=>'Izquierda',
-                    'D'=>'Derecha',
-                )
-            
-        ),*/
-		/*'Edo_Civil_idEdo_Civil',
-		
-		'Hijos',
-		'NivelEducativo_idNivelEducativo',
-		'Email',
-		'CodigoPostal',
-		'IngresoUNET',
-		'IngresoIVSS',
-		'Ubicacion_idUbicacion',
-		'Cargo_idCargo',
-		'Dependencia_idDependencia',
-		'Sueldo',
-		*/        
-        array( 'name'=>'trabajadoraccidentes.Centrosalud', 'value'=>'TrabajadorAccidente::model()->find(" Accidente_idAccidente = ".$data->idAccidente)->CentroSalud_idCentroSalud' ),
+       // array( 'name'=>'trabajadoraccidentes.Centrosalud', 'value'=>'TrabajadorAccidente::model()->find(" Accidente_idAccidente = ".$data->idAccidente)->CentroSalud_idCentroSalud' ),
      //   array( 'name'=>'condiciones.tipoCondicionIdTipoCondicion.Nombre', 'value'=>'TipoCondicion::model()->find(" idPersona = ".$data->idFicha_Medica)->TipoCondicion_idTipoCondicion)->Nombre; ' ),
        // array( 'name'=>'persona_cedula', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Cedula; ' ),
       /*  array(
@@ -131,7 +93,11 @@ $this->menu=array(
          //   'filter'=>CHtml::listData(Dependencia::model()->findAll(),'idDependencia','Nombre'),
             'value'=>'Condicion::model()->find(" Ficha_Medica_idFicha_Medica = ".$data->idFicha_Medica)->idCondicion',
         ),*/
-        
+        'personaIdPersona.Nombre',
+        'personaIdPersona.Apellido',
+        'personaIdPersona.Cedula',
+        'personaIdPersona.Telefono',
+        'personaIdPersona.Celular',
 		array(
 			'class'=>'CButtonColumn',
 		),

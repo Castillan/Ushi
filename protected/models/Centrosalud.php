@@ -64,7 +64,7 @@ class Centrosalud extends CActiveRecord
 	{
 		return array(
 			'idCentroSalud' => 'Id Centro Salud',
-			'Nombre' => 'Nombre',
+			'Nombre' => 'Centro de Salud',
 			'Direccion' => 'Direccion',
 			'TipoCentro_idTipoCentro' => 'Tipo Centro Id Tipo Centro',
 			'TipoAtencion_idTipoAtencion' => 'Tipo Atencion Id Tipo Atencion',
