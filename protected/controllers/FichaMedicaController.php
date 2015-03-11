@@ -125,7 +125,7 @@ class FichaMedicaController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		$model=$this->loadModel($id);
+		/*$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -139,7 +139,42 @@ class FichaMedicaController extends Controller
 
 		$this->render('update',array(
 			'model'=>$model,
-		));
+		));*/
+		
+		 $model1=$this->loadModel($id);
+		 $model2=Persona::model()->findByAttributes(array('idPersona'=>$model1->Persona_idPersona));
+		
+		 if(isset($_POST['FichaMedica'], $_POST['Persona']))        
+		 {
+		    // populate input data to $a and $b
+		    $model1->attributes=$_POST['FichaMedica'];
+		    $model2->attributes=$_POST['Persona'];
+		
+		    // validate BOTH $a and $b
+		   $valid=$model1->validate();
+		        $valid=$model2->validate() && $valid;
+		
+		        if($valid)
+		        {
+		            $model2->save(false);
+		
+		            $model1->idPariente = $model2->idPersona;
+		            $model1->save();
+		        }
+		    }
+		
+			if(isset($_POST['FichaMedica']))
+			{
+				$model1->attributes=$_POST['FichaMedica'];
+				if($model1->save())
+					$this->redirect(array('view','id'=>$model1->idFicha_Medica));
+			}
+			
+		    $this->render('create', array(
+		        'model2'=>$model2,
+		        'model1'=>$model1,
+		        
+		    ));
 	}
 
 	/**

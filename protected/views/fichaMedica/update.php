@@ -18,4 +18,4 @@ $this->menu=array(
 
 <h1>Update FichaMedica <?php echo $model->idFicha_Medica; ?></h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('model1'=>$model1, 'model2'=>$model2)); ?>

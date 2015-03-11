@@ -14597,3 +14597,73 @@ Stack trace:
 REQUEST_URI=/Servicio_Comunitario/accidente/1
 HTTP_REFERER=http://localhost/Servicio_Comunitario/accidente/index
 ---
+2015/03/11 15:51:10 [error] [php] Undefined variable: model1 (C:\xampp\htdocs\Servicio_Comunitario\protected\views\fichaMedica\_form.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FichaMedicaController->renderFile()
+#1 C:\xampp\htdocs\Servicio_Comunitario\protected\views\fichaMedica\update.php(21): FichaMedicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): FichaMedicaController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): FichaMedicaController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): FichaMedicaController->renderPartial()
+#6 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(142): FichaMedicaController->render()
+#7 unknown(0): FichaMedicaController->actionUpdate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FichaMedicaController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FichaMedicaController->filterAccessControl()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): FichaMedicaController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FichaMedicaController->run()
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CWebApplication->run()
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/update/1
+in C:\xampp\htdocs\Servicio_Comunitario\protected\views\fichaMedica\_form.php (21)
+in C:\xampp\htdocs\Servicio_Comunitario\protected\views\fichaMedica\update.php (21)
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (142)
+2015/03/11 15:52:24 [error] [php] Undefined variable: model1 (C:\xampp\htdocs\Servicio_Comunitario\protected\views\fichaMedica\update.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FichaMedicaController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): FichaMedicaController->renderPartial()
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(142): FichaMedicaController->render()
+#3 unknown(0): FichaMedicaController->actionUpdate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FichaMedicaController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FichaMedicaController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): FichaMedicaController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FichaMedicaController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CWebApplication->run()
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/update/1
+in C:\xampp\htdocs\Servicio_Comunitario\protected\views\fichaMedica\update.php (21)
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (142)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/11 16:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/update/1
+---
+2015/03/11 16:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/update/1
+---
