@@ -138,6 +138,15 @@ class FichaMedica extends CActiveRecord
             ),
 		));
 	}
+    
+    public function beforeDelete(){
+        foreach($this->condicions as $c)
+            $c->delete();
+        foreach($this->condicionmedicamentos as $c)
+            $c->delete();
+        return parent::beforeDelete();
+    }
+
 
 	/**
 	 * Returns the static model of the specified AR class.

@@ -109,7 +109,13 @@ class Accidente extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-
+    public function beforeDelete(){
+        foreach($this->trabajadoraccidentes as $c)
+            $c->delete();
+        foreach($this->testigos as $c)
+            $c->delete();
+        return parent::beforeDelete();
+    }
 	/**
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!

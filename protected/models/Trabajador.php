@@ -173,6 +173,13 @@ class Trabajador extends CActiveRecord
             ),
 		));
 	}
+     public function beforeDelete(){
+        foreach($this->trabajadoraccidentes as $c)
+            $c->delete();
+        foreach($this->trabajadorrutas as $c)
+            $c->delete();
+        return parent::beforeDelete();
+    }
 
 	/**
 	 * Returns the static model of the specified AR class.
