@@ -25,8 +25,11 @@ $this->menu=array(
 		'Fecha',
 		'DiaSemana_idDiaSemana',
 		'Hora',
-		'Dentro',
-		'Ubicacion_idUbicacion',
+		array(
+		'label'=>'Dentro',
+		'value'=>$model->getDentro()
+		),
+		'ubicacionIdUbicacion.Nombre',
 		'Lugar',
 		'Descripcion',
 	),

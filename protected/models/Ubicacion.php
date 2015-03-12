@@ -66,7 +66,7 @@ class Ubicacion extends CActiveRecord
 	{
 		return array(
 			'idUbicacion' => 'Id Ubicacion',
-			'Nombre' => 'Nombre',
+			'Nombre' => 'Ubicacion',
 			'Ubicacion_idUbicacion' => 'Ubicacion Id Ubicacion',
 			'TipoUbicacion_idTipoUbicacion' => 'Tipo Ubicacion Id Tipo Ubicacion',
 		);

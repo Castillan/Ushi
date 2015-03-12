@@ -126,4 +126,16 @@ class Accidente extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	const Fuera = 0;
+    const Dentro = 1;
+
+    public static $dfLabels= array(
+        self::Fuera => 'Fuera',
+        self::Dentro => 'Dentro',
+    );
+
+    public function getDentro()
+    {
+        return isset(self::$dfLabels[$this->Dentro]) ? self::$dfLabels[$this->Dentro] : '(undefined)';
+    }
 }

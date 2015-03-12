@@ -96,28 +96,7 @@
                 )
             
         ),
-		//'Mano',
-      /*  array('name'=>'Mano', 'filter'=>
-                array(
-                    //''=>'All',
-                    'I'=>'Izquierda',
-                    'D'=>'Derecha',
-                )
-            
-        ),*/
-		/*'Edo_Civil_idEdo_Civil',
-		
-		'Hijos',
-		'NivelEducativo_idNivelEducativo',
-		'Email',
-		'CodigoPostal',
-		'IngresoUNET',
-		'IngresoIVSS',
-		'Ubicacion_idUbicacion',
-		'Cargo_idCargo',
-		'Dependencia_idDependencia',
-		'Sueldo',
-		*/        
+     
         array( 'name'=>'persona_nombre', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Nombre' ),
         array( 'name'=>'persona_apellido', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Apellido; ' ),
         array( 'name'=>'persona_cedula', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Cedula; ' ),

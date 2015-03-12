@@ -26,22 +26,16 @@
 		<?php echo $form->dropDownList($model1,'Persona_idPersona',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Seleccione una persona por su cédula')); ?>
 		<?php echo $form->error($model1,'Persona_idPersona'); ?>
 	</div>
-	
-	<div class="row">
-		<?php echo $form->labelEx($model1,'Persona_Nombre'); ?>
-		<?php echo $form->labelEx($model1,'Persona_Nombre',CHtml::listData(Persona::model()->findAll(),'Nombre','Cedula'),array('empty'=>'Seleccione una persona por su cédula')); ?>
-		<?php echo $form->error($model1,'Persona_Nombre'); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model1,'GrupoSanguineo'); ?>
-		<?php echo $form->textField($model1,'GrupoSanguineo',array('size'=>2,'maxlength'=>2)); ?>
+		<?php echo $form->dropDownList($model1,'GrupoSanguineo',array(''=>'','A'=>'A','B'=>'B','O'=>'O','AB'=>'AB')); ?>
 		<?php echo $form->error($model1,'GrupoSanguineo'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model1,'RH'); ?>
-		<?php echo $form->textField($model1,'RH'); ?>
+		<?php echo $form->dropDownList($model1,'RH',array(''=>'','1'=>'Positivo','0'=>'Negativo'),array('empty'=>'Seleccione un factor RH')); ?>
 		<?php echo $form->error($model1,'RH'); ?>
 	</div>
 
@@ -109,9 +103,11 @@
 		?>
 		<?php echo $form->error($model1,'Fecha'); ?>
 	</div>
+	<br>
+	<?php echo $form->label($model2,'Informacion Contacto'); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model2,'Nombre'); ?>
+		<?php echo $form->label($model2,'Nombre'); ?>
 		<?php echo $form->textField($model2,'Nombre',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model2,'Nombre'); ?>
 	</div>
@@ -177,7 +173,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model1,'Parentesco'); ?>
-		<?php echo $form->textField($model1,'Parentesco',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->dropDownList($model1,'Parentesco',array(''=>'','Padre/Madre'=>'Padre/Madre','Hijo/a'=>'Hijo/a','tio/a'=>'tio/a','Sobrino/a'=>'Sobrino/a','Primo/a'=>'Primo/a')); ?>
 		<?php echo $form->error($model1,'Parentesco'); ?>
 	</div>
 

@@ -22,7 +22,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Dentro')); ?>:</b>
-	<?php echo CHtml::encode($data->Dentro); ?>
+	<?php echo CHtml::encode($data->getDentro()); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Ubicacion_idUbicacion')); ?>:</b>
