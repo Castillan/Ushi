@@ -24,6 +24,7 @@
 		<?php echo $form->dropDownList($model,'Persona_idPersona',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Cedula de persona involucadra')); ?>
 		<?php echo $form->error($model,'Persona_idPersona'); ?>
 	</div>
+	
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

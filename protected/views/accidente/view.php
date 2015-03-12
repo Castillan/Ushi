@@ -59,8 +59,24 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		'accidenteIdAccidente.Hora',
 
 		
-		array(
-			'class'=>'CButtonColumn',
+		array
+		(
+		    'class'=>'CButtonColumn',
+		    'template'=>'{view}{update}{delete}',
+		    'buttons'=>array
+    		(
+				'view' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/TrabajadorAccidente/view", array("id"=>$data->idTrabajadorAccidente))',
+				
+				),
+				'update' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/TrabajadorAccidente/update", array("id"=>$data->idTrabajadorAccidente))',
+				
+				),
+								
+			)
 		),
 	),
 )); ?>  
@@ -78,7 +94,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 <?php 
 $model4->Accidente_idAccidente=$model->idAccidente;
 $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'tstigos-grid',
+	'id'=>'testigos-grid',
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
      'summaryText' => 'Testigos del accidente',
 	'dataProvider'=>$model4->search(),
@@ -98,8 +114,25 @@ $this->widget('zii.widgets.grid.CGridView', array(
         'personaIdPersona.Cedula',
         'personaIdPersona.Telefono',
         'personaIdPersona.Celular',
-		array(
-			'class'=>'CButtonColumn',
+		array
+		(
+		    'class'=>'CButtonColumn',
+		    'template'=>'{view}{update}{delete}',
+		    'buttons'=>array
+    		(
+				'view' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Testigo/view", array("id"=>$data->idTestigo))',
+				
+				),
+				'update' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Testigo/update", array("id"=>$data->idTestigo))',
+				
+				),
+
+								
+			)
 		),
 	),
 )); ?>  

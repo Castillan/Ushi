@@ -60,9 +60,25 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		'tipoCondicionIdTipoCondicion.Nombre',
 		'Detalle',
 
-		array(
-			'class'=>'CButtonColumn',
-		),
+		array
+		(
+		    'class'=>'CButtonColumn',
+		    'template'=>'{view}{update}{delete}',
+		    'buttons'=>array
+    		(
+				'view' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Condicion/view", array("id"=>$data->idCondicion))',
+				
+				),
+				'update' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Condicion/update", array("id"=>$data->idCondicion))',
+				
+				),
+								
+			)
+		)
 	),
 )); ?>  
 
@@ -96,9 +112,25 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		'EfectoSecundario',
        
         
-		array(
-			'class'=>'CButtonColumn',
-		),
+		array
+		(
+		    'class'=>'CButtonColumn',
+		    'template'=>'{view}{update}{delete}',
+		    'buttons'=>array
+    		(
+				'view' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/CondicionMedicamento/view", array("id"=>$data->idCondicionMedicamento))',
+				
+				),
+				'update' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/CondicionMedicamento/update", array("id"=>$data->idCondicionMedicamento))',
+				
+				),
+								
+			)
+		)
 	),
 )); ?>  
 

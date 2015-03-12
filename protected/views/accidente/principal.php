@@ -77,8 +77,24 @@
             
         ), 
         
-		array(
-			'class'=>'CButtonColumn',
+		array
+		(
+		    'class'=>'CButtonColumn',
+		    'template'=>'{view}{update}{delete}',
+		    'buttons'=>array
+    		(
+				'view' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Accidente/view", array("id"=>$data->Accidente_idAccidente))',
+				
+				),
+				'update' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Accidente/update", array("id"=>$data->Accidente_idAccidente))',
+				
+				),
+								
+			)
 		),
 	),
 )); ?>

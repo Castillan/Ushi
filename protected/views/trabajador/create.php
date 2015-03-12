@@ -7,12 +7,9 @@ $this->breadcrumbs=array(
 	'Create',
 );
 
-$this->menu=array(
-	array('label'=>'List Trabajador', 'url'=>array('index')),
-	array('label'=>'Manage Trabajador', 'url'=>array('admin')),
-);
+
 ?>
 
-<h1>Create Trabajador</h1>
+<h1>Ingrese Datos del Trabajador</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
