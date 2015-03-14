@@ -61,7 +61,7 @@ class FichaMedica extends CActiveRecord
 			'condicionmedicamentos' => array(self::HAS_MANY, 'Condicionmedicamento', 'Ficha_Medica_idFicha_Medica'),
 			'personaIdPersona' => array(self::BELONGS_TO, 'Persona', 'Persona_idPersona'),
 			'idPariente0' => array(self::BELONGS_TO, 'Persona', 'idPariente'),
-			
+			'fichavacuna' => array(self::HAS_MANY, 'FichaVacuna', 'Ficha_Medica_idFicha_Medica'),
 		);
 	}
 
@@ -141,6 +141,8 @@ class FichaMedica extends CActiveRecord
         foreach($this->condicions as $c)
             $c->delete();
         foreach($this->condicionmedicamentos as $c)
+            $c->delete();
+        foreach($this->fichavacuna as $c)
             $c->delete();
         return parent::beforeDelete();
     }

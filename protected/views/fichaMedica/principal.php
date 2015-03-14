@@ -86,8 +86,7 @@
         array('name'=>'fecha_hasta','type'=>'Date'),
 		/*'GrupoSanguineo',
 		'RH',
-		'EstadoSalud',
-		'FechaAntitetanica',
+		'EstadoSalud',		
 		'Persona_idPersona',
 		
 		'Fecha',
