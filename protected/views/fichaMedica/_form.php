@@ -46,36 +46,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model1,'FechaAntitetanica'); ?>
-		<?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-		    'model' => $model1,
-		    'attribute' => 'FechaAntitetanica',
-		    'themeUrl' => Yii::app()->baseUrl . '/css/jui',
-		    'theme' => 'softark',
-		    'cssFile' => 'jquery-ui-1.9.2.custom.css',
-		    'options' => array(
-		        'showOn' => 'both',             // also opens with a button
-		        'dateFormat' => 'yy-mm-dd',     // format of "2012-12-25"
-		        'showOtherMonths' => true,      // show dates in other months
-		        'selectOtherMonths' => true,    // can seelect dates in other months
-		        'changeYear' => true,           // can change year
-		        'changeMonth' => true,          // can change month
-		        'yearRange' => '1950:2099',     // range of year
-		        'minDate' => '1950-01-01',      // minimum date
-		        'maxDate' => '2099-12-31',      // maximum date
-		        'showButtonPanel' => true,      // show button panel
-		    ),
-		    'htmlOptions' => array(
-		        'size' => '10',
-		        'maxlength' => '10',
-		    ),
-		));
-		?>
-		<?php echo $form->error($model1,'FechaAntitetanica'); ?>
-	</div>
-
-
-	<div class="row">
 		<?php echo $form->labelEx($model1,'Fecha'); ?>
 		<?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
 		    'model' => $model1,

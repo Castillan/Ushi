@@ -33,10 +33,6 @@
 	<?php echo CHtml::encode($data->EstadoSalud); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('FechaAntitetanica')); ?>:</b>
-	<?php echo CHtml::encode($data->FechaAntitetanica); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Fecha')); ?>:</b>
 	<?php echo CHtml::encode($data->Fecha); ?>
 	<br />

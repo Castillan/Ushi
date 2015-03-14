@@ -32,11 +32,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'FechaAntitetanica'); ?>
-		<?php echo $form->textField($model,'FechaAntitetanica'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'Persona_idPersona'); ?>
 		<?php echo $form->textField($model,'Persona_idPersona'); ?>
 	</div>

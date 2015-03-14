@@ -54,12 +54,16 @@
 			array('label' => 'Condición', 'url' => '/..'. Yii::app()->baseUrl.'/condicion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 			array('label' => 'TipoCondicion', 'url' => '/..'. Yii::app()->baseUrl.'/tipocondicion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
             array('label' => 'Medicamento', 'url' => '/..'. Yii::app()->baseUrl.'/medicamento/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Cond-Medicam', 'url' => '/..'. Yii::app()->baseUrl.'/condicionmedicamento/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),            
 		)) // add stack elements         
           ->stack(array(
+            array('label' => 'Cond-Medicam', 'url' => '/..'. Yii::app()->baseUrl.'/condicionmedicamento/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),                          
 			array('label' => 'CentroSalud', 'url' => '/..'. Yii::app()->baseUrl.'/centrosalud/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'TipoCentro', 'url' => '/..'. Yii::app()->baseUrl.'/tipocentro/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			array('label' => 'TipoCentro', 'url' => '/..'. Yii::app()->baseUrl.'/tipocentro/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),            
+		)) // add stack elements 
+        ->stack(array(
             array('label' => 'TipoAtencion', 'url' => '/..'. Yii::app()->baseUrl.'/tipoatencion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Vacuna', 'url' => '/..'. Yii::app()->baseUrl.'/vacuna/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),   
+            array('label' => 'FichaVacuna', 'url' => '/..'. Yii::app()->baseUrl.'/fichavacuna/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),   
 		)) // add stack elements  
         ->separator()
         ->single(
@@ -70,8 +74,11 @@
             ->stack(array(
 			array('label' => 'Roles', 'url' => '/..'. Yii::app()->baseUrl.'/roles/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 			array('label' => 'DiaSemana', 'url' => '/..'. Yii::app()->baseUrl.'/diasemana/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Ubicacion', 'url' => '/..'. Yii::app()->baseUrl.'/ubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Ubicacion', 'url' => '/..'. Yii::app()->baseUrl.'/ubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),            
+		))
+        ->stack(array(			
             array('label' => 'TipoUbicacion', 'url' => '/..'. Yii::app()->baseUrl.'/tipoubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+            array('label' => 'Notas', 'url' => '/..'. Yii::app()->baseUrl.'/notas/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		))
 		->separator(); // add separator
 
@@ -176,7 +183,7 @@
           Yii::app()->getPanel('adminPanel2')->show(array(
                 'skin' => 'dark', // skin dark
                 'visibleRule' => 'true', // this panel visible for all
-                'height' => 120, // this panel is 80px height
+                'height' => 90, // this panel is 80px height
                 'useCookie' => false, // this panel not use cookie
                 'initiallyOpen' => true // this panel is open by default
  

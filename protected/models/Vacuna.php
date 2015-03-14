@@ -1,27 +1,24 @@
 <?php
 
 /**
- * This is the model class for table "condicionmedicamento".
+ * This is the model class for table "vacuna".
  *
- * The followings are the available columns in table 'condicionmedicamento':
- * @property integer $idCondicionMedicamento
- * @property string $Dosis
- * @property string $EfectoSecundario
- * @property integer $Medicamento_idMedicamento
- * @property integer $Ficha_Medica_idFicha_Medica
+ * The followings are the available columns in table 'vacuna':
+ * @property integer $idVacuna
+ * @property string $Nombre
+ * @property string $Descripcion
  *
  * The followings are the available model relations:
- * @property FichaMedica $fichaMedicaIdFichaMedica
- * @property Medicamento $medicamentoIdMedicamento
+ * @property FichaVacuna[] $fichaVacunas
  */
-class Condicionmedicamento extends CActiveRecord
+class Vacuna extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'condicionmedicamento';
+		return 'vacuna';
 	}
 
 	/**
@@ -32,13 +29,12 @@ class Condicionmedicamento extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Dosis, Medicamento_idMedicamento, Ficha_Medica_idFicha_Medica', 'required'),
-			array('Medicamento_idMedicamento, Ficha_Medica_idFicha_Medica', 'numerical', 'integerOnly'=>true),
-			array('Dosis', 'length', 'max'=>15),
-			array('EfectoSecundario', 'length', 'max'=>45),
+			array('Nombre', 'required'),
+			array('Nombre', 'length', 'max'=>60),
+			array('Descripcion', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idCondicionMedicamento, Dosis, EfectoSecundario, Medicamento_idMedicamento, Ficha_Medica_idFicha_Medica', 'safe', 'on'=>'search'),
+			array('idVacuna, Nombre, Descripcion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,8 +46,7 @@ class Condicionmedicamento extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'fichaMedicaIdFichaMedica' => array(self::BELONGS_TO, 'FichaMedica', 'Ficha_Medica_idFicha_Medica'),
-			'medicamentoIdMedicamento' => array(self::BELONGS_TO, 'Medicamento', 'Medicamento_idMedicamento'),
+			'fichaVacunas' => array(self::HAS_MANY, 'FichaVacuna', 'Vacuna_idVacuna'),
 		);
 	}
 
@@ -61,11 +56,9 @@ class Condicionmedicamento extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'idCondicionMedicamento' => 'Id Condicion Medicamento',
-			'Dosis' => 'Dosis',
-			'EfectoSecundario' => 'Efecto Secundario',
-			'Medicamento_idMedicamento' => 'Medicamento',
-			'Ficha_Medica_idFicha_Medica' => 'Ficha Medica Id Ficha Medica',
+			'idVacuna' => 'Id Vacuna',
+			'Nombre' => 'Nombre',
+			'Descripcion' => 'Descripcion',
 		);
 	}
 
@@ -87,11 +80,9 @@ class Condicionmedicamento extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('idCondicionMedicamento',$this->idCondicionMedicamento);
-		$criteria->compare('Dosis',$this->Dosis,true);
-		$criteria->compare('EfectoSecundario',$this->EfectoSecundario,true);
-		$criteria->compare('Medicamento_idMedicamento',$this->Medicamento_idMedicamento);
-		$criteria->compare('Ficha_Medica_idFicha_Medica',$this->Ficha_Medica_idFicha_Medica);
+		$criteria->compare('idVacuna',$this->idVacuna);
+		$criteria->compare('Nombre',$this->Nombre,true);
+		$criteria->compare('Descripcion',$this->Descripcion,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -102,7 +93,7 @@ class Condicionmedicamento extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Condicionmedicamento the static model class
+	 * @return Vacuna the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

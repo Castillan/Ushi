@@ -28,8 +28,7 @@ $this->menu=array(
 		'label'=>'RH',
 		'value'=>$model->getRH()
 		),
-		'EstadoSalud',
-		'FechaAntitetanica',
+		'EstadoSalud',		
 		'Persona_idPersona',
 		'Fecha',
 		'idPariente0.Nombre',

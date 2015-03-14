@@ -45,7 +45,7 @@ class FichaMedica extends CActiveRecord
 			array('EstadoSalud, Parentesco', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idFicha_Medica, GrupoSanguineo, RH, EstadoSalud, FechaAntitetanica, Persona_idPersona, Fecha, idPariente, Parentesco, persona_nombre, persona_apellido, persona_cedula, fecha_desde, fecha_hasta', 'safe', 'on'=>'search'),
+			array('idFicha_Medica, GrupoSanguineo, RH, EstadoSalud, Persona_idPersona, Fecha, idPariente, Parentesco, persona_nombre, persona_apellido, persona_cedula, fecha_desde, fecha_hasta', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -74,8 +74,7 @@ class FichaMedica extends CActiveRecord
 			'idFicha_Medica' => 'Id Ficha Medica',
 			'GrupoSanguineo' => 'Grupo Sanguineo',
 			'RH' => 'Rh',
-			'EstadoSalud' => 'Estado Salud',
-			'FechaAntitetanica' => 'Fecha Antitetanica',
+			'EstadoSalud' => 'Estado Salud',			
 			'Persona_idPersona' => 'Persona Id Persona',
 			'Fecha' => 'Fecha',
 			'idPariente' => 'Id Pariente',
@@ -105,8 +104,7 @@ class FichaMedica extends CActiveRecord
 		$criteria->compare('idFicha_Medica',$this->idFicha_Medica);
 		$criteria->compare('GrupoSanguineo',$this->GrupoSanguineo,true);
 		$criteria->compare('RH',$this->RH);
-		$criteria->compare('EstadoSalud',$this->EstadoSalud,true);
-		$criteria->compare('FechaAntitetanica',$this->FechaAntitetanica,true);
+		$criteria->compare('EstadoSalud',$this->EstadoSalud,true);		
 		$criteria->compare('Persona_idPersona',$this->Persona_idPersona);
 		$criteria->compare('Fecha',$this->Fecha,true);
 		$criteria->compare('idPariente',$this->idPariente);
