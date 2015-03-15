@@ -233,11 +233,7 @@
 	</a></li><li><a href="http://www.unet.edu.ve/telefonos-internos.html">
 		<span>
 			Telefonos Internos	</span>
-	</a></li><li>		<a class="" href="http://curly.unet.edu.ve/encuesta/Proveedores/" target="_blank">
-				<span>
-				Proveedores			</span>
-			</a>
-	</li><li>		<a class="" href="https://intranet.unet.edu.ve/postgrado/ingreso.php" target="_blank">
+	</a></li><li>		<a class="" href="https://intranet.unet.edu.ve/postgrado/ingreso.php" target="_blank">
 				<span>
 				Estudiantes de Postgrado			</span>
 			</a>

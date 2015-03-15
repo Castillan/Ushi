@@ -20,31 +20,6 @@
 
 	<?php echo $form->errorSummary(array($model1,$model2)); ?>
 	
-
-	<div class="row">
-		<?php echo $form->labelEx($model1,'Cédula'); ?>
-		<?php echo $form->dropDownList($model1,'Persona_idPersona',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Seleccione una persona por su cédula')); ?>
-		<?php echo $form->error($model1,'Persona_idPersona'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model1,'GrupoSanguineo'); ?>
-		<?php echo $form->dropDownList($model1,'GrupoSanguineo',array(''=>'','A'=>'A','B'=>'B','O'=>'O','AB'=>'AB')); ?>
-		<?php echo $form->error($model1,'GrupoSanguineo'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model1,'RH'); ?>
-		<?php echo $form->dropDownList($model1,'RH',array(''=>'','1'=>'Positivo','0'=>'Negativo'),array('empty'=>'Seleccione un factor RH')); ?>
-		<?php echo $form->error($model1,'RH'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model1,'EstadoSalud'); ?>
-		<?php echo $form->textField($model1,'EstadoSalud',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($model1,'EstadoSalud'); ?>
-	</div>
-
 	<div class="row">
 		<?php echo $form->labelEx($model1,'Fecha'); ?>
 		<?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
@@ -72,7 +47,32 @@
 		));
 		?>
 		<?php echo $form->error($model1,'Fecha'); ?>
+	</div>    
+
+	<div class="row">
+		<?php echo $form->labelEx($model1,'Cédula'); ?>
+		<?php echo $form->dropDownList($model1,'Persona_idPersona',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Seleccione una persona por su cédula')); ?>
+		<?php echo $form->error($model1,'Persona_idPersona'); ?>
 	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model1,'GrupoSanguineo'); ?>
+		<?php echo $form->dropDownList($model1,'GrupoSanguineo',array(''=>'','A'=>'A','B'=>'B','O'=>'O','AB'=>'AB')); ?>
+		<?php echo $form->error($model1,'GrupoSanguineo'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model1,'RH'); ?>
+		<?php echo $form->dropDownList($model1,'RH',array(''=>'','1'=>'Positivo','0'=>'Negativo'),array('empty'=>'Seleccione un factor RH')); ?>
+		<?php echo $form->error($model1,'RH'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model1,'EstadoSalud'); ?>
+		<?php echo $form->textField($model1,'EstadoSalud',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model1,'EstadoSalud'); ?>
+	</div>
+
 	<br>
 	<?php echo $form->label($model2,'Informacion Contacto'); ?>
 

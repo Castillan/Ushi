@@ -20,6 +20,7 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
+        'Fecha',
 		'personaIdPersona.Nombre',
 		'personaIdPersona.Apellido',
 		'personaIdPersona.Cedula',
@@ -29,8 +30,7 @@ $this->menu=array(
 		'value'=>$model->getRH()
 		),
 		'EstadoSalud',		
-		'Persona_idPersona',
-		'Fecha',
+		'Persona_idPersona',		
 		'idPariente0.Nombre',
 		'idPariente0.Apellido',
 		'idPariente0.Cedula',

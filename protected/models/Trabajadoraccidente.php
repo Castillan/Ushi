@@ -98,9 +98,9 @@ class Trabajadoraccidente extends CActiveRecord
 		$criteria->compare('CentroSalud_idCentroSalud',$this->CentroSalud_idCentroSalud);
 		$criteria->compare('Trabajador_idTrabajador',$this->Trabajador_idTrabajador);
         $criteria->compare('accidenteIdAccidente.Fecha',$this->fecha_acc);
-        $criteria->addSearchCondition('Nombre',$this->persona_nombre);
-        $criteria->addSearchCondition('Apellido',$this->persona_apellido);
-        $criteria->addSearchCondition('Cedula',$this->persona_cedula);
+        $criteria->compare('Nombre',$this->persona_nombre);
+        $criteria->compare('Apellido',$this->persona_apellido);
+        $criteria->compare('Cedula',$this->persona_cedula);
         $criteria->compare('Dentro',$this->trab_dentro,true);
         if(!empty($this->fecha_desde) && !empty($this->fecha_hasta)){
             $criteria->addBetweenCondition('accidenteIdAccidente.Fecha',$this->fecha_desde,$this->fecha_hasta,'AND');

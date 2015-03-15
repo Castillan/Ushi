@@ -12,6 +12,10 @@
 	<?php echo CHtml::link(CHtml::encode($data->idFicha_Medica), array('view', 'id'=>$data->idFicha_Medica)); ?>
 	<br />	
 	
+    <b><?php echo CHtml::encode($data->getAttributeLabel('Fecha')); ?>:</b>
+	<?php echo CHtml::encode($data->Fecha); ?>
+	<br />
+	
 	<b><?php echo 'Nombre' ?>:</b>
 	<?php echo Persona::model()->find(' idPersona = '.$data->Persona_idPersona)->Nombre; ?>
 	<br />
@@ -33,10 +37,7 @@
 	<?php echo CHtml::encode($data->EstadoSalud); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Fecha')); ?>:</b>
-	<?php echo CHtml::encode($data->Fecha); ?>
-	<br />
-	
+
 	<h2> Persona de Contacto</h2>
 
 	<b><?php echo 'Nombre' ?>:</b>

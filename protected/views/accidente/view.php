@@ -23,7 +23,11 @@ $this->menu=array(
 	'attributes'=>array(
 		'idAccidente',
 		'Fecha',
-		'DiaSemana_idDiaSemana',
+		//'DiaSemana_idDiaSemana',
+        array(
+            'label'=>'Día de la semana',
+        'value'=>Diasemana::model()->find(" idDiaSemana = ".$model->DiaSemana_idDiaSemana)->Nombre
+        ),
 		'Hora',
 		array(
 		'label'=>'Dentro',

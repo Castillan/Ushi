@@ -1,0 +1,19 @@
+1) agregar etiquetas para noticias recientes (ya esta el modelo)
+2) agregar telefono y correo: (0276) 3530676 , seguridad@unet.edu.ve
+3) dentro de la unet (si,no) en grid
+4) condicion medica que sea opcional??
+5) ficha medica/3, ver testigos, hora del accidente ???
+6) encode utf-8 
+7) arreglar el css
+8) fechas para distintas vacunas (ya estan los modelos)
+9) fecha de nacimiento de la persona de contacto no es necesaria
+10) links de menu crud estaticos
+11) calendarios en campos de fecha
+12) cambiar cedula de varchar a number igual telefono y celular
+13) verificar solo email en campo email
+14) referencias de formatos de datos(horas,fechas)
+15) cambiar todo a español
+16) colocar parentezco hermano
+17)Encontrar día de la semana a partir de fecha??
+18)Redireccionar a fichas medicas luego de agregar condiciones y medicamentos
+19) Nivel educativo en el create de trabajador

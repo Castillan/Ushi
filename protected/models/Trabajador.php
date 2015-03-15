@@ -146,7 +146,7 @@ class Trabajador extends CActiveRecord
 		$criteria->compare('IngresoIVSS',$this->IngresoIVSS,true);
 		$criteria->compare('Ubicacion_idUbicacion',$this->Ubicacion_idUbicacion);
 		$criteria->compare('Cargo_idCargo',$this->Cargo_idCargo);
-		$criteria->compare('Dependencia_idDependencia',$this->Dependencia_idDependencia);
+		$criteria->compare('Dependencia_idDependencia',$this->Dependencia_idDependencia,true);
 		$criteria->compare('Sueldo',$this->Sueldo,true);
         $criteria->compare('personaIdPersona.Nombre', $this->persona_nombre, true );
         $criteria->compare('personaIdPersona.Apellido', $this->persona_apellido, true );
