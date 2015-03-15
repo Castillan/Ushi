@@ -7,8 +7,7 @@
  * @property integer $idFicha_Medica
  * @property string $GrupoSanguineo
  * @property integer $RH
- * @property string $EstadoSalud
- * @property string $FechaAntitetanica
+ * @property string $EstadoSalud 
  * @property integer $Persona_idPersona
  * @property string $Fecha
  * @property integer $idPariente
@@ -39,7 +38,7 @@ class FichaMedica extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('GrupoSanguineo, RH, EstadoSalud, FechaAntitetanica, Persona_idPersona, Fecha, Parentesco', 'required'),
+			array('GrupoSanguineo, RH, EstadoSalud, Persona_idPersona, Fecha, Parentesco', 'required'),
 			array('RH, Persona_idPersona, idPariente', 'numerical', 'integerOnly'=>true),
 			array('GrupoSanguineo', 'length', 'max'=>2),
 			array('EstadoSalud, Parentesco', 'length', 'max'=>45),
