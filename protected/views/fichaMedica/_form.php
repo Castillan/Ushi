@@ -143,7 +143,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model1,'Parentesco'); ?>
-		<?php echo $form->dropDownList($model1,'Parentesco',array(''=>'','Padre/Madre'=>'Padre/Madre','Hijo/a'=>'Hijo/a','tio/a'=>'tio/a','Sobrino/a'=>'Sobrino/a','Primo/a'=>'Primo/a')); ?>
+		<?php echo $form->dropDownList($model1,'Parentesco',array(''=>'','Padre/Madre'=>'Padre/Madre','Hijo/a'=>'Hijo/a','tio/a'=>'tio/a','Sobrino/a'=>'Sobrino/a','Primo/a'=>'Primo/a','Hermano/a'=>'Hermano/a')); ?>
 		<?php echo $form->error($model1,'Parentesco'); ?>
 	</div>
 

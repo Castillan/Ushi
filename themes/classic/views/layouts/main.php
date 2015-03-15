@@ -1,5 +1,5 @@
 	  
-
+<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/template_footer.css" />
 <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/jsn_social_icons_footer.css" />	 
 <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/blue_footer.css" />
 <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/business_footer.css" />

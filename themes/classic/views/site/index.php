@@ -186,22 +186,25 @@ margin: 0 auto;
 					<div class="nota" >
 						<div class="imagen_nota" style=" background-image: url(./themes/classic/images/nota/5.png); "></div>
 						<div class="texo_nota">
-							implementar acciones de prevenención y mitigación así como participar en la preparación de planes de 
-							respuesta. Eje "Desarrollo Integral Sostenible"
+<!--							implementar acciones de prevenención y mitigación así como participar en la preparación de planes de 
+							respuesta. Eje "Desarrollo Integral Sostenible"-->
+                            <?php echo Notas::model()->find("idNotas = 1")->Nota1; ?>
 						</div>
 					</div>
 
 					<div class="nota">
 						<div class="imagen_nota"  style="background-image: url(./themes/classic/images/nota/3.png); "></div>
 					<div class="texo_nota">
-							Coordinar la ejecución del plan de respuesta de acuerdo a las alertas declaradas por la autoridades competentes
+						<!--	Coordinar la ejecución del plan de respuesta de acuerdo a las alertas declaradas por la autoridades competentes-->
+                        <?php echo Notas::model()->find("idNotas = 1")->Nota2; ?>
 						</div>
 					</div>
 
 					<div class="nota">
 						<div class="imagen_nota"  style="background-image: url(./themes/classic/images/nota/6.png); "></div>
 					<div class="texo_nota">
-							Rehabilitación y recontrucción: acciones o solicitudes de apoyo con enfoque de desarrollo sostenible hacia la comunidad obrera/ estudiantil afectada
+							<!--Rehabilitación y recontrucción: acciones o solicitudes de apoyo con enfoque de desarrollo sostenible hacia la comunidad obrera/ estudiantil afectada-->
+                        <?php echo Notas::model()->find("idNotas = 1")->Nota3; ?>
 						</div>
 					</div>
 				</div>
