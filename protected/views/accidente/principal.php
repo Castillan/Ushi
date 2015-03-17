@@ -67,7 +67,8 @@
          array('name'=>'fecha_desde','type'=>'Date'),
         array('name'=>'fecha_hasta','type'=>'Date'),
          array('name'=>'trab_dentro', 'header'=>'Dentro de la UNET', 
-               'value'=>'Accidente::model()->find(" idAccidente = ".$data->Accidente_idAccidente)->Dentro',
+               //'value'=>'Accidente::model()->find(" idAccidente = ".$data->Accidente_idAccidente)->Dentro',
+               'value'=>array($this,'getDentro'),
                'filter'=>
                 array(
                     //''=>'All',

@@ -55,12 +55,14 @@ class Trabajador extends CActiveRecord
 			array('Persona_idPersona, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, CodigoPostal, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia', 'numerical', 'integerOnly'=>true),
 			array('Nacionalidad, Sexo, Mano', 'length', 'max'=>1),
 			array('Email, Sueldo', 'length', 'max'=>45),
+            array('Email','email'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('idTrabajador, Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo, persona_nombre, persona_apellido, persona_cedula', 'safe', 'on'=>'search'),
 		);
 	}
 
+    
 	/**
 	 * @return array relational rules.
 	 */

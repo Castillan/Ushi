@@ -60,6 +60,7 @@
 		    'htmlOptions' => array(
 		        'size' => '10',
 		        'maxlength' => '10',
+                 'placeholder'=>'aaaa-mm-dd',  
 		    ),
 		));
 		?>

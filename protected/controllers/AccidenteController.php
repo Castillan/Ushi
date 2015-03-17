@@ -212,4 +212,15 @@ class AccidenteController extends Controller
 			Yii::app()->end();
 		}
 	}
+    
+    protected function getDentro($data,$row){
+        
+        if($data->accidenteIdAccidente->Dentro==1){
+            return 'Si';
+        }
+        else
+        {
+            return 'No';
+        }        
+    }
 }

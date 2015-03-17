@@ -42,6 +42,7 @@
 		    'htmlOptions' => array(
 		        'size' => '10',
 		        'maxlength' => '10',
+                 'placeholder'=>'aaaa-mm-dd',  
 		    ),
 		));
 		?>
@@ -56,7 +57,11 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Hora'); ?>
-		<?php echo $form->textField($model,'Hora'); ?>
+		<?php echo $form->textField($model,'Hora', array(
+		        'size' => '8',
+		        'maxlength' => '8',
+                 'placeholder'=>'HH:MM:SS',  
+		    )); ?>
 		<?php echo $form->error($model,'Hora'); ?>
 	</div>
 
