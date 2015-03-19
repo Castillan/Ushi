@@ -130,8 +130,8 @@ class Accidente extends CActiveRecord
     const Dentro = 1;
 
     public static $dfLabels= array(
-        self::Fuera => 'Fuera',
-        self::Dentro => 'Dentro',
+        self::Fuera => 'No',
+        self::Dentro => 'Si',
     );
 
     public function getDentro()

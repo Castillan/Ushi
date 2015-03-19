@@ -14,7 +14,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('DiaSemana_idDiaSemana')); ?>:</b>
-	<?php echo CHtml::encode($data->DiaSemana_idDiaSemana); ?>
+	<?php echo CHtml::encode($data->diaSemanaIdDiaSemana->Nombre); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Hora')); ?>:</b>
@@ -26,7 +26,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Ubicacion_idUbicacion')); ?>:</b>
-	<?php echo CHtml::encode($data->Ubicacion_idUbicacion); ?>
+	<?php echo CHtml::encode($data->ubicacionIdUbicacion->Nombre); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Lugar')); ?>:</b>

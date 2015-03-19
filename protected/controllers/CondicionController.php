@@ -97,7 +97,7 @@ class CondicionController extends Controller
 		{
 			$model->attributes=$_POST['Condicion'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->idCondicion));
+				$this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
 		}
 
 		$this->render('condicion',array(

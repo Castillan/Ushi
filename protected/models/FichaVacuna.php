@@ -61,7 +61,7 @@ class FichaVacuna extends CActiveRecord
 			'idFicha_Vacuna' => 'Id Ficha Vacuna',
 			'Fecha' => 'Fecha',
 			'Ficha_Medica_idFicha_Medica' => 'Ficha Medica Id Ficha Medica',
-			'Vacuna_idVacuna' => 'Vacuna Id Vacuna',
+			'Vacuna_idVacuna' => 'Vacuna',
 		);
 	}
 

@@ -32,7 +32,7 @@ class FichaVacunaController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','vacuna'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -72,10 +72,29 @@ class FichaVacunaController extends Controller
 		{
 			$model->attributes=$_POST['FichaVacuna'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->idFicha_Vacuna));
+				$this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
 		}
 
 		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+	
+	public function actionVacuna($id)
+	{
+		$model=new FichaVacuna;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		$model->Ficha_Medica_idFicha_Medica=$id;
+		if(isset($_POST['FichaVacuna']))
+		{
+			$model->attributes=$_POST['FichaVacuna'];
+			if($model->save())
+				$this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
+		}
+
+		$this->render('vacuna',array(
 			'model'=>$model,
 		));
 	}

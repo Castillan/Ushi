@@ -94,7 +94,7 @@ class CondicionmedicamentoController extends Controller
 		{
 			$model->attributes=$_POST['Condicionmedicamento'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->idCondicionMedicamento));
+				$this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
 		}
 
 		$this->render('medicamento',array(

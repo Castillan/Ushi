@@ -55,7 +55,8 @@ class FichaMedicaController extends Controller
 		//$model3=Condicion::model()->findByAttributes(array("Ficha_Medica_idFicha_Medica"=>$id));
 		$model3= new Condicion;
 		$model4= new CondicionMedicamento;
-		$this->render('view',array('model'=>$this->loadModel($id),'model3'=>$model3,'model4'=>$model4,	
+		$model5= new FichaVacuna;
+		$this->render('view',array('model'=>$this->loadModel($id),'model3'=>$model3,'model4'=>$model4, 'model5'=>$model5,	
 		));
 	}
 

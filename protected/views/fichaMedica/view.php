@@ -92,6 +92,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 			)); ?> 		
 </div>	
 <br>
+<br>
 <?php 
 $model4->Ficha_Medica_idFicha_Medica=$model->idFicha_Medica;
 $this->widget('zii.widgets.grid.CGridView', array(
@@ -138,7 +139,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 <div class="new-button">
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
-			    'name'=>'update-worker',
+			    'name'=>'Nuevo Medicamento',
 			    'caption'=>'Medicamentos',
 			    'url'=>array('/condicionmedicamento/medicamento', 'id'=>$model->idFicha_Medica),
 			    
@@ -146,3 +147,58 @@ $this->widget('zii.widgets.grid.CGridView', array(
 
 			 ?> 		
 </div>	
+<br>
+
+<br>
+<?php 
+$model5->Ficha_Medica_idFicha_Medica=$model->idFicha_Medica;
+$this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'medicamentos-grid',
+     'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
+     'summaryText' => 'Mostrando resultados {start} al {end} de {count} en total',
+	'dataProvider'=>$model5->search(),
+	'filter'=>$model5,
+	'columns'=>array(
+	
+      /*  array( 'name'=>'condicionmedicamentos.Dosis', 'value'=>'Condicionmedicamento::model()->find(" Ficha_Medica_idFicha_Medica = ".$data->idFicha_Medica)->Dosis' ),
+         array( 'name'=>'condicionmedicamentos.Dosis', 'value'=>'Condicionmedicamento::model()->find(" Ficha_Medica_idFicha_Medica = ".$data->idFicha_Medica)->EfectoSecundario' ),
+       // array( 'name'=>'persona_cedula', 'value'=>'Persona::model()->find(" idPersona = ".$data->Persona_idPersona)->Cedula; ' ),
+       */ 
+        'vacunaIdVacuna.Nombre',
+		'Fecha',
+		'vacunaIdVacuna.Descripcion',
+       
+        
+		array
+		(
+		    'class'=>'CButtonColumn',
+		    'template'=>'{view}{update}{delete}',
+		    'buttons'=>array
+    		(
+				'view' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/FichaVacuna/view", array("id"=>$data->idFicha_Vacuna))',
+				
+				),
+				'update' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/FichaVacuna/update", array("id"=>$data->idFicha_Vacuna))',
+				
+				),
+								
+			)
+		),
+	),
+)); ?>  
+
+<div class="new-button">
+			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
+			    'buttonType'=>'link',
+			    'name'=>'Nueva Vacuna',
+			    'caption'=>'Vacunas',
+			    'url'=>array('/fichaVacuna/vacuna', 'id'=>$model->idFicha_Medica),
+			   
+			)); ?> 		
+</div>	
+
+
