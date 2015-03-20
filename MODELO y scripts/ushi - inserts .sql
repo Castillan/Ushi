@@ -1,13 +1,13 @@
--- --------------------------------------------------------
+﻿-- --------------------------------------------------------
 --
 -- Volcado de datos para la tabla `persona`
 --
 
 INSERT INTO `persona` (`idPersona`, `Nombre`, `Apellido`, `Cedula`, `FechaNacimiento`, `Direccion`, `Telefono`, `Celular`) VALUES
-(1, 'Juan', 'Castillo', '20120737', '1990-05-03', 'San Cristobal', '29910883', '99109901'),
-(2, 'Martin', 'Lopez', '15923487', '1982-08-20', 'San Cristobal', '887691', '9917621'),
-(3, 'Pedro', 'Carvajal', '13983487', '1980-07-25', 'San Cristobal', '8753691', '983621'),
-(4, 'Luis Miguel', 'Molina', '21542121', '1993-11-13', 'Rubio', '04149750344', '04149750344');
+(1, 'Juan', 'Castillo', 20120737, '1990-05-03', 'San Cristobal', 29910883, 99109901),
+(2, 'Martin', 'Lopez', 15923487, '1982-08-20', 'San Cristobal', 887691, 9917621),
+(3, 'Pedro', 'Carvajal', 13983487, '1980-07-25', 'San Cristobal', 8753691, 983621),
+(4, 'Luis Miguel', 'Molina', 21542121, '1993-11-13', 'Rubio', 04149750344, 04149750344);
 -- --------------------------------------------------------
 
 --
@@ -17,7 +17,7 @@ INSERT INTO `persona` (`idPersona`, `Nombre`, `Apellido`, `Cedula`, `FechaNacimi
 INSERT INTO `dependencia` (`idDependencia`, `Nombre`) VALUES
 (1, 'Docencia'),
 (2, 'Administrativo'),
-(3, 'Bienestrar');
+(3, 'Bienestar');
 -- --------------------------------------------------------
 
 --
@@ -85,9 +85,22 @@ INSERT INTO `TipoUbicacion` (`idTipoUbicacion`, `Nombre`) VALUES
 
 INSERT INTO `ubicacion` (`idUbicacion`, `Nombre`, `Ubicacion_idUbicacion`, `TipoUbicacion_idTipoUbicacion`) VALUES
 (1, 'Tachira', NULL,1),
-(2, 'San Cristobal', 1,2),
-(3, 'Junin', 1,2),
-(4, 'Rubio', 3,3);
+(2, 'Distrito Capital', NULL,1),
+(3, 'Merida', NULL,1),
+(4, 'Junin', 1,2),
+(5, 'San Cristobal', 1,2),
+(6, 'Libertador', 2,2),
+(7, 'Zea', 3,2),
+(8, 'Libertador', 3,2),
+(9, 'Bramon', 4,3),
+(10, 'Rubio', 4,3),
+(11, 'La Concordia', 5,3),
+(12, 'San Juan Bautista', 5,3),
+(13, 'Santa Teresa', 6,3),
+(14, 'San Juan', 6,3),
+(15, 'Zea', 7,3),
+(16, 'Arias', 8,3),
+(17, 'El Llano', 8,3);
 -- --------------------------------------------------------
 --
 -- Volcado de datos para la tabla `tipoatencion`
@@ -267,7 +280,13 @@ INSERT INTO `roles` (`idRoles`, `Nombre`, `Descripcion`) VALUES
 INSERT INTO `usuarios` (`id`, `Usuario`, `Password`, `Roles_idRoles`) VALUES
 (1, 'D.Hernandez', '1234', 1),
 (2, 'J.Perez', '1234', 2),
-(3, 'M.Lopez', '1234', 2);
+(3, 'M.Lopez', '1234', 2),
+(4, 'luis', '1234', 1),
+(5, 'juan', '1234', 1),
+(6, 'christian', '1234', 1),
+(7, 'brian', '1234', 1),
+(8, 'domingo', '1234', 1),
+(9, 'noadmin', '1234', 2);
 -- --------------------------------------------------------
 
 --

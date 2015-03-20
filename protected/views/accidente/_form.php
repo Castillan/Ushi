@@ -67,13 +67,44 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Dentro'); ?>
-		<?php echo $form->dropDownList($model,'Dentro',array(''=>'','1'=>'Dentro','M'=>'Fuera')); ?>
+		<?php echo $form->dropDownList($model,'Dentro',array(''=>'','1'=>'Si','0'=>'No')); ?>
 		<?php echo $form->error($model,'Dentro'); ?>
 	</div>
 
+    
 	<div class="row">
-		<?php echo $form->labelEx($model,'Ubicacion_idUbicacion'); ?>
-		<?php echo $form->dropDownList($model,'Ubicacion_idUbicacion',CHtml::listData(Ubicacion::model()->findAll(),'idUbicacion','Nombre'),array('empty'=>'Seleccione uno')); ?>
+		<?php echo '<b>Estado</b><br/>'; ?>
+		<?php echo CHtml::activeDropDownList($model,'idn1',CHtml::listData(Ubicacion::model()->findAll('TipoUbicacion_idTipoUbicacion = 1'),'idUbicacion','Nombre'),
+        array(
+            'onchange'=>CHtml::ajax(array(
+                'type'=>'POST',
+                'url'=>CController::createUrl('ubicacion/selectmunicipio'),
+                'update'=>'#Accidente_idn2',
+            )),
+            'prompt'=>'Seleccione uno'
+        )); ?>
+		<?php echo $form->error($model,'Ubicacion_idUbicacion'); ?>
+	</div>
+    
+    
+    <div class="row">
+		<?php echo '<b>Municipio</b><br/>'; ?>
+		<?php echo CHtml::activeDropDownList($model,'idn2',array(),
+        array(
+            'onchange'=>CHtml::ajax(array(
+                'type'=>'POST',
+                'url'=>CController::createUrl('ubicacion/selectparroquia'),
+                'update'=>'#Accidente_Ubicacion_idUbicacion',
+            )),
+            'prompt'=>'Seleccione uno'
+        )); ?>
+		<?php echo $form->error($model,'Ubicacion_idUbicacion'); ?>
+	</div>
+    
+    
+    <div class="row">
+		<?php echo '<b>Parroquia</b><br/>'; ?>
+		<?php echo $form->dropDownList($model,'Ubicacion_idUbicacion',array(),array('prompt'=>'Seleccione una')); ?>
 		<?php echo $form->error($model,'Ubicacion_idUbicacion'); ?>
 	</div>
 

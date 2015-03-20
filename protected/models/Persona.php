@@ -39,8 +39,9 @@ class Persona extends CActiveRecord
 		return array(
 			array('Nombre, Apellido', 'required'),
 			array('Nombre, Apellido, Direccion', 'length', 'max'=>45),
-			array('Cedula', 'length', 'max'=>9),
-			array('Telefono, Celular', 'length', 'max'=>20),
+            array('Cedula, Telefono, Celular', 'numerical', 'integerOnly'=>true),
+			array('Cedula', 'length', 'min'=>6, 'max'=>9),
+			array('Telefono, Celular', 'length', 'min'=>10,'max'=>11),			
 			array('FechaNacimiento', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.

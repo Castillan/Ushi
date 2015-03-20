@@ -51,7 +51,7 @@
 	</div>    
 
 	<div class="row">
-		<?php echo $form->labelEx($model1,'Cédula'); ?>
+		<?php echo $form->labelEx($model1,'Cedula'); ?>
 		<?php echo $form->dropDownList($model1,'Persona_idPersona',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Seleccione una persona por su cédula')); ?>
 		<?php echo $form->error($model1,'Persona_idPersona'); ?>
 	</div>

@@ -30,10 +30,16 @@ $this->menu=array(
         ),
 		'Hora',
 		array(
-		'label'=>'Dentro',
+		'label'=>'Dentro de la UNET',
 		'value'=>$model->getDentro()
 		),
-		'ubicacionIdUbicacion.Nombre',
+        
+		'ubicacionIdUbicacion.ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
+		
+		'ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
+		
+		'ubicacionIdUbicacion.Nombre',		
+        
 		'Lugar',
 		'Descripcion',
 	),
@@ -137,7 +143,11 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				 'url'=>'Yii::app()->createUrl("/Testigo/update", array("id"=>$data->idTestigo))',
 				
 				),
-
+                'delete' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Testigo/delete", array("id"=>$data->idTestigo))',
+				
+				),
 								
 			)
 		),

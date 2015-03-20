@@ -21,6 +21,7 @@
  */
 class Accidente extends CActiveRecord
 {
+    public $idn1, $idn2;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -42,7 +43,7 @@ class Accidente extends CActiveRecord
 			array('Lugar', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idAccidente, Fecha, DiaSemana_idDiaSemana, Hora, Dentro, Ubicacion_idUbicacion, Lugar, Descripcion', 'safe', 'on'=>'search'),
+			array('idAccidente, Fecha, DiaSemana_idDiaSemana, Hora, Dentro, Ubicacion_idUbicacion, Lugar, Descripcion,idn1,idn2', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -71,10 +72,13 @@ class Accidente extends CActiveRecord
 			'Fecha' => 'Fecha',
 			'DiaSemana_idDiaSemana' => 'Dia de laSemana',
 			'Hora' => 'Hora',
-			'Dentro' => 'Dentro',
-			'Ubicacion_idUbicacion' => 'Ciudad',
+			'Dentro' => 'Dentro de la UNET',
+			'Ubicacion_idUbicacion' => 'Ubicacion',
 			'Lugar' => 'Lugar del Hecho',
 			'Descripcion' => 'Descripcion del Accidente',
+            'ubicacionIdUbicacion.ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre'=>'Estado',
+            'ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre'=>'Municipio',
+            'ubicacionIdUbicacion.Nombre'=>'Parroquia',
 		);
 	}
 

@@ -26,9 +26,18 @@ $this->menu=array(
         'personaIdPersona.Cedula',
         'personaIdPersona.Nombre',
         'personaIdPersona.Apellido',
-		'Nacionalidad',
-		'Sexo',
-		'Mano',
+		array(
+		'label'=>'Nacionalidad',
+		'value'=>$model->getNacionalidad()
+		),
+		array(
+		'label'=>'Sexo',
+		'value'=>$model->getSexo()
+		),
+		array(
+		'label'=>'Mano dominante',
+		'value'=>$model->getMano()
+		),
 		//'Edo_Civil_idEdo_Civil',
         'edoCivilIdEdoCivil.Nombre',
 		'Hijos',
@@ -40,7 +49,11 @@ $this->menu=array(
 		'IngresoUNET',
 		'IngresoIVSS',
 		//'Ubicacion_idUbicacion',
-        'ubicacionIdUbicacion.Nombre',
+        'ubicacionIdUbicacion.ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
+		
+		'ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
+		
+		'ubicacionIdUbicacion.Nombre',		
 		//'Cargo_idCargo',
         'cargoIdCargo.Nombre',
 		//'Dependencia_idDependencia',

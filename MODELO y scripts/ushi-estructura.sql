@@ -12,11 +12,11 @@ CREATE  TABLE IF NOT EXISTS `ushi`.`Persona` (
   `idPersona` INT NOT NULL AUTO_INCREMENT ,
   `Nombre` VARCHAR(45) NOT NULL ,
   `Apellido` VARCHAR(45) NOT NULL ,
-  `Cedula` VARCHAR(9) NULL ,
+  `Cedula` INT NULL ,
   `FechaNacimiento` DATE NULL ,
   `Direccion` VARCHAR(45) NULL ,
-  `Telefono` VARCHAR(20) NULL ,
-  `Celular` VARCHAR(20) NULL ,
+  `Telefono` INT NULL ,
+  `Celular` INT NULL ,
   PRIMARY KEY (`idPersona`) ,
   UNIQUE INDEX `Cedula_UNIQUE` (`Cedula` ASC) )
 ENGINE = InnoDB;

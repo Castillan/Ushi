@@ -138,12 +138,43 @@
 
 		<?php echo $form->error($model,'IngresoIVSS'); ?>
 	</div>
-
+    
 	<div class="row">
-		<?php echo $form->labelEx($model,'Ubicacion_idUbicacion'); ?>
-		<?php echo $form->dropDownList($model,'Ubicacion_idUbicacion',CHtml::listData(Ubicacion::model()->findAll(),'idUbicacion','Nombre'),array('empty'=>'')); ?>
+		<?php echo '<b>Estado</b><br/>'; ?>
+		<?php echo CHtml::activeDropDownList($model,'idn1',CHtml::listData(Ubicacion::model()->findAll('TipoUbicacion_idTipoUbicacion = 1'),'idUbicacion','Nombre'),
+        array(
+            'onchange'=>CHtml::ajax(array(
+                'type'=>'POST',
+                'url'=>CController::createUrl('ubicacion/selectmunicipiotrab'),
+                'update'=>'#Trabajador_idn2',
+            )),
+            'prompt'=>'Seleccione uno'
+        )); ?>
 		<?php echo $form->error($model,'Ubicacion_idUbicacion'); ?>
 	</div>
+    
+    
+    <div class="row">
+		<?php echo '<b>Municipio</b><br/>'; ?>
+		<?php echo CHtml::activeDropDownList($model,'idn2',array(),
+        array(
+            'onchange'=>CHtml::ajax(array(
+                'type'=>'POST',
+                'url'=>CController::createUrl('ubicacion/selectparroquiatrab'),
+                'update'=>'#Trabajador_Ubicacion_idUbicacion',
+            )),
+            'prompt'=>'Seleccione uno'
+        )); ?>
+		<?php echo $form->error($model,'Ubicacion_idUbicacion'); ?>
+	</div>
+    
+    
+    <div class="row">
+		<?php echo '<b>Parroquia</b><br/>'; ?>
+		<?php echo $form->dropDownList($model,'Ubicacion_idUbicacion',array(),array('prompt'=>'Seleccione una')); ?>
+		<?php echo $form->error($model,'Ubicacion_idUbicacion'); ?>
+	</div>
+
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Cargo_idCargo'); ?>

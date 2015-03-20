@@ -33,7 +33,7 @@
  */
 class Trabajador extends CActiveRecord
 {
-    public $persona_nombre, $persona_apellido, $persona_cedula;
+    public $persona_nombre, $persona_apellido, $persona_cedula,$idn1, $idn2;
     
 	/**
 	 * @return string the associated database table name
@@ -58,7 +58,7 @@ class Trabajador extends CActiveRecord
             array('Email','email'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idTrabajador, Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo, persona_nombre, persona_apellido, persona_cedula', 'safe', 'on'=>'search'),
+			array('idTrabajador, Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo, persona_nombre, persona_apellido, persona_cedula,idn1,idn2', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -111,6 +111,9 @@ class Trabajador extends CActiveRecord
             'ubicacionIdUbicacion.Nombre'=>'Ubicación',
             'NivelEducativo_idGrado' => 'Grado de Educacion',
             'NivelEducativo_idEduacion' => 'Tipo de Educacion',
+            'ubicacionIdUbicacion.ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre'=>'Estado',
+            'ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre'=>'Municipio',
+            'ubicacionIdUbicacion.Nombre'=>'Parroquia',
 		);
 	}
 
@@ -193,4 +196,35 @@ class Trabajador extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+    
+    const Extranjero = 'E';
+    const Venezolano = 'V';
+    const Femenino = 'F';
+    const Masculino = 'M';
+    const Izquierda = 'I';
+    const Derecha = 'D';
+
+    public static $dfLabels= array(
+        self::Extranjero => 'Extranjero',
+        self::Venezolano => 'Venezolano',
+        self::Femenino => 'Femenino',
+        self::Masculino => 'Masculino',
+        self::Izquierda => 'Izquierda',
+        self::Derecha => 'Derecha',
+    );
+
+    public function getNacionalidad()
+    {
+        return isset(self::$dfLabels[$this->Nacionalidad]) ? self::$dfLabels[$this->Nacionalidad] : '(undefined)';
+    }
+    
+    public function getSexo()
+    {
+        return isset(self::$dfLabels[$this->Sexo]) ? self::$dfLabels[$this->Sexo] : '(undefined)';
+    }
+    
+    public function getMano()
+    {
+        return isset(self::$dfLabels[$this->Mano]) ? self::$dfLabels[$this->Mano] : '(undefined)';
+    }
 }

@@ -32,7 +32,7 @@ class UbicacionController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','selectmunicipio','selectparroquia','selectmunicipiotrab','selectparroquiatrab'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -171,4 +171,54 @@ class UbicacionController extends Controller
 			Yii::app()->end();
 		}
 	}
+    
+    public function actionSelectmunicipio(){
+    
+        $id_1 = $_POST['Accidente']['idn1'];
+        $lista = Ubicacion::model()->findAll('TipoUbicacion_idTipoUbicacion = 2 && Ubicacion_idUbicacion = :id1',array(':id1'=>$id_1));
+        $lista = CHtml::listData($lista,'idUbicacion','Nombre');
+        
+        echo CHtml::tag('option',array('value'=>''),CHtml::encode('Seleccione uno'),true);
+        foreach($lista as $clave=>$valor) 
+        echo CHtml::tag('option',array('value'=>$clave),CHtml::encode($valor),true);
+        //echo CHtml::activeDropDownList(new Accidente(),'idn2',$lista,array('prompt'=>'Seleccione uno'));        
+        
+    }
+    
+     public function actionSelectparroquia(){
+    
+        $id_2 = $_POST['Accidente']['idn2'];
+        $lista = Ubicacion::model()->findAll('TipoUbicacion_idTipoUbicacion = 3 && Ubicacion_idUbicacion = :id2',array(':id2'=>$id_2));
+        $lista = CHtml::listData($lista,'idUbicacion','Nombre');
+        
+        echo CHtml::tag('option',array('value'=>''),CHtml::encode('Seleccione una'),true);
+        foreach($lista as $clave=>$valor) 
+        echo CHtml::tag('option',array('value'=>$clave),CHtml::encode($valor),true);                
+        
+    }
+    
+    public function actionSelectmunicipiotrab(){
+    
+        $id_1 = $_POST['Trabajador']['idn1'];
+        $lista = Ubicacion::model()->findAll('TipoUbicacion_idTipoUbicacion = 2 && Ubicacion_idUbicacion = :id1',array(':id1'=>$id_1));
+        $lista = CHtml::listData($lista,'idUbicacion','Nombre');
+        
+        echo CHtml::tag('option',array('value'=>''),CHtml::encode('Seleccione uno'),true);
+        foreach($lista as $clave=>$valor) 
+        echo CHtml::tag('option',array('value'=>$clave),CHtml::encode($valor),true);
+        //echo CHtml::activeDropDownList(new Accidente(),'idn2',$lista,array('prompt'=>'Seleccione uno'));        
+        
+    }
+    
+     public function actionSelectparroquiatrab(){
+    
+        $id_2 = $_POST['Trabajador']['idn2'];
+        $lista = Ubicacion::model()->findAll('TipoUbicacion_idTipoUbicacion = 3 && Ubicacion_idUbicacion = :id2',array(':id2'=>$id_2));
+        $lista = CHtml::listData($lista,'idUbicacion','Nombre');
+        
+        echo CHtml::tag('option',array('value'=>''),CHtml::encode('Seleccione una'),true);
+        foreach($lista as $clave=>$valor) 
+        echo CHtml::tag('option',array('value'=>$clave),CHtml::encode($valor),true);                
+        
+    }
 }

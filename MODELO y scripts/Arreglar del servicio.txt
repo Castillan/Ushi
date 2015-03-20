@@ -1,13 +1,11 @@
 1) agregar etiquetas para noticias recientes (ya esta, falta mostrar la pantalla para que modifiquen)
 2) agregar telefono y correo: (0276) 3530676 , seguridad@unet.edu.ve
-3) condicion medica que sea opcional??
-4) ficha medica/3, ver testigos, hora del accidente ????? Ficha medica no tiene accidentes......
-5) arreglar el css
-6) fechas para distintas vacunas (ya estan los modelos) (Vacunas agregadas a ficha medica)
-7) estetica de pantallas para los usuarios (botones y titulos, centrar cosas, etc)
-8) Nivel educativo en el create de trabajador (insert si no existe)
-9) cambiar cedula de varchar a number igual telefono y celular
-10) cambiar todo a español
-11) Dropdownlist de ubicación (Estado, Municipio, parroquia)
-12)Encontrar día de la semana a partir de fecha?? (Ellas lo pidieron, yo no le veo mucha utilidad)
-13)Redireccionar a fichas medicas luego de agregar condiciones y medicamentos (redireccionar listo)
+3) arreglar el css
+4) Agregar un timepicker a la hora del accidente o solo validar que se introduzca un formato correcto
+5) estetica de pantallas para los usuarios (botones y titulos, centrar cosas, etc), cambié formatos para botones e inputs, revisar
+6) Nivel educativo en el create de trabajador (insert si no existe)
+7) Las cedulas que se cargan en el list de la ficha medica no deberian ser solo list de personas que esten guardadas como trabjadores?
+8) cambiar todo a español
+9) Update de ficha medica carga en el form a la misma persona, no a la persona de contacto, y no actualiza
+10)Encontrar día de la semana a partir de fecha?? Es decir, que al seleccionar una fecha en el picker se reconozca automaticamente que dia fue, no se si es posible
+11)Manejar bien la persona de contacto en ficha medica,  que si seleccionar una cedula de un list o agregar una nueva.
