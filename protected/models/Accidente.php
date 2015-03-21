@@ -41,12 +41,16 @@ class Accidente extends CActiveRecord
 			array('Fecha, DiaSemana_idDiaSemana, Hora, Dentro, Descripcion', 'required'),
 			array('DiaSemana_idDiaSemana, Dentro, Ubicacion_idUbicacion', 'numerical', 'integerOnly'=>true),
 			array('Lugar', 'length', 'max'=>100),
+            array('Hora','validaFormatoHora'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('idAccidente, Fecha, DiaSemana_idDiaSemana, Hora, Dentro, Ubicacion_idUbicacion, Lugar, Descripcion,idn1,idn2', 'safe', 'on'=>'search'),
 		);
 	}
-
+    public function validaFormatoHora($attribute,$params){
+        if(!preg_match("/^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9](:([0-5][0-9]))?$/", $this->Hora))
+            $this->addError('Hora','Por favor ingresa una hora válida en formato HH:MM o HH:MM:SS');
+    }
 	/**
 	 * @return array relational rules.
 	 */

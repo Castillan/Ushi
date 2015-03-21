@@ -37,8 +37,7 @@
             array('label' => 'Edo_Civi', 'url' => '/..'. Yii::app()->baseUrl.'/edocivil/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		)) // add stack elements        
             ->stack(array(
-			array('label' => 'Grado', 'url' => '/..'. Yii::app()->baseUrl.'/grado/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'Educación', 'url' => '/..'. Yii::app()->baseUrl.'/educacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+
             array('label' => 'NivelEduc', 'url' => '/..'. Yii::app()->baseUrl.'/niveleducativo/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		)) // add stack elements 
           ->separator();
@@ -95,8 +94,7 @@
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
-	
-		<link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/popup.css">
+			
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl;?>/css/main2.css">
@@ -124,9 +122,7 @@
 				array('label'=>'¿QUIÉNES SOMOS?', 'url'=>array('/site/page', 'view'=>'about'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'CONTÁCTENOS', 'url'=>array('/site/contact'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				//array('label'=>'B. TRABAJADORES', 'url'=>array('/site/trabajadores'), 'visible'=>Yii::app()->user->getState('idRol')==1),
-				//array('label'=>'B. ACCIDENTES', 'url'=>array('/site/accidentes'), 'visible'=>Yii::app()->user->getState('idRol')==1),
-                array('label'=>'Accidente', 'url'=>array('/accidente/principal'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Accidente', 'url'=>array('/accidente/principal'), 'visible'=>!Yii::app()->user->isGuest),
                 //array('label'=>'Cargo', 'url'=>array('/cargo'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Centrosalud', 'url'=>array('/centrosalud'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Condicion', 'url'=>array('/condicion'), 'visible'=>Yii::app()->user->getState('idRol')==1),

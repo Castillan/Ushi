@@ -20,8 +20,8 @@ CREATE TABLE IF NOT EXISTS `ushi`.`Persona` (
   `Cedula` INT NULL,
   `FechaNacimiento` DATE NULL,
   `Direccion` VARCHAR(45) NULL,
-  `Telefono` INT NULL,
-  `Celular` INT NULL,
+  `Telefono` BIGINT(11) NULL,
+  `Celular` BIGINT(11) NULL,
   PRIMARY KEY (`idPersona`),
   UNIQUE INDEX `Cedula_UNIQUE` (`Cedula` ASC))
 ENGINE = InnoDB;
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `ushi`.`NivelEducativo` (
   `Nivel_Educativo` VARCHAR(45) NOT NULL,
   `idNivelEducativo` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`idNivelEducativo`),
-  UNIQUE INDEX `Nivel Educativo_UNIQUE` (`Nivel Educativo` ASC))
+  UNIQUE INDEX `Nivel_Educativo_UNIQUE` (`Nivel_Educativo` ASC))
 ENGINE = InnoDB;
 
 
