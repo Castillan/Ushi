@@ -20,15 +20,9 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Educacion_idEducacion'); ?>
-		<?php echo $form->textField($model,'Educacion_idEducacion'); ?>
-		<?php echo $form->error($model,'Educacion_idEducacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Grado_idGrado'); ?>
-		<?php echo $form->textField($model,'Grado_idGrado'); ?>
-		<?php echo $form->error($model,'Grado_idGrado'); ?>
+		<?php echo $form->labelEx($model,'Nivel_Educativo'); ?>
+		<?php echo $form->textField($model,'Nivel_Educativo',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model,'Nivel_Educativo'); ?>
 	</div>
 
 	<div class="row buttons">

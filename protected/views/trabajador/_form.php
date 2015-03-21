@@ -20,7 +20,7 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Persona_idPersona'); ?>
+		<?php echo '<b>Cedula</b><br/>'; ?>
 		<?php echo $form->dropDownList($model,'Persona_idPersona',CHtml::listData(Persona::model()->findAll(),'idPersona','Cedula'),array('empty'=>'Seleccione una persona por su cédula')); ?>
 		<?php echo $form->error($model,'Persona_idPersona'); ?>
 	</div>
@@ -56,13 +56,16 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'NivelEducativo_idNivelEducativo'); ?>
-		<?php echo $form->dropDownList($model,'NivelEducativo_idNivelEducativo',CHtml::listData(Grado::model()->findAll(),'idGrado','Grado'),array('empty'=>'Seleccione un nivel educativo')); ?>
-        
-        <?php echo $form->dropDownList($model,'NivelEducativo_idNivelEducativo',CHtml::listData(Educacion::model()->findAll(),'idEduacion','Nombre'),array('empty'=>'Seleccione un nivel educativo')); ?>
+		<?php echo $form->labelEx($model,'NivelEducativo_idNivelEducativo'); ?>     
+        <?php echo $form->dropDownList($model,'NivelEducativo_idNivelEducativo',CHtml::listData(NivelEducativo::model()->findAll(),'idNivelEducativo','Nivel_Educativo'),array('empty'=>'Seleccione un nivel educativo')); ?>
 		<?php echo $form->error($model,'NivelEducativo_idNivelEducativo'); ?>        
 	</div>
     
+    <div class="row">
+		<?php echo $form->labelEx($model,'Grado_Educacion'); ?>
+		<?php echo $form->textField($model,'Grado_Educacion',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model,'Grado_Educacion'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Email'); ?>
@@ -193,7 +196,7 @@
 		<?php echo $form->textField($model,'Sueldo',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model,'Sueldo'); ?>
 	</div>
-
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

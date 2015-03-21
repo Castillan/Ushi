@@ -143,7 +143,7 @@ class FichaMedicaController extends Controller
 		));*/
 		
 		 $model1=$this->loadModel($id);
-		 $model2=Persona::model()->findByAttributes(array('idPersona'=>$model1->Persona_idPersona));
+		 $model2=Persona::model()->findByAttributes(array('idPersona'=>$model1->idPariente));
 		
 		 if(isset($_POST['FichaMedica'], $_POST['Persona']))        
 		 {
@@ -164,10 +164,11 @@ class FichaMedicaController extends Controller
 		        }
 		    }
 		
-			if(isset($_POST['FichaMedica']))
+			if(isset($_POST['FichaMedica'], $_POST['Persona']))
 			{
 				$model1->attributes=$_POST['FichaMedica'];
-				if($model1->save())
+				$model2->attributes=$_POST['Persona'];
+				if($model1->save() && $model2->save())
 					$this->redirect(array('view','id'=>$model1->idFicha_Medica));
 			}
 			

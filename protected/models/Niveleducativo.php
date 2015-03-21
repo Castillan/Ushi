@@ -4,13 +4,10 @@
  * This is the model class for table "niveleducativo".
  *
  * The followings are the available columns in table 'niveleducativo':
- * @property integer $Educacion_idEducacion
- * @property integer $Grado_idGrado
+ * @property string $Nivel_Educativo
  * @property integer $idNivelEducativo
  *
  * The followings are the available model relations:
- * @property Educacion $educacionIdEducacion
- * @property Grado $gradoIdGrado
  * @property Trabajador[] $trabajadors
  */
 class Niveleducativo extends CActiveRecord
@@ -31,11 +28,11 @@ class Niveleducativo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Educacion_idEducacion, Grado_idGrado', 'required'),
-			array('Educacion_idEducacion, Grado_idGrado', 'numerical', 'integerOnly'=>true),
+			array('Nivel_Educativo', 'required'),
+			array('Nivel_Educativo', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('Educacion_idEducacion, Grado_idGrado, idNivelEducativo', 'safe', 'on'=>'search'),
+			array('Nivel_Educativo, idNivelEducativo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -47,8 +44,6 @@ class Niveleducativo extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'educacionIdEducacion' => array(self::BELONGS_TO, 'Educacion', 'Educacion_idEducacion'),
-			'gradoIdGrado' => array(self::BELONGS_TO, 'Grado', 'Grado_idGrado'),
 			'trabajadors' => array(self::HAS_MANY, 'Trabajador', 'NivelEducativo_idNivelEducativo'),
 		);
 	}
@@ -59,9 +54,8 @@ class Niveleducativo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'Educacion_idEducacion' => 'Educacion Id Educacion',
-			'Grado_idGrado' => 'Grado Id Grado',
-			'idNivelEducativo' => 'Id Nivel Educativo',
+			'Nivel_Educativo' => 'Nivel Educativo',
+			'idNivelEducativo' => 'Nivel Educativo',
 		);
 	}
 
@@ -83,8 +77,7 @@ class Niveleducativo extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('Educacion_idEducacion',$this->Educacion_idEducacion);
-		$criteria->compare('Grado_idGrado',$this->Grado_idGrado);
+		$criteria->compare('Nivel_Educativo',$this->Nivel_Educativo,true);
 		$criteria->compare('idNivelEducativo',$this->idNivelEducativo);
 
 		return new CActiveDataProvider($this, array(

@@ -78,7 +78,10 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Sueldo')); ?>:</b>
 	<?php echo CHtml::encode($data->Sueldo); ?>
 	<br />
+	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Grado_Educacion')); ?>:</b>
+	<?php echo CHtml::encode($data->Grado_Educacion); ?>
 	*/ ?>
 
 </div>

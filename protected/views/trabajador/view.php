@@ -41,9 +41,8 @@ $this->menu=array(
 		//'Edo_Civil_idEdo_Civil',
         'edoCivilIdEdoCivil.Nombre',
 		'Hijos',
-		'NivelEducativo_idNivelEducativo',        
-        'nivelEducativoIdNivelEducativo.educacionIdEducacion.Nombre',
-        'nivelEducativoIdNivelEducativo.gradoIdGrado.Grado',
+		'nivelEducativoIdNivelEducativo.Nivel_Educativo',   
+		'Grado_Educacion',     
 		'Email',
 		'CodigoPostal',
 		'IngresoUNET',
@@ -59,5 +58,6 @@ $this->menu=array(
 		//'Dependencia_idDependencia',
         'dependenciaIdDependencia.Nombre',
 		'Sueldo',
+		
 	),
 )); ?>

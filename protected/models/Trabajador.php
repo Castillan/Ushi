@@ -30,6 +30,7 @@
  * @property Dependencia $dependenciaIdDependencia
  * @property Trabajadoraccidente[] $trabajadoraccidentes
  * @property Trabajadorruta[] $trabajadorrutas
+ * @property string $Grado_Educacion
  */
 class Trabajador extends CActiveRecord
 {
@@ -54,7 +55,7 @@ class Trabajador extends CActiveRecord
 			array('Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo', 'required'),
 			array('Persona_idPersona, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, CodigoPostal, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia', 'numerical', 'integerOnly'=>true),
 			array('Nacionalidad, Sexo, Mano', 'length', 'max'=>1),
-			array('Email, Sueldo', 'length', 'max'=>45),
+			array('Email, Sueldo, Grado_Educacion','length', 'max'=>45),
             array('Email','email'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -93,9 +94,9 @@ class Trabajador extends CActiveRecord
 			'Nacionalidad' => 'Nacionalidad',
 			'Sexo' => 'Sexo',
 			'Mano' => 'Mano',
-			'Edo_Civil_idEdo_Civil' => 'Edo Civil Id Edo Civil',
+			'Edo_Civil_idEdo_Civil' => 'Estado Civil',
 			'Hijos' => 'Hijos',
-			'NivelEducativo_idNivelEducativo' => 'Nivel Educativo Id Nivel Educativo',
+			'NivelEducativo_idNivelEducativo' => 'Nivel Educativo',
 			'Email' => 'Email',
 			'CodigoPostal' => 'Codigo Postal',
 			'IngresoUNET' => 'Ingreso Unet',
@@ -109,8 +110,7 @@ class Trabajador extends CActiveRecord
             'dependenciaIdDependencia.Nombre'=>'Nombre de la dependencia',
             'edoCivilIdEdoCivil.Nombre'=>'Estado civil',
             'ubicacionIdUbicacion.Nombre'=>'Ubicación',
-            'NivelEducativo_idGrado' => 'Grado de Educacion',
-            'NivelEducativo_idEduacion' => 'Tipo de Educacion',
+            'Grado_Educacion' => 'Grado de Educacion',
             'ubicacionIdUbicacion.ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre'=>'Estado',
             'ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre'=>'Municipio',
             'ubicacionIdUbicacion.Nombre'=>'Parroquia',
@@ -156,6 +156,7 @@ class Trabajador extends CActiveRecord
         $criteria->compare('personaIdPersona.Nombre', $this->persona_nombre, true );
         $criteria->compare('personaIdPersona.Apellido', $this->persona_apellido, true );
         $criteria->compare('personaIdPersona.Cedula', $this->persona_cedula, true );
+		$criteria->compare('Grado_Educacion',$this->Grado_Educacion,true);
         
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

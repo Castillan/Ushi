@@ -6,6 +6,6 @@
 6) Nivel educativo en el create de trabajador (insert si no existe)
 7) Las cedulas que se cargan en el list de la ficha medica no deberian ser solo list de personas que esten guardadas como trabjadores?
 8) cambiar todo a español
-9) Update de ficha medica carga en el form a la misma persona, no a la persona de contacto, y no actualiza
+9) Update de ficha medica carga en el form a la misma persona, no a la persona de contacto, y no actualiza (listo)
 10)Encontrar día de la semana a partir de fecha?? Es decir, que al seleccionar una fecha en el picker se reconozca automaticamente que dia fue, no se si es posible
 11)Manejar bien la persona de contacto en ficha medica,  que si seleccionar una cedula de un list o agregar una nueva.

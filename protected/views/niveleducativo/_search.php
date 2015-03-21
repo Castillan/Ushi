@@ -12,13 +12,8 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'Educacion_idEducacion'); ?>
-		<?php echo $form->textField($model,'Educacion_idEducacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'Grado_idGrado'); ?>
-		<?php echo $form->textField($model,'Grado_idGrado'); ?>
+		<?php echo $form->label($model,'Nivel_Educativo'); ?>
+		<?php echo $form->textField($model,'Nivel_Educativo',array('size'=>45,'maxlength'=>45)); ?>
 	</div>
 
 	<div class="row">

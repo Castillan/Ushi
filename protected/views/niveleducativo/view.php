@@ -21,8 +21,7 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'Educacion_idEducacion',
-		'Grado_idGrado',
+		'Nivel_Educativo',
 		'idNivelEducativo',
 	),
 )); ?>

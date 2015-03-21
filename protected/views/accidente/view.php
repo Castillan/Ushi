@@ -157,9 +157,10 @@ $this->widget('zii.widgets.grid.CGridView', array(
 <div class="new-button">
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
-			    'name'=>'update-worker',
+			    'name'=>'Testigos',
 			    'caption'=>'Testigos',
 			    'url'=>array('/testigo/create', 'id'=>$model->idAccidente),
 			   
 			)); ?> 		
 </div>	
+<br>

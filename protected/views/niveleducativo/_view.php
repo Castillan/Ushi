@@ -9,12 +9,8 @@
 	<?php echo CHtml::link(CHtml::encode($data->idNivelEducativo), array('view', 'id'=>$data->idNivelEducativo)); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Educacion_idEducacion')); ?>:</b>
-	<?php echo CHtml::encode($data->Educacion_idEducacion); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Grado_idGrado')); ?>:</b>
-	<?php echo CHtml::encode($data->Grado_idGrado); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Nivel_Educativo')); ?>:</b>
+	<?php echo CHtml::encode($data->Nivel_Educativo); ?>
 	<br />
 
 

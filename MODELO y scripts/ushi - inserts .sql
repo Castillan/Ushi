@@ -28,36 +28,16 @@ INSERT INTO `edo_civil` (`idEdo_Civil`, `Nombre`) VALUES
 (1, 'Soltero'),
 (2, 'Casado'),
 (3, 'Divorciado');
--- --------------------------------------------------------
-
---
--- Volcado de datos para la tabla `educacion`
---
-
-INSERT INTO `educacion` (`idEducacion`, `Nombre`) VALUES
-(1, 'TSU'),
-(2, 'Bachiller'),
-(3, 'Ingeniero');
-
--- --------------------------------------------------------
---
--- Volcado de datos para la tabla `grado`
---
-
-INSERT INTO `grado` (`idGrado`, `Grado`) VALUES
-(1, 1),
-(2, 2);
 
 -- --------------------------------------------------------
 --
 -- Volcado de datos para la tabla `niveleducativo`
 --
 
-INSERT INTO `niveleducativo` (`Educacion_idEducacion`, `Grado_idGrado`, `idNivelEducativo`) VALUES
-(1, 1, 1),
-(1, 2, 3),
-(2, 1, 2),
-(3, 2, 5);
+INSERT INTO `niveleducativo` (`Nivel_Educativo`, `idNivelEducativo`) VALUES
+('Bachiller', 1),
+('TSU', 2),
+('Univesitario', 3);
 
 -- --------------------------------------------------------
 
@@ -156,11 +136,11 @@ INSERT INTO `accidente` (`idAccidente`, `Fecha`, `DiaSemana_idDiaSemana`, `Hora`
 -- Volcado de datos para la tabla `trabajador`
 --
 
-INSERT INTO `trabajador` (`idTrabajador`, `Persona_idPersona`, `Nacionalidad`, `Sexo`, `Mano`, `Edo_Civil_idEdo_Civil`, `Hijos`, `NivelEducativo_idNivelEducativo`, `Email`, `CodigoPostal`, `IngresoUNET`, `IngresoIVSS`, `Ubicacion_idUbicacion`, `Cargo_idCargo`, `Dependencia_idDependencia`, `Sueldo`) VALUES
-(1, 1, 'V', 'M', 'D', 1, 0, 2, 'jcppioam@mooal', 5001, '2015-10-08', '2015-10-07', 2, 3, 1, '5500'),
-(2, 2, 'V', 'M', 'D', 1, 0, 2, 'jcppioam@mooal', 5001, '2015-10-08', '2015-10-07', 2, 1, 1, '5500'),
-(3, 3, 'V', 'M', 'D', 1, 0, 2, 'jcppioam@mooal', 5001, '2015-10-08', '2015-10-07', 2, 3, 1, '5500'),
-(4, 4, 'V', 'M', 'D', 1, 0, 3, 'lm.molinab@gmail.com', 5030, '2009-10-01', '2009-10-01', 1, 3, 1, '100');
+INSERT INTO `trabajador` (`idTrabajador`, `Persona_idPersona`, `Nacionalidad`, `Sexo`, `Mano`, `Edo_Civil_idEdo_Civil`, `Hijos`, `NivelEducativo_idNivelEducativo`, `Email`, `CodigoPostal`, `IngresoUNET`, `IngresoIVSS`, `Ubicacion_idUbicacion`, `Cargo_idCargo`, `Dependencia_idDependencia`, `Sueldo`, `Grado_Educacion`) VALUES
+(1, 1, 'V', 'M', 'D', 1, 0, 2, 'jcppioam@mooal', 5001, '2015-10-08', '2015-10-07', 2, 3, 1, '5500', 'Informatica'),
+(2, 2, 'V', 'M', 'D', 1, 0, 2, 'jcppioam@mooal', 5001, '2015-10-08', '2015-10-07', 2, 1, 1, '5500', 'Contaduria'),
+(3, 3, 'V', 'M', 'D', 1, 0, 2, 'jcppioam@mooal', 5001, '2015-10-08', '2015-10-07', 2, 3, 1, '5500', 'Electronica'),
+(4, 4, 'V', 'M', 'D', 1, 0, 3, 'lm.molinab@gmail.com', 5030, '2009-10-01', '2009-10-01', 1, 3, 1, '100', 'Docencia');
 
 -- --------------------------------------------------------
 --
