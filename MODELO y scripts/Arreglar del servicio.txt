@@ -1,6 +1,6 @@
 1) agregar etiquetas para noticias recientes (ya esta, falta mostrar la pantalla para que modifiquen)
 2) agregar telefono y correo: (0276) 3530676 , seguridad@unet.edu.ve
-3) arreglar el css
+3) arreglar el css (parece que ya)
 4) estetica de pantallas para los usuarios (botones y titulos, centrar cosas, etc), cambié formatos para botones e inputs, revisar
 5) cambiar todo a español
 6)Encontrar día de la semana a partir de fecha?? Es decir, que al seleccionar una fecha en el picker se reconozca automaticamente que dia fue, no se si es posible

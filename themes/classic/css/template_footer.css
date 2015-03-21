@@ -104,11 +104,11 @@ a:active {
 }
 
 /* =============== DEFAULT HTML - LIST STYLES =============== */
-ul li {
+footer ul li {
 	padding: 0;
 	margin: 0.3em 0 0.3em 1.6em;
 }
-ol li {
+footer ol li {
 	padding: 0;
 	margin: 0.3em 0 0.3em 2em;
 }
@@ -1413,38 +1413,7 @@ div.current dd.tabs {
 	border: 1px solid #CCC;
 	background-color: #FFF;
 }
-/* =============== PAGEBREAK - SLIDERS STYLE =============== */
-div.panel {
-	border: 1px solid #CCC;
-	margin-bottom: 10px;
-}
-div.panel h3.title {
-	margin: 0;
-	cursor: pointer;
-	font-size: 1.1em;
-	padding: 8px 10px;
-	border-bottom: 1px solid #CCC;
-}
-div.panel h3.title:hover,
-div.panel h3.pane-toggler-down {
-	background-color: #F0F0F0;
-}
-div.panel h3.title a {
-	color: #666;
-}
-div.panel h3.title a:hover {
-	text-decoration: none;
-}
-div.panel h3.pane-toggler-down {
-	border-bottom: none;
-}
-div.panel h3.pane-toggler-down a {
-	color: #000;
-}
-div.panel div.content > div,
-div.panel div.content > p {
-	margin: 15px;
-}
+
 /* =============== JOOMLA! EXTENSIONS - GENERAL =============== */
 /* ----- HEADING ----- */
 .contentheading,
