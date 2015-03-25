@@ -67,8 +67,8 @@ class Trabajadoraccidente extends CActiveRecord
 			'idTrabajadorAccidente' => 'Id Trabajador Accidente',
 			'Horas' => 'Horas',
 			'Minutos' => 'Minutos',
-			'CentroSalud_idCentroSalud' => 'Centro Salud Id Centro Salud',
-			'Trabajador_idTrabajador' => 'Trabajador Id Trabajador',
+			'CentroSalud_idCentroSalud' => 'Centro de Salud',
+			'Trabajador_idTrabajador' => 'Trabajador',
 		);
 	}
 

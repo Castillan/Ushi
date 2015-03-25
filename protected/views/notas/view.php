@@ -25,5 +25,6 @@ $this->menu=array(
 		'Nota1',
 		'Nota2',
 		'Nota3',
+		'Burbuja',
 	),
 )); ?>

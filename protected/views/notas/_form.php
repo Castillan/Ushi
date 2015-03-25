@@ -37,6 +37,12 @@
 		<?php echo $form->error($model,'Nota3'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'Burbuja'); ?>
+		<?php echo $form->textField($model,'Burbuja',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'Burbuja'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

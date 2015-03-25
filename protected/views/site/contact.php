@@ -21,11 +21,16 @@ $this->breadcrumbs=array(
 </div>
 
 <?php else: ?>
-
+<br/>
 <p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+Si deseas contactarnos puedes llamarnos al número (0276) 3530676 o escribirnos un correo a seguridad@unet.edu.ve.
 </p>
-
+     <br/>   
+        
+ <p>
+O también puedes llenar el siguiente formulario de contacto. Gracias.
+</p>
+<br/>
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(

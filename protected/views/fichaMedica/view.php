@@ -29,12 +29,19 @@ $this->menu=array(
 		'label'=>'RH',
 		'value'=>$model->getRH()
 		),
-		'EstadoSalud',		
-		'Persona_idPersona',		
+		'EstadoSalud',				
+	),
+)); ?>
+
+<h3 class= "titulo-detail">Persona de contacto</h3>
+<?php $this->widget('zii.widgets.CDetailView', array(
+	'data'=>$model,
+	'attributes'=>array(			
 		'idPariente0.Nombre',
 		'idPariente0.Apellido',
 		'idPariente0.Cedula',
 		'idPariente0.Telefono',
+        'idPariente0.Celular',
 		'Parentesco',
 	),
 )); ?>
@@ -46,8 +53,9 @@ $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'condicion-grid',
 	'dataProvider'=>$model3->search(),
     'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
-     'summaryText' => 'Mostrando resultados {start} al {end} de {count} en total',
-    'emptyText' => 'No se encontraron resultados',
+     'summaryText' => 'Condiciones médicas',
+    'emptyText'=>'No se encontraron Resultados',
+    'summaryCssClass'=>'resumen-grids',
 	'filter'=>$model3,
 	'columns'=>array(   
 
@@ -86,19 +94,21 @@ $this->widget('zii.widgets.grid.CGridView', array(
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
 			    'name'=>'update-worker',
-			    'caption'=>'Condiciones Medicas',
+			    'caption'=>'Agregar condicion médica',
 			    'url'=>array('/condicion/condicion', 'id'=>$model->idFicha_Medica),
 			   
 			)); ?> 		
 </div>	
-<br>
-<br>
+<br/>
+<br/>
 <?php 
 $model4->Ficha_Medica_idFicha_Medica=$model->idFicha_Medica;
 $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'medicamentos-grid',
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
-     'summaryText' => 'Mostrando resultados {start} al {end} de {count} en total',
+     'summaryText' => 'Medicamentos',
+    'emptyText'=>'No se encontraron Resultados',
+    'summaryCssClass'=>'resumen-grids',
 	'dataProvider'=>$model4->search(),
 	'filter'=>$model4,
 	'columns'=>array(
@@ -140,22 +150,23 @@ $this->widget('zii.widgets.grid.CGridView', array(
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
 			    'name'=>'Nuevo Medicamento',
-			    'caption'=>'Medicamentos',
+			    'caption'=>'Agregar medicamento',
 			    'url'=>array('/condicionmedicamento/medicamento', 'id'=>$model->idFicha_Medica),
 			    
 			));
 
 			 ?> 		
 </div>	
-<br>
-
-<br>
+<br/>
+<br/>
 <?php 
 $model5->Ficha_Medica_idFicha_Medica=$model->idFicha_Medica;
 $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'medicamentos-grid',
+	'id'=>'vacunas-grid',
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
-     'summaryText' => 'Mostrando resultados {start} al {end} de {count} en total',
+     'summaryText' => 'Vacunas',
+    'emptyText'=>'No se encontraron Resultados',
+    'summaryCssClass'=>'resumen-grids',
 	'dataProvider'=>$model5->search(),
 	'filter'=>$model5,
 	'columns'=>array(
@@ -195,10 +206,11 @@ $this->widget('zii.widgets.grid.CGridView', array(
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
 			    'name'=>'Nueva Vacuna',
-			    'caption'=>'Vacunas',
+			    'caption'=>'Agregar vacuna',
 			    'url'=>array('/fichaVacuna/vacuna', 'id'=>$model->idFicha_Medica),
 			   
 			)); ?> 		
+    <br/><br/>
 </div>	
 
 

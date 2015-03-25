@@ -53,7 +53,8 @@ $this->widget('zii.widgets.grid.CGridView', array(
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
      'summaryText' => 'Personas involucradas en el accidente',
 	'dataProvider'=>$model3->search(),
-    
+    'emptyText'=>'No se encontraron Resultados',
+    'summaryCssClass'=>'resumen-grids',
 	'filter'=>$model3,
 	'columns'=>array(
 
@@ -97,13 +98,13 @@ $this->widget('zii.widgets.grid.CGridView', array(
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
 			    'name'=>'update-worker',
-			    'caption'=>'Afectados',
+			    'caption'=>'Agregar afectado',
 			    'url'=>array('/trabajadoraccidente/accidente', 'id'=>$model->idAccidente),
 			   
 			)); ?> 		
+    
 </div>	
-
-<br>
+<br/><br/>
 <?php 
 $model4->Accidente_idAccidente=$model->idAccidente;
 $this->widget('zii.widgets.grid.CGridView', array(
@@ -111,7 +112,8 @@ $this->widget('zii.widgets.grid.CGridView', array(
      'cssFile' => Yii::app()->baseUrl . '/css/gridview/styles.css',
      'summaryText' => 'Testigos del accidente',
 	'dataProvider'=>$model4->search(),
-    
+    'emptyText'=>'No se encontraron Resultados',
+    'summaryCssClass'=>'resumen-grids',
 	'filter'=>$model4,
 	'columns'=>array(
        // array( 'name'=>'trabajadoraccidentes.Centrosalud', 'value'=>'TrabajadorAccidente::model()->find(" Accidente_idAccidente = ".$data->idAccidente)->CentroSalud_idCentroSalud' ),
@@ -158,9 +160,9 @@ $this->widget('zii.widgets.grid.CGridView', array(
 			<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			    'buttonType'=>'link',
 			    'name'=>'Testigos',
-			    'caption'=>'Testigos',
+			    'caption'=>'Agregar testigo',
 			    'url'=>array('/testigo/create', 'id'=>$model->idAccidente),
 			   
 			)); ?> 		
+    <br/><br/>
 </div>	
-<br>

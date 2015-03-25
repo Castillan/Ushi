@@ -21,5 +21,9 @@
 	<?php echo CHtml::encode($data->Nota3); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Burbuja')); ?>:</b>
+	<?php echo CHtml::encode($data->Burbuja); ?>
+	<br />
+
 
 </div>

@@ -293,5 +293,5 @@ INSERT INTO `Ficha_Vacuna` (`idFicha_Vacuna`, `Fecha`, `Ficha_Medica_idFicha_Med
 -- Volcado de datos para la tabla `Notas`
 --
 
-INSERT INTO `Notas` (`idNotas`, `Nota1`, `Nota2`, `Nota3`) VALUES
-(1, 'Esta es una actividad próxima', 'Esta es otra actividad','Y una actividad mas');
+INSERT INTO `Notas` (`idNotas`, `Nota1`, `Nota2`, `Nota3` , `Burbuja`) VALUES
+(1, 'Esta es una actividad próxima', 'Esta es otra actividad','Y una actividad mas','Recomendacion en burbuja');

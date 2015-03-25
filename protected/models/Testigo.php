@@ -57,7 +57,7 @@ class Testigo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'Persona_idPersona' => 'Persona Id Persona',
+			'Persona_idPersona' => 'Persona',
 			'Accidente_idAccidente' => 'Accidente Id Accidente',
 			'idTestigo' => 'Id Testigo',
 		);

@@ -52,11 +52,11 @@ class Trabajador extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo', 'required', 'message' => 'Campo no puede estar en blanco'),
+			array('Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo', 'required', 'message' => 'Campo {attribute} no puede estar en blanco'),
 			array('Persona_idPersona, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, CodigoPostal, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia', 'numerical', 'integerOnly'=>true),
 			array('Nacionalidad, Sexo, Mano', 'length', 'max'=>1),
 			array('Email, Sueldo, Grado_Educacion','length', 'max'=>45),
-            array('Email','email','checkMX'=>true, 'message' => 'Formato de Correo no valido'),
+            array('Email','validaEmail'),
             array('Persona_idPersona', 'unique', 'message' => 'Esta persona ya se encuentra registrada como trabajador'),
             array('Email', 'unique', 'message' => 'Correo ya se encuentra registrado'),
 			// The following rule is used by search().
@@ -64,7 +64,10 @@ class Trabajador extends CActiveRecord
 			array('idTrabajador, Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo, persona_nombre, persona_apellido, persona_cedula,idn1,idn2', 'safe', 'on'=>'search'),
 		);
 	}
-
+    public function validaEmail($attribute,$params){
+        if(!preg_match("/^(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){255,})(?!(?:(?:\\x22?\\x5C[\\x00-\\x7E]\\x22?)|(?:\\x22?[^\\x5C\\x22]\\x22?)){65,}@)(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22))(?:\\.(?:(?:[\\x21\\x23-\\x27\\x2A\\x2B\\x2D\\x2F-\\x39\\x3D\\x3F\\x5E-\\x7E]+)|(?:\\x22(?:[\\x01-\\x08\\x0B\\x0C\\x0E-\\x1F\\x21\\x23-\\x5B\\x5D-\\x7F]|(?:\\x5C[\\x00-\\x7F]))*\\x22)))*@(?:(?:(?!.*[^.]{64,})(?:(?:(?:xn--)?[a-z0-9]+(?:-+[a-z0-9]+)*\\.){1,126}){1,}(?:(?:[a-z][a-z0-9]*)|(?:(?:xn--)[a-z0-9]+))(?:-+[a-z0-9]+)*)|(?:\\[(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){7})|(?:(?!(?:.*[a-f0-9][:\\]]){7,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,5})?)))|(?:(?:IPv6:(?:(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){5}:)|(?:(?!(?:.*[a-f0-9]:){5,})(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3})?::(?:[a-f0-9]{1,4}(?::[a-f0-9]{1,4}){0,3}:)?)))?(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))(?:\\.(?:(?:25[0-5])|(?:2[0-4][0-9])|(?:1[0-9]{2})|(?:[1-9]?[0-9]))){3}))\\]))$/iD", $this->Email))
+            $this->addError('Email','Correo electrónico inválido');
+    }
     
 	/**
 	 * @return array relational rules.
@@ -101,15 +104,15 @@ class Trabajador extends CActiveRecord
 			'NivelEducativo_idNivelEducativo' => 'Nivel Educativo',
 			'Email' => 'Email',
 			'CodigoPostal' => 'Codigo Postal',
-			'IngresoUNET' => 'Ingreso Unet',
-			'IngresoIVSS' => 'Ingreso Ivss',
+			'IngresoUNET' => 'Ingreso a la Unet',
+			'IngresoIVSS' => 'Ingreso al IVSS',
 			'Ubicacion_idUbicacion' => 'Ubicacion Id Ubicacion',
-			'Cargo_idCargo' => 'Cargo Id Cargo',
+			'Cargo_idCargo' => 'Cargo',
 			'Dependencia_idDependencia' => 'Dependencia',
 			'Sueldo' => 'Sueldo',
             'nivelEducativoIdNivelEducativo.eduacionIdEduacion.Nombre' => 'Nivel de educación',
-            'cargoIdCargo.Nombre'=>'Nombre del cargo',
-            'dependenciaIdDependencia.Nombre'=>'Nombre de la dependencia',
+            'cargoIdCargo.Nombre'=>'Cargo',
+            'dependenciaIdDependencia.Nombre'=>'Dependencia',
             'edoCivilIdEdoCivil.Nombre'=>'Estado civil',
             'ubicacionIdUbicacion.Nombre'=>'Ubicación',
             'Grado_Educacion' => 'Grado de Educacion',

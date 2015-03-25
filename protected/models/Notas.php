@@ -8,6 +8,7 @@
  * @property string $Nota1
  * @property string $Nota2
  * @property string $Nota3
+ * @property string $Burbuja
  */
 class Notas extends CActiveRecord
 {
@@ -27,10 +28,11 @@ class Notas extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Nota1, Nota2, Nota3', 'length', 'max'=>255),
+			array('Nota1, Nota2, Nota3', 'length', 'max'=>170),
+            array('Burbuja', 'length', 'max'=>120),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idNotas, Nota1, Nota2, Nota3', 'safe', 'on'=>'search'),
+			array('idNotas, Nota1, Nota2, Nota3, Burbuja', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,6 +57,7 @@ class Notas extends CActiveRecord
 			'Nota1' => 'Nota1',
 			'Nota2' => 'Nota2',
 			'Nota3' => 'Nota3',
+			'Burbuja' => 'Burbuja',
 		);
 	}
 
@@ -80,6 +83,7 @@ class Notas extends CActiveRecord
 		$criteria->compare('Nota1',$this->Nota1,true);
 		$criteria->compare('Nota2',$this->Nota2,true);
 		$criteria->compare('Nota3',$this->Nota3,true);
+		$criteria->compare('Burbuja',$this->Burbuja,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -37,7 +37,7 @@ class Persona extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Nombre, Apellido, Direccion , Cedula, Telefono, Celular', 'required','message' => 'No se permiten Campos Vacios'),
+			array('Nombre, Apellido, Direccion , Cedula, Celular', 'required','message' => 'Campo {attribute} no puede estar en blanco'),
 			array('Nombre, Apellido, Direccion', 'length', 'max'=>45),
             array('Cedula, Telefono, Celular', 'numerical', 'integerOnly'=>true),
 			array('Cedula', 'length', 'min'=>6, 'max'=>9),

@@ -190,12 +190,12 @@
 </div></div>
 	<!--	</cuerpecito>-->
 		<!--<div style="width: 100%;height: 10px;"></div>-->
-		<footer style="margin-top:-20px; height:auto;">
+		<footer style=" height:auto;">
 		
 
-						<div id="jsn-footer" style=":padding-top:-200px; height:150px;">
+						<div id="jsn-footer" style="padding-top:40px;">
 							<div id="jsn-footer-inner">
-										<div id="jsn-social-icons">
+						<!--				<div id="jsn-social-icons">
 							<ul>
 													<li class="facebook">
 									<a href="https://es-la.facebook.com/unetoficial" title="Facebook" target="_blank">
@@ -214,7 +214,7 @@
 										RSS</a>
 								</li>
 												</ul>
-						</div>
+						</div>-->
 									<div id="jsn-footermodules" class="jsn-modulescontainer jsn-modulescontainer2">
 													<div id="jsn-pos-footer" class="row-fluid">
 									<div class=" jsn-modulecontainer span12"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
@@ -223,27 +223,25 @@
 			<span>
 			Noticias UNET		</span>
 		</a>
-		</li><li><a href="http://www.unet.edu.ve/busqueda-inteligente.html">
+		</li><li><a href="http://docencia.unet.edu.ve/">
 		<span>
-			Búsqueda Inteligente	</span>
-	</a></li><li><a href="http://www.unet.edu.ve/telefonos-internos.html">
+			Decanato de Docencia	</span>
+	</a></li><li><a href="http://www2.unet.edu.ve/investigacion/">
 		<span>
-			Telefonos Internos	</span>
-	</a></li><li>		<a class="" href="https://intranet.unet.edu.ve/postgrado/ingreso.php" target="_blank">
+			Decanato de Investigación	</span>
+	</a></li><li>		<a class="" href="http://www2.unet.edu.ve/extension/decanato-de-extension.html" target="_blank">
 				<span>
-				Estudiantes de Postgrado			</span>
+				Decanato de Extensión			</span>
 			</a>
-	</li><li class="last"><a href="http://www.unet.edu.ve/mapa-del-sitio.html">
+	</li><li class="last"><a href="http://www2.unet.edu.ve/estudiantes/decanato-de-desarrollo-estudiantil.html">
 		<span>
-			Mapa del Sitio	</span>
+			Decanato de Desarrollo Estudiantil	</span>
 	</a></li></ul><div class="clearbreak"></div></div></div></div>
 		</div>
 			<div id="jsn-pos-bottom" class="row-fluid">
 									<div class=" jsn-modulecontainer span12"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent">
 	<div>
-		<p>Avenida Universidad, Sector Paramillo. San Cristóbal, Venezuela. +58 (276) 353-0422. RIF: G-20004886-7.<a href="http://www.unet.edu.ve/component/content/article/88-unet/principal/232-contactenos.html">Contáctenos</a></p>
-
-		<p><span style="line-height: 1.3em;">Republica Bolivariana de Venezuela. <a href="http://www.mppeu.gob.ve/" target="_blank">Ministerio del Poder Popular Para la Educación Universitaria</a>.</span></p>
+		<p>Universidad Nacional Experimental del Táchira, Avenida Universidad, Sector Paramillo. San Cristóbal, Venezuela. +58 (276) 353-0676. </p>	
 
 		<p><span style="line-height: 1.3em;"><span style="line-height: 15.600000381469727px;">Copyright © 2014.&nbsp;</span>Universidad Nacional Experimental del Táchira (UNET). Adaptado por: <a href="http://www.unet.edu.ve/sobre-la-unet/autoridades/rectorado/ceti.html">CETI</a></span></p>
 	</div>

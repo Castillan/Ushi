@@ -33,7 +33,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Roles_idRoles'); ?>
-		<?php echo $form->textField($model,'Roles_idRoles'); ?>
+				<?php echo $form->dropDownList($model,'Roles_idRoles',CHtml::listData(Roles::model()->findAll(),'idRoles','Nombre'),array('empty'=>'Seleccione un Rol')); ?>
 		<?php echo $form->error($model,'Roles_idRoles'); ?>
 	</div>
 

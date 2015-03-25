@@ -31,6 +31,11 @@
 		<?php echo $form->textField($model,'Nota3',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'Burbuja'); ?>
+		<?php echo $form->textField($model,'Burbuja',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>
