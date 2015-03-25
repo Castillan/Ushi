@@ -33472,3 +33472,2126 @@ Stack trace:
 REQUEST_URI=/Ushi/themes/classic/images/icons/icons-social.png
 HTTP_REFERER=http://localhost/Ushi/themes/classic/css/jsn_social_icons_footer.css
 ---
+2015/03/21 21:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:08:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/update/1
+---
+2015/03/21 21:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/21 21:09:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 21:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:10:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 21:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/21 21:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:01:29 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:01:29 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:01:45 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:01:45 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:04:34 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:04:34 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:06:35 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:06:35 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:06:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:06:49 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:06:49 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:07:02 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:07:02 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:07:20 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:07:20 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:08:18 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:08:18 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/21 23:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/21 23:08:29 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:08:29 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/21 23:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:14:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:14:48 [error] [exception.CException] exception 'CException' with message 'Property "CStringValidator.0" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(189): CComponent->__set('0', 'unique')
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(Persona), 'Cedula', Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): CModel->getValidators('Nombre')
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1414): CModel->isAttributeRequired('Nombre')
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(597): CHtml::activeLabelEx(Object(Persona), 'Nombre', Array)
+#6 C:\xampp\htdocs\Servicio_Comunitario\protected\views\persona\_form.php(23): CActiveForm->labelEx(Object(Persona), 'Nombre')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\Servicio_Comunitario\protected\views\persona\create.php(18): CController->renderPartial('_form', Array)
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#15 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\PersonaController.php(81): CController->render('create', Array)
+#16 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionCreate()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#27 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/Servicio_Comunitario/persona/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/principal
+---
+2015/03/22 01:15:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:15:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:15:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:15:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:17:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20120737' for key 'Cedula_UNIQUE'. The SQL statement executed was: INSERT INTO `persona` (`Nombre`, `Apellido`, `Cedula`, `FechaNacimiento`, `Direccion`, `Telefono`, `Celular`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\PersonaController.php (74)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:17:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '20120737' for key 'Cedula_UNIQUE'. The SQL statement executed was: INSERT INTO `persona` (`Nombre`, `Apellido`, `Cedula`, `FechaNacimiento`, `Direccion`, `Telefono`, `Celular`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\PersonaController.php(74): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/persona/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 01:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/22 01:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:23:42 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:23:42 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/22 01:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:23:58 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:23:58 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/22 01:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:25:08 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:25:08 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:25:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/22 01:25:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:26:41 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:26:41 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/22 01:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 01:27:06 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:27:06 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 01:27:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 02:05:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/22 02:05:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 02:05:18 [warning] [application] Failed to set unsafe attribute "idn1" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 02:05:18 [warning] [application] Failed to set unsafe attribute "idn2" of "Trabajador".
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\TrabajadorController.php (97)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 02:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/trabajador/update/1
+---
+2015/03/22 02:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 16:23:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 16:23:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 16:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 16:23:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 16:25:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (110)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 16:25:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(110): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 16:27:41 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.idPariente0.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idPariente0.Ced...')
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(82): CActiveRecord->__get('idPariente0.Ced...')
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(FichaMedica), 'idPariente0.Ced...')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FichaMedica), NULL)
+#4 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(95): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 16:28:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (110)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 16:28:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(110): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 16:32:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (110)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 16:32:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(110): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 16:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 16:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 17:30:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (110)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 17:30:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(110): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 17:31:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 17:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 17:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 17:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 21:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 21:47:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (111)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 21:47:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 21:47:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (110)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 21:47:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(110): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 21:59:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 21:59:05 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Cedula')
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(82): CActiveRecord->__get('Cedula')
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(FichaMedica), 'Cedula')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FichaMedica), NULL)
+#4 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(95): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:59:24 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.idPariente0.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idPariente0.Ced...')
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(82): CActiveRecord->__get('idPariente0.Ced...')
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(FichaMedica), 'idPariente0.Ced...')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FichaMedica), NULL)
+#4 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(95): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:59:31 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.idPariente0_Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idPariente0_Ced...')
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(82): CActiveRecord->__get('idPariente0_Ced...')
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(FichaMedica), 'idPariente0_Ced...')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FichaMedica), NULL)
+#4 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(95): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:59:38 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.idPariente0->Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idPariente0->Ce...')
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(82): CActiveRecord->__get('idPariente0->Ce...')
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(FichaMedica), 'idPariente0->Ce...')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FichaMedica), NULL)
+#4 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(95): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 21:59:50 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.Persona.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Persona.Cedula')
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(82): CActiveRecord->__get('Persona.Cedula')
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(FichaMedica), 'Persona.Cedula')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FichaMedica), NULL)
+#4 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(95): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:00:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (110)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 22:00:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(110): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:00:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/update/1
+---
+2015/03/22 22:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/update/1
+---
+2015/03/22 22:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:02:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:02:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:02:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (112)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 22:02:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(112): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:02:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:11:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (112)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 22:11:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(112): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:25:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:25:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:25:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:25:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 22:25:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:25:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/persona/create
+---
+2015/03/22 22:25:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:25:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:26:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:32:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 22:33:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (116)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/22 22:33:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(116): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:34:48 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Cedula')
+#1 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->__get('Cedula')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:35:29 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Cedula')
+#1 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->__get('Cedula')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:35:40 [error] [exception.CException] exception 'CException' with message 'Property "FichaMedica.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Cedula')
+#1 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->__get('Cedula')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:35:52 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.Cedula := Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set('Cedula := Cedul...', '20120737')
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1663): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->exists(Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 22:36:11 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.Cedula" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set('Cedula', '20120737')
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1663): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->exists(Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 23:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 23:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 23:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 23:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 23:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 23:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/22 23:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/22 23:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 01:42:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (111)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/23 01:42:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 01:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 01:42:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:27:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:29:28 [error] [exception.CException] exception 'CException' with message 'Property "CRequiredValidator.0" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(189): CComponent->__set('0', 'Cedula, Telefon...')
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): CValidator::createValidator('required', Object(Persona), 'Nombre, Apellid...', Array)
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(547): CModel->getValidators()
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(468): CModel->getSafeAttributeNames()
+#5 C:\xampp\htdocs\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('attributes', Array)
+#7 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(92): CActiveRecord->__set('attributes', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:30:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:30:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:30:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:31:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (111)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/23 02:31:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:31:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/23 02:32:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php (111)
+in C:\xampp\htdocs\Servicio_Comunitario\index.php (13)
+2015/03/23 02:32:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ushi`.`ficha_medica`, CONSTRAINT `fk_Ficha_Medica_Persona2` FOREIGN KEY (`idPariente`) REFERENCES `persona` (`idPersona`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `ficha_medica` (`Fecha`, `Persona_idPersona`, `GrupoSanguineo`, `RH`, `EstadoSalud`, `Parentesco`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Servicio_Comunitario\protected\controllers\FichaMedicaController.php(111): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FichaMedicaController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fichaMedica/cre...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Servicio_Comunitario/fichaMedica/create
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:44:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/jui/softark/jquery-ui-1.9.2.custom.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/jui/softark...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/css/jui/softark/jquery-ui-1.9.2.custom.css
+HTTP_REFERER=http://localhost/Servicio_Comunitario/fichaMedica/create
+---
+2015/03/23 02:44:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/25 14:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/25 14:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/25 14:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/25 14:11:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---
+2015/03/25 14:11:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/images/icons/icons-social.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Servicio_Comunitario\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Servicio_Comunitario/themes/classic/images/icons/icons-social.png
+HTTP_REFERER=http://localhost/Servicio_Comunitario/themes/classic/css/jsn_social_icons_footer.css
+---

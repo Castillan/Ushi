@@ -104,10 +104,11 @@ class FichaMedicaController extends Controller
 		        }
 		    }
 		
+		
 			if(isset($_POST['FichaMedica']))
 			{
 				$model1->attributes=$_POST['FichaMedica'];
-				if($model1->save())
+				if($model1->save() && $model2->save())
 					$this->redirect(array('view','id'=>$model1->idFicha_Medica));
 			}
 			

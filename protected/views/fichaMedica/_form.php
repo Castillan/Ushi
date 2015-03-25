@@ -120,7 +120,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model1->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model1->isNewRecord, $model2->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

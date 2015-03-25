@@ -52,11 +52,13 @@ class Trabajador extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo', 'required'),
+			array('Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo', 'required', 'message' => 'Campo no puede estar en blanco'),
 			array('Persona_idPersona, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, CodigoPostal, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia', 'numerical', 'integerOnly'=>true),
 			array('Nacionalidad, Sexo, Mano', 'length', 'max'=>1),
 			array('Email, Sueldo, Grado_Educacion','length', 'max'=>45),
-            array('Email','email'),
+            array('Email','email','checkMX'=>true, 'message' => 'Formato de Correo no valido'),
+            array('Persona_idPersona', 'unique', 'message' => 'Esta persona ya se encuentra registrada como trabajador'),
+            array('Email', 'unique', 'message' => 'Correo ya se encuentra registrado'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('idTrabajador, Persona_idPersona, Nacionalidad, Sexo, Mano, Edo_Civil_idEdo_Civil, Hijos, NivelEducativo_idNivelEducativo, Email, CodigoPostal, IngresoUNET, IngresoIVSS, Ubicacion_idUbicacion, Cargo_idCargo, Dependencia_idDependencia, Sueldo, persona_nombre, persona_apellido, persona_cedula,idn1,idn2', 'safe', 'on'=>'search'),

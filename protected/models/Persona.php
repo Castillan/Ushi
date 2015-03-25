@@ -37,10 +37,11 @@ class Persona extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Nombre, Apellido', 'required'),
+			array('Nombre, Apellido, Direccion , Cedula, Telefono, Celular', 'required','message' => 'No se permiten Campos Vacios'),
 			array('Nombre, Apellido, Direccion', 'length', 'max'=>45),
             array('Cedula, Telefono, Celular', 'numerical', 'integerOnly'=>true),
 			array('Cedula', 'length', 'min'=>6, 'max'=>9),
+			array('Cedula', 'unique', 'message' => 'Cedula ya se encuentra registrada'),
 			array('Telefono, Celular', 'length', 'min'=>10,'max'=>11),			
 			array('FechaNacimiento', 'safe'),
 			// The following rule is used by search().
