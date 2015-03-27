@@ -65,8 +65,8 @@ class Trabajadoraccidente extends CActiveRecord
 		return array(
 			'Accidente_idAccidente' => 'Accidente Id Accidente',
 			'idTrabajadorAccidente' => 'Id Trabajador Accidente',
-			'Horas' => 'Horas',
-			'Minutos' => 'Minutos',
+			'Horas' => 'Horas de trabajo hasta el accidente',
+			'Minutos' => 'Minutos de trabajo hasta el accidente',
 			'CentroSalud_idCentroSalud' => 'Centro de Salud',
 			'Trabajador_idTrabajador' => 'Trabajador',
 		);

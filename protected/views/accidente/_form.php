@@ -27,6 +27,7 @@
 		    'themeUrl' => Yii::app()->baseUrl . '/css/jui',
 		    'theme' => 'softark',
 		    'cssFile' => 'jquery-ui-1.9.2.custom.css',
+            'id'=>'fechaSelect',
 		    'options' => array(
 		        'showOn' => 'both',             // also opens with a button
 		        'dateFormat' => 'yy-mm-dd',     // format of "2012-12-25"
@@ -38,20 +39,28 @@
 		        'minDate' => '1950-01-01',      // minimum date
 		        'maxDate' => '2099-12-31',      // maximum date
 		        'showButtonPanel' => true,      // show button panel
-		    ),
+               'onClose'=>'js:function(){
+                              
+                    var days = ["7","1","2","3","4","5","6"];
+                    var d = new Date(document.getElementById("fechaSelect").value);               
+                    d.setMinutes(d.getMinutes()+270);
+                    document.getElementById("Accidente_DiaSemana_idDiaSemana").value = days[d.getDay()];
+               
+               }'
+                ),		   
 		    'htmlOptions' => array(
 		        'size' => '10',
 		        'maxlength' => '10',
-                 'placeholder'=>'aaaa-mm-dd',  
+                 'placeholder'=>'aaaa-mm-dd',
 		    ),
 		));
 		?>
 		<?php echo $form->error($model,'Fecha'); ?>
 	</div>
-
 	<div class="row">
 		<?php echo $form->labelEx($model,'DiaSemana_idDiaSemana'); ?>
 		<?php echo $form->dropDownList($model,'DiaSemana_idDiaSemana',CHtml::listData(DiaSemana::model()->findAll(),'idDiaSemana','Nombre'),array('empty'=>'Seleccione uno')); ?>
+        
 		<?php echo $form->error($model,'DiaSemana_idDiaSemana'); ?>
 	</div>
 

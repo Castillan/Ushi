@@ -24,11 +24,7 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Dentro')); ?>:</b>
 	<?php echo CHtml::encode($data->getDentro()); ?>
 	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Ubicacion_idUbicacion')); ?>:</b>
-	<?php echo CHtml::encode($data->ubicacionIdUbicacion->Nombre); ?>
-	<br />
-
+    
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Lugar')); ?>:</b>
 	<?php echo CHtml::encode($data->Lugar); ?>
 	<br />
