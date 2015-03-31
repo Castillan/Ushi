@@ -85,15 +85,17 @@ class FichaMedicaController extends Controller
 		 $model1=new FichaMedica;
 		 $model2=new Persona;
 		
-		 if(isset($_POST['FichaMedica'], $_POST['Persona']))        
+		 if(isset($_POST['FichaMedica']))        
 		 {
 		    // populate input data to $a and $b
 		    $model1->attributes=$_POST['FichaMedica'];
 		    $model2->attributes=$_POST['Persona'];
-		
+			$existe=Persona::model()->findByAttributes(array('Cedula'=>$model2->Cedula));
+			
+			if($existe==null){
 		    // validate BOTH $a and $b
 		   $valid=$model1->validate();
-		        $valid=$model2->validate() && $valid;
+		   $valid=$model2->validate() && $valid;
 		
 		        if($valid)
 		        {
@@ -102,13 +104,27 @@ class FichaMedicaController extends Controller
 		            $model1->idPariente = $model2->idPersona;
 		            $model1->save();
 		        }
-		    }
+				
+			}else{
+		 	$model2=$existe;
+			$valid=$model1->validate();
+		    $valid=$model2->validate() && $valid;
+		
+		        if($valid)
+		        {
+		
+		            $model1->idPariente = $model2->idPersona;
+		            $model1->save();
+		        }
+		 	}
+				
+		}
 		
 		
 			if(isset($_POST['FichaMedica']))
 			{
 				$model1->attributes=$_POST['FichaMedica'];
-				if($model1->save() && $model2->save())
+				if($model1->save())
 					$this->redirect(array('view','id'=>$model1->idFicha_Medica));
 			}
 			
@@ -119,6 +135,7 @@ class FichaMedicaController extends Controller
 		    ));
 			
 	}
+
 
 	/**
 	 * Updates a particular model.

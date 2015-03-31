@@ -76,7 +76,7 @@
 
 	<br>
 	<?php echo $form->label($model2,'Informacion Contacto'); ?>
-
+	
 	<div class="row">
 		<?php echo $form->label($model2,'Nombre'); ?>
 		<?php echo $form->textField($model2,'Nombre',array('size'=>45,'maxlength'=>45)); ?>
@@ -88,13 +88,13 @@
 		<?php echo $form->textField($model2,'Apellido',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model2,'Apellido'); ?>
 	</div>
-
+	
 	<div class="row">
 		<?php echo $form->labelEx($model2,'Cedula'); ?>
 		<?php echo $form->textField($model2,'Cedula',array('size'=>9,'maxlength'=>9)); ?>
 		<?php echo $form->error($model2,'Cedula'); ?>
 	</div>
-
+	
 	<div class="row">
 		<?php echo $form->labelEx($model2,'Direccion'); ?>
 		<?php echo $form->textField($model2,'Direccion',array('size'=>45,'maxlength'=>45)); ?>
@@ -112,6 +112,12 @@
 		<?php echo $form->textField($model2,'Celular',array('size'=>20,'maxlength'=>20)); ?>
 		<?php echo $form->error($model2,'Celular'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo '<b>Seleccione el numero de cedula del familiar</b><br/>'; ?>
+		<?php echo $form->dropDownList($model2,'Cedula',CHtml::listData(Persona::model()->findAll(),'Cedula','Cedula'),array('empty'=>'Seleccione un trabajador por su cédula')); ?>
+		<?php echo $form->error($model2,'Cedula'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model1,'Parentesco'); ?>
@@ -120,7 +126,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model1->isNewRecord, $model2->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model1->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
