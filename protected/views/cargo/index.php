@@ -9,8 +9,8 @@ $this->breadcrumbs=array(
 /*echo '<div class="flexible">
     <div class="caja18">';*/
 $this->menu=array(
-	array('label'=>'Create Cargo', 'url'=>array('create')),
-	array('label'=>'Manage Cargo', 'url'=>array('admin')),
+	array('label'=>'Crear Cargo', 'url'=>array('create')),
+	array('label'=>'Administrar Cargo', 'url'=>array('admin')),
 );
 ?>
 

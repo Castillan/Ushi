@@ -119,9 +119,9 @@
     
 			'items'=>array(
 				array('label'=>'INICIO', 'url'=>array('/')),
-				array('label'=>'¿QUIÉNES SOMOS?', 'url'=>array('/site/page', 'view'=>'about'), 'visible'=>Yii::app()->user->isGuest),
+				//array('label'=>'¿QUIÉNES SOMOS?', 'url'=>array('/site/page', 'view'=>'about'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'CONTÁCTENOS', 'url'=>array('/site/contact'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+				array('label'=>'ENTRAR', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Accidente', 'url'=>array('/accidente/principal'), 'visible'=>!Yii::app()->user->isGuest),
                 //array('label'=>'Cargo', 'url'=>array('/cargo'), 'visible'=>Yii::app()->user->getState('idRol')==1),
                 //array('label'=>'Centrosalud', 'url'=>array('/centrosalud'), 'visible'=>Yii::app()->user->getState('idRol')==1),
@@ -148,7 +148,7 @@
                 //array('label'=>'Trabajadorruta', 'url'=>array('/trabajadorruta'), 'visible'=>Yii::app()->user->getState('idRol')==1),                
                 //array('label'=>'Ubicación', 'url'=>array('/ubicacion'), 'visible'=>!Yii::app()->user->isGuest),                
                 //array('label'=>'Usuarios', 'url'=>array('/usuarios'), 'visible'=>Yii::app()->user->getState('idRol')==1),                
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>'SALIR ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 		)); ?>
 	

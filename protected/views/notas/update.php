@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Notases'=>array('index'),
 	$model->idNotas=>array('view','id'=>$model->idNotas),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Notas', 'url'=>array('index')),
-	array('label'=>'Create Notas', 'url'=>array('create')),
-	array('label'=>'View Notas', 'url'=>array('view', 'id'=>$model->idNotas)),
-	array('label'=>'Manage Notas', 'url'=>array('admin')),
+	array('label'=>'Listar Notas', 'url'=>array('index')),
+	array('label'=>'Crear Notas', 'url'=>array('create')),
+	array('label'=>'Ver Notas', 'url'=>array('view', 'id'=>$model->idNotas)),
+	array('label'=>'Administrar Notas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Notas <?php echo $model->idNotas; ?></h1>
+<h1>Actualizar Notas <?php echo $model->idNotas; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

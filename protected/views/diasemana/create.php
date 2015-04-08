@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Diasemanas'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Diasemana', 'url'=>array('index')),
-	array('label'=>'Manage Diasemana', 'url'=>array('admin')),
+	array('label'=>'Listar Diasemana', 'url'=>array('index')),
+	array('label'=>'Administrar Diasemana', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Diasemana</h1>
+<h1>Crear Dia de la semana</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

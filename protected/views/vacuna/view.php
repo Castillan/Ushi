@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Vacuna', 'url'=>array('index')),
-	array('label'=>'Create Vacuna', 'url'=>array('create')),
-	array('label'=>'Update Vacuna', 'url'=>array('update', 'id'=>$model->idVacuna)),
-	array('label'=>'Delete Vacuna', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idVacuna),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Vacuna', 'url'=>array('admin')),
+	array('label'=>'Listar Vacuna', 'url'=>array('index')),
+	array('label'=>'Crear Vacuna', 'url'=>array('create')),
+	array('label'=>'Actualizar Vacuna', 'url'=>array('update', 'id'=>$model->idVacuna)),
+	array('label'=>'Eliminar Vacuna', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idVacuna),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Vacuna', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Vacuna #<?php echo $model->idVacuna; ?></h1>
+<h1>Ver Vacuna #<?php echo $model->idVacuna; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

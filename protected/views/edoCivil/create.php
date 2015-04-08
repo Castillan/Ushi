@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Edo Civils'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List EdoCivil', 'url'=>array('index')),
-	array('label'=>'Manage EdoCivil', 'url'=>array('admin')),
+	array('label'=>'Listar EdoCivil', 'url'=>array('index')),
+	array('label'=>'Administrar EdoCivil', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create EdoCivil</h1>
+<h1>Crear Estado Civil</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

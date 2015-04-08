@@ -9,9 +9,9 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 
-	array('label'=>'Delete FichaMedica', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idFicha_Medica),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Update Ficha Medica', 'url'=>array('update', 'id'=>$model->idFicha_Medica)),
-	array('label'=>'Manage FichaMedica', 'url'=>array('admin'), 'visible'=>Yii::app()->user->getState('idRol')==1),
+	array('label'=>'Eliminar FichaMedica', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idFicha_Medica),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Actualizar Ficha Medica', 'url'=>array('update', 'id'=>$model->idFicha_Medica)),
+	array('label'=>'Administrar FichaMedica', 'url'=>array('admin'), 'visible'=>Yii::app()->user->getState('idRol')==1),
 );
 ?>
 

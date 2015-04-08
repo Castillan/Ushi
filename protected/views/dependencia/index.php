@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Dependencia', 'url'=>array('create')),
-	array('label'=>'Manage Dependencia', 'url'=>array('admin')),
+	array('label'=>'Crear Dependencia', 'url'=>array('create')),
+	array('label'=>'Administrar Dependencia', 'url'=>array('admin')),
 );
 ?>
 

@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Tipocondicion', 'url'=>array('index')),
-	array('label'=>'Create Tipocondicion', 'url'=>array('create')),
-	array('label'=>'Update Tipocondicion', 'url'=>array('update', 'id'=>$model->idTipoCondicion)),
-	array('label'=>'Delete Tipocondicion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTipoCondicion),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Tipocondicion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipocondicion', 'url'=>array('index')),
+	array('label'=>'Crear Tipocondicion', 'url'=>array('create')),
+	array('label'=>'Actualizar Tipocondicion', 'url'=>array('update', 'id'=>$model->idTipoCondicion)),
+	array('label'=>'Eliminar Tipocondicion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTipoCondicion),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Tipocondicion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Tipocondicion #<?php echo $model->idTipoCondicion; ?></h1>
+<h1>Ver Tipo de condicion #<?php echo $model->idTipoCondicion; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

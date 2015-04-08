@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Trabajadoraccidentes'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Trabajadoraccidente', 'url'=>array('index')),
-	array('label'=>'Manage Trabajadoraccidente', 'url'=>array('admin')),
+	array('label'=>'Listar Trabajador accidente', 'url'=>array('index')),
+	array('label'=>'Administrar Trabajador accidente', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Trabajadoraccidente</h1>
+<h1>Crear Trabajador accidente</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

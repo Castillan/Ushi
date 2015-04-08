@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Ficha Vacunas'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List FichaVacuna', 'url'=>array('index')),
-	array('label'=>'Manage FichaVacuna', 'url'=>array('admin')),
+	array('label'=>'Listar FichaVacuna', 'url'=>array('index')),
+	array('label'=>'Administrar FichaVacuna', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create FichaVacuna</h1>
+<h1>Crear FichaVacuna</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

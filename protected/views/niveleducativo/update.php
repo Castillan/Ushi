@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Niveleducativos'=>array('index'),
 	$model->idNivelEducativo=>array('view','id'=>$model->idNivelEducativo),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Niveleducativo', 'url'=>array('index')),
-	array('label'=>'Create Niveleducativo', 'url'=>array('create')),
-	array('label'=>'View Niveleducativo', 'url'=>array('view', 'id'=>$model->idNivelEducativo)),
-	array('label'=>'Manage Niveleducativo', 'url'=>array('admin')),
+	array('label'=>'Listar Niveleducativo', 'url'=>array('index')),
+	array('label'=>'Crear Niveleducativo', 'url'=>array('create')),
+	array('label'=>'Ver Niveleducativo', 'url'=>array('view', 'id'=>$model->idNivelEducativo)),
+	array('label'=>'Administrar Niveleducativo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Niveleducativo <?php echo $model->idNivelEducativo; ?></h1>
+<h1>Actualizar Nivel educativo <?php echo $model->idNivelEducativo; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

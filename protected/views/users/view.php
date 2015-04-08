@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Users', 'url'=>array('index')),
-	array('label'=>'Create Users', 'url'=>array('create')),
-	array('label'=>'Update Users', 'url'=>array('update', 'id'=>$model->Usuario)),
-	array('label'=>'Delete Users', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->Usuario),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Users', 'url'=>array('admin')),
+	array('label'=>'Listar Users', 'url'=>array('index')),
+	array('label'=>'Crear Users', 'url'=>array('create')),
+	array('label'=>'Actualizar Users', 'url'=>array('update', 'id'=>$model->Usuario)),
+	array('label'=>'Eliminar Users', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->Usuario),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Users', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Users #<?php echo $model->Usuario; ?></h1>
+<h1>Ver Users #<?php echo $model->Usuario; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

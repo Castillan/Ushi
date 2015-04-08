@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Trabajadoraccidentes'=>array('index'),
 	$model->idTrabajadorAccidente=>array('view','id'=>$model->idTrabajadorAccidente),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Trabajadoraccidente', 'url'=>array('index')),
-	array('label'=>'Create Trabajadoraccidente', 'url'=>array('create')),
-	array('label'=>'View Trabajadoraccidente', 'url'=>array('view', 'id'=>$model->idTrabajadorAccidente)),
-	array('label'=>'Manage Trabajadoraccidente', 'url'=>array('admin')),
+	array('label'=>'Listar Trabajador accidente', 'url'=>array('index')),
+	array('label'=>'Crear Trabajador accidente', 'url'=>array('create')),
+	array('label'=>'Ver Trabajador accidente', 'url'=>array('view', 'id'=>$model->idTrabajadorAccidente)),
+	array('label'=>'Administrar Trabajador accidente', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Trabajadoraccidente <?php echo $model->idTrabajadorAccidente; ?></h1>
+<h1>Actualizar Trabajador accidente <?php echo $model->idTrabajadorAccidente; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

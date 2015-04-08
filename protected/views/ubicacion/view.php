@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Ubicacion', 'url'=>array('index')),
-	array('label'=>'Create Ubicacion', 'url'=>array('create')),
-	array('label'=>'Update Ubicacion', 'url'=>array('update', 'id'=>$model->idUbicacion)),
-	array('label'=>'Delete Ubicacion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idUbicacion),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Ubicacion', 'url'=>array('admin')),
+	array('label'=>'Listar Ubicacion', 'url'=>array('index')),
+	array('label'=>'Crear Ubicacion', 'url'=>array('create')),
+	array('label'=>'Actualizar Ubicacion', 'url'=>array('update', 'id'=>$model->idUbicacion)),
+	array('label'=>'Eliminar Ubicacion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idUbicacion),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Ubicacion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Ubicacion #<?php echo $model->idUbicacion; ?></h1>
+<h1>Ver Ubicacion #<?php echo $model->idUbicacion; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

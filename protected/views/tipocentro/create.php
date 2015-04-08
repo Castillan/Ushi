@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Tipocentros'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Tipocentro', 'url'=>array('index')),
-	array('label'=>'Manage Tipocentro', 'url'=>array('admin')),
+	array('label'=>'Listar Tipocentro', 'url'=>array('index')),
+	array('label'=>'Administrar Tipocentro', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Tipocentro</h1>
+<h1>Crear Tipo centro</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Testigo', 'url'=>array('create')),
-	array('label'=>'Manage Testigo', 'url'=>array('admin')),
+	array('label'=>'Crear Testigo', 'url'=>array('create')),
+	array('label'=>'Administrar Testigo', 'url'=>array('admin')),
 );
 ?>
 

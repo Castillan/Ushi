@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create EdoCivil', 'url'=>array('create')),
-	array('label'=>'Manage EdoCivil', 'url'=>array('admin')),
+	array('label'=>'Crear EdoCivil', 'url'=>array('create')),
+	array('label'=>'Administrar EdoCivil', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Edo Civils</h1>
+<h1>Estado Civil</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

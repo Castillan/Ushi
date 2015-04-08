@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Centrosalud', 'url'=>array('index')),
-	array('label'=>'Create Centrosalud', 'url'=>array('create')),
-	array('label'=>'Update Centrosalud', 'url'=>array('update', 'id'=>$model->idCentroSalud)),
-	array('label'=>'Delete Centrosalud', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idCentroSalud),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Centrosalud', 'url'=>array('admin')),
+	array('label'=>'Listar Centrosalud', 'url'=>array('index')),
+	array('label'=>'Crear Centrosalud', 'url'=>array('create')),
+	array('label'=>'Actualizar Centrosalud', 'url'=>array('update', 'id'=>$model->idCentroSalud)),
+	array('label'=>'Eliminar Centrosalud', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idCentroSalud),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Centrosalud', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Centrosalud #<?php echo $model->idCentroSalud; ?></h1>
+<h1>Ver Centrosalud #<?php echo $model->idCentroSalud; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

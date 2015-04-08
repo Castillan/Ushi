@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Edo Civils'=>array('index'),
 	$model->idEdo_Civil=>array('view','id'=>$model->idEdo_Civil),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List EdoCivil', 'url'=>array('index')),
-	array('label'=>'Create EdoCivil', 'url'=>array('create')),
-	array('label'=>'View EdoCivil', 'url'=>array('view', 'id'=>$model->idEdo_Civil)),
-	array('label'=>'Manage EdoCivil', 'url'=>array('admin')),
+	array('label'=>'Listar EdoCivil', 'url'=>array('index')),
+	array('label'=>'Crear EdoCivil', 'url'=>array('create')),
+	array('label'=>'Ver EdoCivil', 'url'=>array('view', 'id'=>$model->idEdo_Civil)),
+	array('label'=>'Administrar EdoCivil', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update EdoCivil <?php echo $model->idEdo_Civil; ?></h1>
+<h1>Actualizar Estado Civil <?php echo $model->idEdo_Civil; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

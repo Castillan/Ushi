@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Vacuna', 'url'=>array('create')),
-	array('label'=>'Manage Vacuna', 'url'=>array('admin')),
+	array('label'=>'Crear Vacuna', 'url'=>array('create')),
+	array('label'=>'Administrar Vacuna', 'url'=>array('admin')),
 );
 ?>
 

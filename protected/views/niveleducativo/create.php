@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Niveleducativos'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Niveleducativo', 'url'=>array('index')),
-	array('label'=>'Manage Niveleducativo', 'url'=>array('admin')),
+	array('label'=>'Listar Niveleducativo', 'url'=>array('index')),
+	array('label'=>'Administrar Niveleducativo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Niveleducativo</h1>
+<h1>Crear Nivel educativo</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

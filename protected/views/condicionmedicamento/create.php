@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Condicionmedicamentos'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Condicionmedicamento', 'url'=>array('index')),
-	array('label'=>'Manage Condicionmedicamento', 'url'=>array('admin')),
+	array('label'=>'Listar Condicionmedicamento', 'url'=>array('index')),
+	array('label'=>'Administrar Condicionmedicamento', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Condicionmedicamento</h1>
+<h1>Crear Condicionmedicamento</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Condicion', 'url'=>array('index')),
-	array('label'=>'Create Condicion', 'url'=>array('create')),
-	array('label'=>'Update Condicion', 'url'=>array('update', 'id'=>$model->idCondicion)),
-	array('label'=>'Delete Condicion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idCondicion),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Condicion', 'url'=>array('admin')),
+	array('label'=>'Listar Condiciones', 'url'=>array('index')),
+	array('label'=>'Crear Condicion', 'url'=>array('create')),
+	array('label'=>'Actualizar Condicion', 'url'=>array('update', 'id'=>$model->idCondicion)),
+	array('label'=>'Eliminar Condicion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idCondicion),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Condicion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Condicion #<?php echo $model->idCondicion; ?></h1>
+<h1>Ver Condicion #<?php echo $model->idCondicion; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

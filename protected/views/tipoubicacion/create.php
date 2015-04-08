@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Tipoubicacions'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Tipoubicacion', 'url'=>array('index')),
-	array('label'=>'Manage Tipoubicacion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipo ubicacion', 'url'=>array('index')),
+	array('label'=>'Administrar Tipo ubicacion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Tipoubicacion</h1>
+<h1>Crear Tipo de ubicacion</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

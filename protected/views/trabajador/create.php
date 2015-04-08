@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Trabajadors'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 

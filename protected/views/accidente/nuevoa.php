@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Accidentes'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 
 ?>
 
-<h1>Create Accidente</h1>
+<h1>Crear Accidente</h1>
 
 <?php $this->renderPartial('_nuevo', array('model'=>$model)); ?>

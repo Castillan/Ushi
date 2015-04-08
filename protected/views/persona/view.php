@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Persona', 'url'=>array('index')),
-	array('label'=>'Create Persona', 'url'=>array('create')),
-	array('label'=>'Update Persona', 'url'=>array('update', 'id'=>$model->idPersona)),
-	array('label'=>'Delete Persona', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idPersona),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Persona', 'url'=>array('admin')),
+	array('label'=>'Listar Persona', 'url'=>array('index')),
+	array('label'=>'Crear Persona', 'url'=>array('create')),
+	array('label'=>'Actualizar Persona', 'url'=>array('update', 'id'=>$model->idPersona)),
+	array('label'=>'Eliminar Persona', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idPersona),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Persona', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Persona #<?php echo $model->idPersona; ?></h1>
+<h1>Ver Persona #<?php echo $model->idPersona; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

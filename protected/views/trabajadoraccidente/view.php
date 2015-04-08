@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Trabajadoraccidente', 'url'=>array('index')),
-	array('label'=>'Create Trabajadoraccidente', 'url'=>array('create')),
-	array('label'=>'Update Trabajadoraccidente', 'url'=>array('update', 'id'=>$model->idTrabajadorAccidente)),
-	array('label'=>'Delete Trabajadoraccidente', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTrabajadorAccidente),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Trabajadoraccidente', 'url'=>array('admin')),
+	array('label'=>'Listar Trabajador accidente', 'url'=>array('index')),
+	array('label'=>'Crear Trabajador accidente', 'url'=>array('create')),
+	array('label'=>'Actualizar Trabajador accidente', 'url'=>array('update', 'id'=>$model->idTrabajadorAccidente)),
+	array('label'=>'Eliminar Trabajador accidente', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTrabajadorAccidente),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Trabajador accidente', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Trabajadoraccidente #<?php echo $model->idTrabajadorAccidente; ?></h1>
+<h1>Ver Trabajador accidente #<?php echo $model->idTrabajadorAccidente; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

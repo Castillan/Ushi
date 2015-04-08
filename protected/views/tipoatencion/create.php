@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Tipoatencions'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Tipoatencion', 'url'=>array('index')),
-	array('label'=>'Manage Tipoatencion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipoatencion', 'url'=>array('index')),
+	array('label'=>'Administrar Tipoatencion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Tipoatencion</h1>
+<h1>Crear Tipo atencion</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

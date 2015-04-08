@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List FichaVacuna', 'url'=>array('index')),
-	array('label'=>'Create FichaVacuna', 'url'=>array('create')),
-	array('label'=>'Update FichaVacuna', 'url'=>array('update', 'id'=>$model->idFicha_Vacuna)),
-	array('label'=>'Delete FichaVacuna', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idFicha_Vacuna),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage FichaVacuna', 'url'=>array('admin')),
+	array('label'=>'Listar FichaVacuna', 'url'=>array('index')),
+	array('label'=>'Crear FichaVacuna', 'url'=>array('create')),
+	array('label'=>'Actualizar FichaVacuna', 'url'=>array('update', 'id'=>$model->idFicha_Vacuna)),
+	array('label'=>'Eliminar FichaVacuna', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idFicha_Vacuna),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar FichaVacuna', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View FichaVacuna #<?php echo $model->idFicha_Vacuna; ?></h1>
+<h1>Ver Ficha Vacuna #<?php echo $model->idFicha_Vacuna; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Educacions'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Educacion', 'url'=>array('index')),
-	array('label'=>'Manage Educacion', 'url'=>array('admin')),
+	array('label'=>'Listar Educacion', 'url'=>array('index')),
+	array('label'=>'Administrar Educacion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Educacion</h1>
+<h1>Crear Educacion</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

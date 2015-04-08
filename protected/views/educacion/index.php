@@ -3,16 +3,16 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Educacions',
+	'Educaciones',
 );
 
 $this->menu=array(
-	array('label'=>'Create Educacion', 'url'=>array('create')),
-	array('label'=>'Manage Educacion', 'url'=>array('admin')),
+	array('label'=>'Crear Educacion', 'url'=>array('create')),
+	array('label'=>'Administrar Educacion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Educacions</h1>
+<h1>Educaciones</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

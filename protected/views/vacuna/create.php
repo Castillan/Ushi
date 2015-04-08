@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Vacunas'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Vacuna', 'url'=>array('index')),
-	array('label'=>'Manage Vacuna', 'url'=>array('admin')),
+	array('label'=>'Listar Vacuna', 'url'=>array('index')),
+	array('label'=>'Administrar Vacuna', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Vacuna</h1>
+<h1>Crear Vacuna</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

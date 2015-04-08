@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Tipocondicions'=>array('index'),
 	$model->idTipoCondicion=>array('view','id'=>$model->idTipoCondicion),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Tipocondicion', 'url'=>array('index')),
-	array('label'=>'Create Tipocondicion', 'url'=>array('create')),
-	array('label'=>'View Tipocondicion', 'url'=>array('view', 'id'=>$model->idTipoCondicion)),
-	array('label'=>'Manage Tipocondicion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipocondicion', 'url'=>array('index')),
+	array('label'=>'Crear Tipocondicion', 'url'=>array('create')),
+	array('label'=>'Ver Tipocondicion', 'url'=>array('view', 'id'=>$model->idTipoCondicion)),
+	array('label'=>'Administrar Tipocondicion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Tipocondicion <?php echo $model->idTipoCondicion; ?></h1>
+<h1>Actualizar Tipo de condicion <?php echo $model->idTipoCondicion; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

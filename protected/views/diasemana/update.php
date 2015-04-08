@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Diasemanas'=>array('index'),
 	$model->idDiaSemana=>array('view','id'=>$model->idDiaSemana),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Diasemana', 'url'=>array('index')),
-	array('label'=>'Create Diasemana', 'url'=>array('create')),
-	array('label'=>'View Diasemana', 'url'=>array('view', 'id'=>$model->idDiaSemana)),
-	array('label'=>'Manage Diasemana', 'url'=>array('admin')),
+	array('label'=>'Listar Diasemana', 'url'=>array('index')),
+	array('label'=>'Crear Diasemana', 'url'=>array('create')),
+	array('label'=>'Ver Diasemana', 'url'=>array('view', 'id'=>$model->idDiaSemana)),
+	array('label'=>'Administrar Diasemana', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Diasemana <?php echo $model->idDiaSemana; ?></h1>
+<h1>Actualizar Dia de la semana <?php echo $model->idDiaSemana; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Cargo', 'url'=>array('index')),
-	array('label'=>'Create Cargo', 'url'=>array('create')),
-	array('label'=>'Update Cargo', 'url'=>array('update', 'id'=>$model->idCargo)),
-	array('label'=>'Delete Cargo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idCargo),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Cargo', 'url'=>array('admin')),
+	array('label'=>'Listar Cargo', 'url'=>array('index')),
+	array('label'=>'Crear Cargo', 'url'=>array('create')),
+	array('label'=>'Actualizar Cargo', 'url'=>array('update', 'id'=>$model->idCargo)),
+	array('label'=>'Eliminar Cargo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idCargo),'confirm'=>'Seguro que quiere eliminar este registro ?')),
+	array('label'=>'Administrar Cargo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Cargo #<?php echo $model->idCargo; ?></h1>
+<h1>Ver Cargo #<?php echo $model->idCargo; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

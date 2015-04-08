@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Condicionmedicamento', 'url'=>array('create')),
-	array('label'=>'Manage Condicionmedicamento', 'url'=>array('admin')),
+	array('label'=>'Crear Condicionmedicamento', 'url'=>array('create')),
+	array('label'=>'Administrar Condicionmedicamento', 'url'=>array('admin')),
 );
 ?>
 

@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create FichaVacuna', 'url'=>array('create')),
-	array('label'=>'Manage FichaVacuna', 'url'=>array('admin')),
+	array('label'=>'Crear FichaVacuna', 'url'=>array('create')),
+	array('label'=>'Administrar FichaVacuna', 'url'=>array('admin')),
 );
 ?>
 

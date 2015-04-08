@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Grados'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Grado', 'url'=>array('index')),
-	array('label'=>'Manage Grado', 'url'=>array('admin')),
+	array('label'=>'Listar Grado', 'url'=>array('index')),
+	array('label'=>'Administrar Grado', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Grado</h1>
+<h1>Crear Grado</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

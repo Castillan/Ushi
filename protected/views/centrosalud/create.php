@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Centrosaluds'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Centrosalud', 'url'=>array('index')),
-	array('label'=>'Manage Centrosalud', 'url'=>array('admin')),
+	array('label'=>'Listar Centrosalud', 'url'=>array('index')),
+	array('label'=>'Administrar Centrosalud', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Centrosalud</h1>
+<h1>Crear Centro de salud</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

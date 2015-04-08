@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Vacunas'=>array('index'),
 	$model->idVacuna=>array('view','id'=>$model->idVacuna),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Vacuna', 'url'=>array('index')),
-	array('label'=>'Create Vacuna', 'url'=>array('create')),
-	array('label'=>'View Vacuna', 'url'=>array('view', 'id'=>$model->idVacuna)),
-	array('label'=>'Manage Vacuna', 'url'=>array('admin')),
+	array('label'=>'Listar Vacuna', 'url'=>array('index')),
+	array('label'=>'Crear Vacuna', 'url'=>array('create')),
+	array('label'=>'Ver Vacuna', 'url'=>array('view', 'id'=>$model->idVacuna)),
+	array('label'=>'Administrar Vacuna', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Vacuna <?php echo $model->idVacuna; ?></h1>
+<h1>Actualizar Vacuna <?php echo $model->idVacuna; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

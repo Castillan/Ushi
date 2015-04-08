@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Trabajadoraccidentes'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Trabajadoraccidente', 'url'=>array('index')),
-	array('label'=>'Manage Trabajadoraccidente', 'url'=>array('admin')),
+	array('label'=>'Listar Trabajador accidente', 'url'=>array('index')),
+	array('label'=>'Administrar Trabajador accidente', 'url'=>array('admin')),
 );
 ?>
 

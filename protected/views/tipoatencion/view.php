@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Tipoatencion', 'url'=>array('index')),
-	array('label'=>'Create Tipoatencion', 'url'=>array('create')),
-	array('label'=>'Update Tipoatencion', 'url'=>array('update', 'id'=>$model->idTipoAtencion)),
-	array('label'=>'Delete Tipoatencion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTipoAtencion),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Tipoatencion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipoatencion', 'url'=>array('index')),
+	array('label'=>'Crear Tipoatencion', 'url'=>array('create')),
+	array('label'=>'Actualizar Tipoatencion', 'url'=>array('update', 'id'=>$model->idTipoAtencion)),
+	array('label'=>'Eliminar Tipoatencion', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTipoAtencion),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Tipoatencion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Tipoatencion #<?php echo $model->idTipoAtencion; ?></h1>
+<h1>Ver Tipo atencion #<?php echo $model->idTipoAtencion; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

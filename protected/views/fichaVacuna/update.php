@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Ficha Vacunas'=>array('index'),
 	$model->idFicha_Vacuna=>array('view','id'=>$model->idFicha_Vacuna),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List FichaVacuna', 'url'=>array('index')),
-	array('label'=>'Create FichaVacuna', 'url'=>array('create')),
-	array('label'=>'View FichaVacuna', 'url'=>array('view', 'id'=>$model->idFicha_Vacuna)),
-	array('label'=>'Manage FichaVacuna', 'url'=>array('admin')),
+	array('label'=>'Listar FichaVacuna', 'url'=>array('index')),
+	array('label'=>'Crear FichaVacuna', 'url'=>array('create')),
+	array('label'=>'Ver FichaVacuna', 'url'=>array('view', 'id'=>$model->idFicha_Vacuna)),
+	array('label'=>'Administrar FichaVacuna', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update FichaVacuna <?php echo $model->idFicha_Vacuna; ?></h1>
+<h1>Actualizar Ficha Vacuna <?php echo $model->idFicha_Vacuna; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

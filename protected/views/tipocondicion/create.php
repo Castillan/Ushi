@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Tipocondicions'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Tipocondicion', 'url'=>array('index')),
-	array('label'=>'Manage Tipocondicion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipocondicion', 'url'=>array('index')),
+	array('label'=>'Administrar Tipocondicion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Tipocondicion</h1>
+<h1>Crear Tipo de condicion</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

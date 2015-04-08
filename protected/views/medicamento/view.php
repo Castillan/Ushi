@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Medicamento', 'url'=>array('index')),
-	array('label'=>'Create Medicamento', 'url'=>array('create')),
-	array('label'=>'Update Medicamento', 'url'=>array('update', 'id'=>$model->idMedicamento)),
-	array('label'=>'Delete Medicamento', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idMedicamento),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Medicamento', 'url'=>array('admin')),
+	array('label'=>'Listar Medicamento', 'url'=>array('index')),
+	array('label'=>'Crear Medicamento', 'url'=>array('create')),
+	array('label'=>'Actualizar Medicamento', 'url'=>array('update', 'id'=>$model->idMedicamento)),
+	array('label'=>'Eliminar Medicamento', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idMedicamento),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Medicamento', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Medicamento #<?php echo $model->idMedicamento; ?></h1>
+<h1>Ver Medicamento #<?php echo $model->idMedicamento; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

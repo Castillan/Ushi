@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Medicamentos'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Medicamento', 'url'=>array('index')),
-	array('label'=>'Manage Medicamento', 'url'=>array('admin')),
+	array('label'=>'Listar Medicamento', 'url'=>array('index')),
+	array('label'=>'Administrar Medicamento', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Medicamento</h1>
+<h1>Crear Medicamento</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

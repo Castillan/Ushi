@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Tipoatencions'=>array('index'),
 	$model->idTipoAtencion=>array('view','id'=>$model->idTipoAtencion),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Tipoatencion', 'url'=>array('index')),
-	array('label'=>'Create Tipoatencion', 'url'=>array('create')),
-	array('label'=>'View Tipoatencion', 'url'=>array('view', 'id'=>$model->idTipoAtencion)),
-	array('label'=>'Manage Tipoatencion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipoatencion', 'url'=>array('index')),
+	array('label'=>'Crear Tipoatencion', 'url'=>array('create')),
+	array('label'=>'Ver Tipoatencion', 'url'=>array('view', 'id'=>$model->idTipoAtencion)),
+	array('label'=>'Administrar Tipoatencion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Tipoatencion <?php echo $model->idTipoAtencion; ?></h1>
+<h1>Actualizar Tipo atencion <?php echo $model->idTipoAtencion; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

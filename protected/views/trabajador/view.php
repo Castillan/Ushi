@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Trabajador', 'url'=>array('index')),
-	array('label'=>'Create Trabajador', 'url'=>array('create')),
-	array('label'=>'Update Trabajador', 'url'=>array('update', 'id'=>$model->idTrabajador)),
-	array('label'=>'Delete Trabajador', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTrabajador),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Trabajador', 'url'=>array('admin')),
+	array('label'=>'Listar Trabajador', 'url'=>array('index')),
+	array('label'=>'Crear Trabajador', 'url'=>array('create')),
+	array('label'=>'Actualizar Trabajador', 'url'=>array('update', 'id'=>$model->idTrabajador)),
+	array('label'=>'Eliminar Trabajador', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTrabajador),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Trabajador', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Trabajador #<?php echo $model->idTrabajador; ?></h1>
+<h1>Ver Trabajador #<?php echo $model->idTrabajador; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

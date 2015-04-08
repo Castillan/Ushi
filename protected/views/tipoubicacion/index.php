@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Tipoubicacion', 'url'=>array('create')),
-	array('label'=>'Manage Tipoubicacion', 'url'=>array('admin')),
+	array('label'=>'Crear Tipo ubicacion', 'url'=>array('create')),
+	array('label'=>'Administrar Tipo ubicacion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Tipoubicacions</h1>
+<h1>Tipos de ubicacion</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

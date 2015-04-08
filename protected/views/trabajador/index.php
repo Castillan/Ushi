@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Trabajador', 'url'=>array('create')),
-	array('label'=>'Manage Trabajador', 'url'=>array('admin')),
+	array('label'=>'Crear Trabajador', 'url'=>array('create')),
+	array('label'=>'Administrar Trabajador', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Trabajadors</h1>
+<h1>Trabajadores</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

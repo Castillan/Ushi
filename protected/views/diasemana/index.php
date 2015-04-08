@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Diasemana', 'url'=>array('create')),
-	array('label'=>'Manage Diasemana', 'url'=>array('admin')),
+	array('label'=>'Crear Diasemana', 'url'=>array('create')),
+	array('label'=>'Administrar Diasemana', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Diasemanas</h1>
+<h1>Dias de la semana</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

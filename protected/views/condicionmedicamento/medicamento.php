@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'FichaMedica'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 
 ?>
 
-<h1>Create Condicionmedicamento</h1>
+<h1>Crear Condicionmedicamento</h1>
 
 <?php $this->renderPartial('_crearmedicamento', array('model'=>$model)); ?>

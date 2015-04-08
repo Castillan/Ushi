@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Testigos'=>array('index'),
 	$model->idTestigo=>array('view','id'=>$model->idTestigo),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
-	array('label'=>'List Testigo', 'url'=>array('index')),
-	array('label'=>'Create Testigo', 'url'=>array('create')),
-	array('label'=>'View Testigo', 'url'=>array('view', 'id'=>$model->idTestigo)),
-	array('label'=>'Manage Testigo', 'url'=>array('admin')),
+	array('label'=>'Listar Testigo', 'url'=>array('index')),
+	array('label'=>'Crear Testigo', 'url'=>array('create')),
+	array('label'=>'Ver Testigo', 'url'=>array('view', 'id'=>$model->idTestigo)),
+	array('label'=>'Administrar Testigo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Testigo <?php echo $model->idTestigo; ?></h1>
+<h1>Actualizar Testigo <?php echo $model->idTestigo; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Testigo', 'url'=>array('index')),
-	array('label'=>'Create Testigo', 'url'=>array('create')),
-	array('label'=>'Update Testigo', 'url'=>array('update', 'id'=>$model->idTestigo)),
-	array('label'=>'Delete Testigo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTestigo),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Testigo', 'url'=>array('admin')),
+	array('label'=>'Listar Testigo', 'url'=>array('index')),
+	array('label'=>'Crear Testigo', 'url'=>array('create')),
+	array('label'=>'Actualizar Testigo', 'url'=>array('update', 'id'=>$model->idTestigo)),
+	array('label'=>'Eliminar Testigo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idTestigo),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Testigo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Testigo #<?php echo $model->idTestigo; ?></h1>
+<h1>Ver Testigo #<?php echo $model->idTestigo; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Tipocentro', 'url'=>array('create')),
-	array('label'=>'Manage Tipocentro', 'url'=>array('admin')),
+	array('label'=>'Crear Tipocentro', 'url'=>array('create')),
+	array('label'=>'Administrar Tipocentro', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Tipocentros</h1>
+<h1>Tipo centro</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

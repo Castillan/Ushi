@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Condicion', 'url'=>array('create')),
-	array('label'=>'Manage Condicion', 'url'=>array('admin')),
+	array('label'=>'Crear Condicion', 'url'=>array('create')),
+	array('label'=>'Administrar Condicion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Condicions</h1>
+<h1>Condiciones</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

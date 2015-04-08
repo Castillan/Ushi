@@ -9,7 +9,7 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Ushi',
 	'theme'=>"classic",
-
+    'language'=>'es',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -90,6 +90,9 @@ return array(
 				*/
 			),
 		),
+        'messages' => array(
+            'basePath'=>Yiibase::getPathOfAlias('application.messages')
+        ), 
 	),
 
 	// application-level parameters that can be accessed
@@ -98,4 +101,7 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+    
+    //agregando mensajes
+    
 );

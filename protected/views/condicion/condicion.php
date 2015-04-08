@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Condicions'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Condicion', 'url'=>array('index')),
-	array('label'=>'Manage Condicion', 'url'=>array('admin')),
+	array('label'=>'Listar Condicion', 'url'=>array('index')),
+	array('label'=>'Administrar Condicion', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Condicion</h1>
+<h1>Crear Condicion</h1>
 
 <?php $this->renderPartial('_crearforma', array('model'=>$model)); ?>

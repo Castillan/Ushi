@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Tiporuta', 'url'=>array('create')),
-	array('label'=>'Manage Tiporuta', 'url'=>array('admin')),
+	array('label'=>'Crear Tiporuta', 'url'=>array('create')),
+	array('label'=>'Administrar Tiporuta', 'url'=>array('admin')),
 );
 ?>
 

@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Dependencias'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Dependencia', 'url'=>array('index')),
-	array('label'=>'Manage Dependencia', 'url'=>array('admin')),
+	array('label'=>'Listar Dependencia', 'url'=>array('index')),
+	array('label'=>'Administrar Dependencia', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Dependencia</h1>
+<h1>Crear Dependencia</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

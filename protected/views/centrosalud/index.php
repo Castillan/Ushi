@@ -7,12 +7,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Centrosalud', 'url'=>array('create')),
-	array('label'=>'Manage Centrosalud', 'url'=>array('admin')),
+	array('label'=>'Crear Centrosalud', 'url'=>array('create')),
+	array('label'=>'Administrar Centrosalud', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Centrosaluds</h1>
+<h1>Centros de salud</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

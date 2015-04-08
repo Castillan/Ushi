@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Tiporutas'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Tiporuta', 'url'=>array('index')),
-	array('label'=>'Manage Tiporuta', 'url'=>array('admin')),
+	array('label'=>'Listar Tiporuta', 'url'=>array('index')),
+	array('label'=>'Administrar Tiporuta', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Tiporuta</h1>
+<h1>Crear Tiporuta</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

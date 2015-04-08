@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Accidente', 'url'=>array('index')),
-	array('label'=>'Create Accidente', 'url'=>array('create')),
-	array('label'=>'Update Accidente', 'url'=>array('update', 'id'=>$model->idAccidente)),
-	array('label'=>'Delete Accidente', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idAccidente),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Accidente', 'url'=>array('admin')),
+	array('label'=>'Listar Accidentes', 'url'=>array('index')),
+	array('label'=>'Crear Accidente', 'url'=>array('create')),
+	array('label'=>'Actualizar Accidente', 'url'=>array('update', 'id'=>$model->idAccidente)),
+	array('label'=>'Eliminar Accidente', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idAccidente),'confirm'=>'Seguro que quiere eliminar este registro ?')),
+	array('label'=>'Administrar Accidente', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Accidente #<?php echo $model->idAccidente; ?></h1>
+<h1>Accidente #<?php echo $model->idAccidente; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

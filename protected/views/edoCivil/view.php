@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List EdoCivil', 'url'=>array('index')),
-	array('label'=>'Create EdoCivil', 'url'=>array('create')),
-	array('label'=>'Update EdoCivil', 'url'=>array('update', 'id'=>$model->idEdo_Civil)),
-	array('label'=>'Delete EdoCivil', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idEdo_Civil),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage EdoCivil', 'url'=>array('admin')),
+	array('label'=>'Listar EdoCivil', 'url'=>array('index')),
+	array('label'=>'Crear EdoCivil', 'url'=>array('create')),
+	array('label'=>'Actualizar EdoCivil', 'url'=>array('update', 'id'=>$model->idEdo_Civil)),
+	array('label'=>'Eliminar EdoCivil', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idEdo_Civil),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar EdoCivil', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View EdoCivil #<?php echo $model->idEdo_Civil; ?></h1>
+<h1>Ver Estado Civil #<?php echo $model->idEdo_Civil; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

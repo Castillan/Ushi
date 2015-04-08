@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Niveleducativo', 'url'=>array('index')),
-	array('label'=>'Create Niveleducativo', 'url'=>array('create')),
-	array('label'=>'Update Niveleducativo', 'url'=>array('update', 'id'=>$model->idNivelEducativo)),
-	array('label'=>'Delete Niveleducativo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idNivelEducativo),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Niveleducativo', 'url'=>array('admin')),
+	array('label'=>'Listar Niveleducativo', 'url'=>array('index')),
+	array('label'=>'Crear Niveleducativo', 'url'=>array('create')),
+	array('label'=>'Actualizar Niveleducativo', 'url'=>array('update', 'id'=>$model->idNivelEducativo)),
+	array('label'=>'Eliminar Niveleducativo', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idNivelEducativo),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Niveleducativo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Niveleducativo #<?php echo $model->idNivelEducativo; ?></h1>
+<h1>Ver Niveleducativo #<?php echo $model->idNivelEducativo; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

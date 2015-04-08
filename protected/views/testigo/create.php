@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Testigos'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Testigo', 'url'=>array('index')),
-	array('label'=>'Manage Testigo', 'url'=>array('admin')),
+	array('label'=>'Listar Testigo', 'url'=>array('index')),
+	array('label'=>'Administrar Testigo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Testigo</h1>
+<h1>Crear Testigo</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

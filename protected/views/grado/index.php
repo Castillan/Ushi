@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Grado', 'url'=>array('create')),
-	array('label'=>'Manage Grado', 'url'=>array('admin')),
+	array('label'=>'Crear Grado', 'url'=>array('create')),
+	array('label'=>'Administrar Grado', 'url'=>array('admin')),
 );
 ?>
 

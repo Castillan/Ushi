@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Cargo', 'url'=>array('index')),
-	array('label'=>'Create Cargo', 'url'=>array('create')),
-	array('label'=>'View Cargo', 'url'=>array('view', 'id'=>$model->idCargo)),
-	array('label'=>'Manage Cargo', 'url'=>array('admin')),
+	array('label'=>'Listar Cargo', 'url'=>array('index')),
+	array('label'=>'Crear Cargo', 'url'=>array('create')),
+	array('label'=>'Ver Cargo', 'url'=>array('view', 'id'=>$model->idCargo)),
+	array('label'=>'Administrar Cargo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Cargo <?php echo $model->idCargo; ?></h1>
+<h1>Actualizar Cargo <?php echo $model->idCargo; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

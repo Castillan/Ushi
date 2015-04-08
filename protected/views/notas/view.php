@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Notas', 'url'=>array('index')),
-	array('label'=>'Create Notas', 'url'=>array('create')),
-	array('label'=>'Update Notas', 'url'=>array('update', 'id'=>$model->idNotas)),
-	array('label'=>'Delete Notas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idNotas),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Notas', 'url'=>array('admin')),
+	array('label'=>'Listar Notas', 'url'=>array('index')),
+	array('label'=>'Crear Notas', 'url'=>array('create')),
+	array('label'=>'Actualizar Notas', 'url'=>array('update', 'id'=>$model->idNotas)),
+	array('label'=>'Eliminar Notas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idNotas),'confirm'=>'Seguro que quieres eliminar este registro?')),
+	array('label'=>'Administrar Notas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Notas #<?php echo $model->idNotas; ?></h1>
+<h1>Ver Notas #<?php echo $model->idNotas; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Ficha Medicas'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 

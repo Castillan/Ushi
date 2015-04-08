@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create FichaMedica', 'url'=>array('create')),
-	array('label'=>'Manage FichaMedica', 'url'=>array('admin')),
+	array('label'=>'Crear FichaMedica', 'url'=>array('create')),
+	array('label'=>'Administrar FichaMedica', 'url'=>array('admin')),
 );
 ?>
 

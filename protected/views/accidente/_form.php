@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Campos marcados con <span class="required">*</span> obligatorios.</p>
+	<p class="note">Campos marcados con <span class="required">*</span> son obligatorios.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
