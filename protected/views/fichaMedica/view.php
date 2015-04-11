@@ -83,6 +83,12 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				 'url'=>'Yii::app()->createUrl("/Condicion/update", array("id"=>$data->idCondicion))',
 				
 				),
+				 'delete' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/Condicion/delete", array("id"=>$data->idCondicion))',
+				
+				),
+						
 								
 			)
 		)
@@ -136,6 +142,11 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				'update' => array
 				(
 				 'url'=>'Yii::app()->createUrl("/CondicionMedicamento/update", array("id"=>$data->idCondicionMedicamento))',
+				
+				),
+				 'delete' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/CondicionMedicamento/delete", array("id"=>$data->idCondicionMedicamento))',
 				
 				),
 								
@@ -196,6 +207,12 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				 'url'=>'Yii::app()->createUrl("/FichaVacuna/update", array("id"=>$data->idFicha_Vacuna))',
 				
 				),
+				 'delete' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/FichaVacuna/delete", array("id"=>$data->idFicha_Vacuna))',
+				
+				),
+						
 								
 			)
 		),

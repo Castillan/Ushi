@@ -10,6 +10,10 @@ $this->breadcrumbs=array(
 
 ?>
 
+<div class="contenido">
+	
+	<div class="mainbox">
 <h1>Crear Condicionmedicamento</h1>
 
 <?php $this->renderPartial('_crearmedicamento', array('model'=>$model)); ?>
+</div></div>

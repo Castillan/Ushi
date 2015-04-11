@@ -21,7 +21,6 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'idAccidente',
 		'Fecha',
 		//'DiaSemana_idDiaSemana',
         array(

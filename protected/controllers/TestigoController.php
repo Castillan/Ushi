@@ -89,8 +89,12 @@ class TestigoController extends Controller
 		if(isset($_POST['Testigo']))
 		{
 			$model->attributes=$_POST['Testigo'];
+			try{
 			if($model->save())
 				$this->redirect(array('/accidente/view','id'=>$model->Accidente_idAccidente));
+			}catch(CDbException $e) {
+		    $this->redirect(array('/accidente/view','id'=>$model->Accidente_idAccidente));
+			}
 		}
 
 		$this->render('create',array(

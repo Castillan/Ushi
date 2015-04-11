@@ -12,7 +12,13 @@ $this->menu=array(
 	array('label'=>'Administrar Accidentes', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Crear Accidente</h1>
+<div class="contenido">
+	
+	<div class="mainbox">
+<h1>Registrar un Accidente</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+
+
+	</div>
+</div>

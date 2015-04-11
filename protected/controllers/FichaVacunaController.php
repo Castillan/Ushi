@@ -87,16 +87,24 @@ class FichaVacunaController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 		$model->Ficha_Medica_idFicha_Medica=$id;
+		
 		if(isset($_POST['FichaVacuna']))
 		{
 			$model->attributes=$_POST['FichaVacuna'];
+			try {
 			if($model->save())
 				$this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
+			}catch(CDbException $e) {
+		    $this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
 		}
 
+		}
 		$this->render('vacuna',array(
 			'model'=>$model,
 		));
+		
+		
+	
 	}
 
 	/**

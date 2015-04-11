@@ -15,7 +15,12 @@ $this->menu=array(
 	array('label'=>'Administrar Trabajador', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Actualizar Trabajador <?php echo $model->idTrabajador; ?></h1>
+<div class="contenido">
+	
+	<div class="mainbox">
+<h1>Actualizar la informacion del Trabajador #<?php echo $model->idTrabajador; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+
+</div>
+</div>

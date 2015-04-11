@@ -16,13 +16,11 @@ $this->menu=array(
 );
 ?>
 
-<h1>Ver Trabajador #<?php echo $model->idTrabajador; ?></h1>
+<h1>Datos del Trabajador #<?php echo $model->idTrabajador; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'idTrabajador',
-		'Persona_idPersona',
         'personaIdPersona.Cedula',
         'personaIdPersona.Nombre',
         'personaIdPersona.Apellido',
@@ -48,9 +46,9 @@ $this->menu=array(
 		'IngresoUNET',
 		'IngresoIVSS',
 		//'Ubicacion_idUbicacion',
-        'ubicacionIdUbicacion.ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
+        //'ubicacionIdUbicacion.ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
 		
-		'ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
+		//'ubicacionIdUbicacion.ubicacionIdUbicacion.Nombre',
 		
 		'ubicacionIdUbicacion.Nombre',		
 		//'Cargo_idCargo',

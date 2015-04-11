@@ -33,6 +33,7 @@ class FichaVacuna extends CActiveRecord
 		return array(
 			array('Fecha, Ficha_Medica_idFicha_Medica, Vacuna_idVacuna', 'required'),
 			array('Ficha_Medica_idFicha_Medica, Vacuna_idVacuna', 'numerical', 'integerOnly'=>true),
+			array('Vacuna_idVacuna', 'exist'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('idFicha_Vacuna, Fecha, Ficha_Medica_idFicha_Medica, Vacuna_idVacuna', 'safe', 'on'=>'search'),

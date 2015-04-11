@@ -15,7 +15,11 @@ $this->menu=array(
 	array('label'=>'Administrar Condicion', 'url'=>array('admin')),
 );
 ?>
-
+<div class="contenido">
+	
+	<div class="mainbox">
 <h1>Actualizar Condicion <?php echo $model->idCondicion; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+</div>
+</div>

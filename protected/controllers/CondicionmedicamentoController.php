@@ -93,8 +93,12 @@ class CondicionmedicamentoController extends Controller
 		if(isset($_POST['Condicionmedicamento']))
 		{
 			$model->attributes=$_POST['Condicionmedicamento'];
+			try {
 			if($model->save())
 				$this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
+			}catch(CDbException $e) {
+		    $this->redirect(array('/fichaMedica/view','id'=>$model->Ficha_Medica_idFicha_Medica));
+		}
 		}
 
 		$this->render('medicamento',array(

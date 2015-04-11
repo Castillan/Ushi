@@ -12,7 +12,10 @@ $this->menu=array(
 	array('label'=>'Administrar Trabajador accidente', 'url'=>array('admin')),
 );
 ?>
-
+<div class="contenido">
+	
+	<div class="mainbox">
 <h1>Informacion del Afectado</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+</div></div>

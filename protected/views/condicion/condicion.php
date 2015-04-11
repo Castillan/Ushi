@@ -12,7 +12,11 @@ $this->menu=array(
 	array('label'=>'Administrar Condicion', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Crear Condicion</h1>
+<div class="contenido">
+	
+	<div class="mainbox">
+<h1>Ingrese la Condicion que presenta</h1>
 
 <?php $this->renderPartial('_crearforma', array('model'=>$model)); ?>
+</div>
+</div>

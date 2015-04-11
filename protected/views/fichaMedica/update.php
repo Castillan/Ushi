@@ -15,7 +15,11 @@ $this->menu=array(
 	array('label'=>'Administrar FichaMedica', 'url'=>array('admin')),
 );
 ?>
-
+<div class="contenido">
+	
+	<div class="mainbox">
 <h1>Actualizar FichaMedica <?php echo $model->idFicha_Medica; ?></h1>
 
 <?php $this->renderPartial('_form', array('model1'=>$model1, 'model2'=>$model2)); ?>
+	</div>
+</div>

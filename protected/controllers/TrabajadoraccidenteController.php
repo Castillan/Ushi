@@ -92,8 +92,12 @@ class TrabajadoraccidenteController extends Controller
 		if(isset($_POST['Trabajadoraccidente']))
 		{
 			$model->attributes=$_POST['Trabajadoraccidente'];
+			try{
 			if($model->save())
 				$this->redirect(array('/accidente/view','id'=>$model->Accidente_idAccidente));
+			}catch(CDbException $e) {
+		    $this->redirect(array('/accidente/view','id'=>$model->Accidente_idAccidente));
+			}
 		}
 
 		$this->render('accidente',array(

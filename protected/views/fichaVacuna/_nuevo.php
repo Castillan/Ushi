@@ -20,7 +20,7 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Fecha'); ?>		
+		<?php echo $form->label($model,'Fecha Administrada'); ?>	
 		<?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
 		    'model' => $model,
 		    'attribute' => 'Fecha',
@@ -57,7 +57,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Aceptar' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

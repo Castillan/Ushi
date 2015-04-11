@@ -12,7 +12,12 @@ $this->menu=array(
 	array('label'=>'Administrar Persona', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Crear Persona</h1>
+<div class="contenido">
+	
+	<div class="mainbox">
+<h1>Ingrese la Informacion Personal</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+
+</div>
+</div>

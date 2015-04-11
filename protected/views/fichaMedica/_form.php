@@ -75,7 +75,7 @@
 	</div>
 
 	<br>
-	<?php echo $form->label($model2,'Informacion Contacto'); ?>
+	<?php echo $form->label($model2,'Informacion de Contacto de Emergencia'); ?>
 	
 	<div class="row">
 		<?php echo $form->label($model2,'Nombre'); ?>
@@ -111,12 +111,6 @@
 		<?php echo $form->labelEx($model2,'Celular'); ?>
 		<?php echo $form->textField($model2,'Celular',array('size'=>20,'maxlength'=>20)); ?>
 		<?php echo $form->error($model2,'Celular'); ?>
-	</div>
-	
-	<div class="row">
-		<?php echo '<b>Seleccione el numero de cedula del familiar</b><br/>'; ?>
-		<?php echo $form->dropDownList($model2,'Cedula',CHtml::listData(Persona::model()->findAll(),'Cedula','Cedula'),array('empty'=>'Seleccione un trabajador por su cédula')); ?>
-		<?php echo $form->error($model2,'Cedula'); ?>
 	</div>
 
 	<div class="row">
