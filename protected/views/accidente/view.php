@@ -88,6 +88,11 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				 'url'=>'Yii::app()->createUrl("/TrabajadorAccidente/update", array("id"=>$data->idTrabajadorAccidente))',
 				
 				),
+				 'delete' => array
+				(
+				 'url'=>'Yii::app()->createUrl("/TrabajadorAccidente/delete", array("id"=>$data->idTrabajadorAccidente))',
+				
+				),
 								
 			)
 		),
