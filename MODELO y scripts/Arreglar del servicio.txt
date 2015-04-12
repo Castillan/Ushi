@@ -1,4 +1,1 @@
 1) Si se usará el mailer? realizarlo
-2) estetica de pantallas para los usuarios (botones y titulos, centrar cosas, etc), cambios a varias pantallas, faltan las de ficha medica
-3)Manejar bien la persona de contacto en ficha medica,  que si seleccionar una cedula de un list o agregar una nueva.
-4) cambiar todo a español

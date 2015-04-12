@@ -1,4 +1,4 @@
-			<h1> Búsqueda de Accidentes </h1>			
+			<h1> Accidentes </h1>			
 			<div class="contenido">
 			
 			<div class="busqueda">
