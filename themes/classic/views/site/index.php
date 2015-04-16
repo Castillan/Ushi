@@ -26,7 +26,7 @@
 		
 		<div class="contenido-central">				
 			<div class="titulo-principal">
-						<div class="texto-titulo-principal"><h3> Unidad de Seguridad e Higiene Idustrial </h3></div>
+						<div class="texto-titulo-principal"><h3> Unidad de Seguridad e Higiene Industrial </h3></div>
 			</div>					
 			<div class="contenedor-columnas" style="width:100%;height:auto;">
 				

@@ -70,15 +70,16 @@
 			array('/..'. Yii::app()->baseUrl.'/usuarios/'), // url
 			Yii::app()->baseUrl.'/themes/classic/images/user.png' // icon
 		) // add single element
-            ->stack(array(
-			array('label' => 'Roles', 'url' => '/..'. Yii::app()->baseUrl.'/roles/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-			array('label' => 'DiaSemana', 'url' => '/..'. Yii::app()->baseUrl.'/diasemana/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
-            array('label' => 'Ubicacion', 'url' => '/..'. Yii::app()->baseUrl.'/ubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),            
-		))
-        ->stack(array(			
+            
+        ->stack(array(
+            array('label' => 'Ubicacion', 'url' => '/..'. Yii::app()->baseUrl.'/ubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'), 
             array('label' => 'TipoUbicacion', 'url' => '/..'. Yii::app()->baseUrl.'/tipoubicacion/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
             array('label' => 'Notas', 'url' => '/..'. Yii::app()->baseUrl.'/notas/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
 		))
+        /*->stack(array(
+			//array('label' => 'Roles', 'url' => '/..'. Yii::app()->baseUrl.'/roles/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),
+			//array('label' => 'DiaSemana', 'url' => '/..'. Yii::app()->baseUrl.'/diasemana/', 'icon' => Yii::app()->baseUrl.'/themes/classic/images/blue.jpg'),                       
+		))*/
 		->separator(); // add separator
 
 ?>
